@@ -1,0 +1,24 @@
+[data-element_type="image_loupe"] .wpb_vc_param_value.movement:after,
+[data-element_type="image_loupe"] .wpb_vc_param_value.image_id:after {
+	content: ', ';
+	margin-left: -3px;
+}
+[data-element_type="image_loupe"] .wpb_vc_param_value.movement {
+	font-weight: bold;
+}
+[data-element_type="image_loupe"] .wpb_vc_param_value.movement,
+[data-element_type="image_loupe"] .wpb_vc_param_value.image_id,
+[data-element_type="image_loupe"] .wpb_vc_param_value.shape {
+	text-transform: capitalize;
+
+	* {
+		display: inline-block;
+		margin: 0;
+	}
+}
+[data-element_type="image_loupe"] .wpb_vc_param_value.image_id:before {
+	content: ' Image ID: ';
+}
+[data-element_type="image_loupe"] .wpb_vc_param_value.shape:after {
+	content: ' Loupe';
+}

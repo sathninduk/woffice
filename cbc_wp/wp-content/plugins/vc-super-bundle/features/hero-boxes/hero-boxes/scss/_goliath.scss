@@ -1,0 +1,44 @@
+.hero-box.hero-box-effect-goliath {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: .9;
+    transform: translateY(0);
+  }
+  .hero-box-text {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  p.hero-box-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  h3.hero-box-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    transform: translateY(0);
+  }
+  &:hover {
+    img, .hero-box-img {
+      transform: translateY(-80px);
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    h3.hero-box-title {
+      transform: translateY(-100px);
+    }
+  }
+}

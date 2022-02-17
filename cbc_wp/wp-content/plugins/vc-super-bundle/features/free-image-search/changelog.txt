@@ -1,0 +1,28 @@
+Version 1.3 - October 24, 2018
+==============================
+
+* Fixed: Gutenberg compatible styling
+* Fixed: Removed 500px since their API is now paid only
+* Fixed: Attribute captions not created properly
+* Fixed: Updated Pixabay API calls
+* Fixed: SSL errors in Pexels and Giphy API calls
+
+Version 1.2 - July 21, 2017
+===========================
+
+* Fixed: PHP Error in the frontend
+* Fixed: Possible jQuery error
+* Enhanced: WP Standards update
+
+Version 1.1 - June 22, 2017
+===========================
+
+* Added support for four more image providers: Giphy, Unsplash, Pexels and 500px.
+* Added a "Search for Free Images" button in the library pages in the admin.
+* Added note that says that downloaded images will appear in your library.
+* Updated licensing module and fixed plugin autoupdate issues.
+
+Version 1.0
+===========
+
+* Initial Release.

@@ -1,0 +1,195 @@
+/*---------------------------------------------------------
+**
+** FOOTER COMPOMENTS
+**
+----------------------------------------------------------*/
+.is-modern-skin{ 
+  #main-footer {
+    position: relative;
+    z-index: 17;
+    width: 96%;
+    margin: 0 auto;
+    a {
+      text-decoration: none;
+    }
+  }
+  &.menu-is-horizontal{
+    #main-footer{
+      margin-top: 160px;
+    }
+  }
+  /*EXTRAFOOTER*/
+  #extrafooter {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, .10);
+    -moz-box-shadow: 0 0 15px 0 rgba(0, 0, 0, .10);
+    -ms-box-shadow: 0 0 15px 0 rgba(0, 0, 0, .10);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .10);
+    #familiers {
+      height: 240px;
+      width: 100%;
+      width: calc(100vw + 60px);
+      img {
+        display: inline-block;
+        position: relative;
+      }
+    }
+  }
+  
+  &:not(.sidebar-hidden){
+    #extrafooter{
+      margin-top: 60px;
+      transition: margin-top 0.6;
+    }
+  }
+  #extrafooter-layer {
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    a {
+      color: inherit;
+      h1 {
+        opacity: 1;
+        -webkit-transition: opacity 0.4s;
+        -moz-transition: opacity 0.4s;
+        transition: opacity 0.4s;
+      }
+      &:hover {
+        h1 {
+          opacity: .5;
+          -webkit-transition: opacity 0.4s;
+          -moz-transition: opacity 0.4s;
+          transition: opacity 0.4s;
+        }
+      }
+    }
+    h1 {
+      position: relative;
+      font-size: 3em;
+      padding: 0;
+      height: 100%;
+      span {
+        font-weight: bold;
+      }
+    }
+    ul {
+      padding-left: 0;
+    }
+  }
+  /*WIDGETS*/
+  #widgets {
+    padding: 30px 0;
+    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, .10);
+    -moz-box-shadow: 0 0 15px 0 rgba(0, 0, 0, .10);
+    -ms-box-shadow: 0 0 15px 0 rgba(0, 0, 0, .10);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .10);
+    border-radius: 20px;
+    h3 {
+      margin: 0 0 30px 0;
+      font-size: 1.3em;
+      position: relative;
+      &:after {
+        content: "";
+        width: 30px;
+        position: absolute;
+        height: 2px;
+        left: 0;
+        bottom: -10px;
+      }
+    }
+    .widget{
+      border-right: 1px solid;
+      padding: 0 30px;
+      &.widget_archive,
+      &.widget_categories,
+      &.widget_pages,
+      &.widget_meta,
+      &.widget_recent_comments,
+      &.widget_recent_entries,
+      &.widget_rss,
+      &.widget_eventon,
+      &.widget_woffice_projects,
+      &.widget_woffice_wiki {
+        ul li {
+          padding-left: 30px;
+          &::before{
+            font-family: $font-icon-solid;
+            left: 0;
+            top: 0;
+            position: absolute;
+            font-size: 1.5em;
+            content: "\f061";
+            color: #FFF;
+          }
+        }
+      }
+      &:last-child {
+        border-right: none;
+      }
+      ul {
+        padding-left: 0px;
+        list-style-type: none;
+        li {
+          position: relative;
+          line-height: 1.5em;
+          margin-bottom: 8px;
+          a {
+            &:hover {
+              padding-left: 10px;
+              position: relative;
+            }
+          }
+          span.label {
+            margin-left: 10px;
+          }
+        }
+      }
+      ul.birthdays-list {
+        li {
+          padding-left: 0;
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
+    .widget.widget_nav_menu {
+      ul {
+        li {
+          padding-left: 0;
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  /*COPYRIGHT*/
+  #copyright {
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+    @include box-shadow(0 -1px 7px 1px rgba(0, 0, 0, .08));
+    a {
+      &:hover {
+        opacity: .8;
+      }
+    }
+    p {
+      margin: 0;
+      padding: 20px;
+    }
+  }
+}

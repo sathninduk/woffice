@@ -1,0 +1,312 @@
+# Copyright (C) 2019 CSS Animator for VC
+# This file is distributed under the same license as the CSS Animator for VC package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CSS Animator for VC\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: class-css-animator.php:92
+msgid "- Entrance Animations -"
+msgstr "- Entrance Animations -"
+
+#: class-css-animator.php:93
+msgid "Fade in"
+msgstr "Fade in"
+
+#: class-css-animator.php:94
+msgid "Flip top to bottom 3D"
+msgstr "Flip top to bottom 3D"
+
+#: class-css-animator.php:95
+msgid "Flip bottom to top 3D"
+msgstr "Flip bottom to top 3D"
+
+#: class-css-animator.php:96
+msgid "Flip right to left 3D"
+msgstr "Flip right to left 3D"
+
+#: class-css-animator.php:97
+msgid "Flip left to right 3D"
+msgstr "Flip left to right 3D"
+
+#: class-css-animator.php:98
+msgid "Flip in horizontally 3D"
+msgstr "Flip in horizontally 3D"
+
+#: class-css-animator.php:99
+msgid "Flip in vertically 3D"
+msgstr "Flip in vertically 3D"
+
+#: class-css-animator.php:100
+msgid "Fall bottom to top 3D"
+msgstr "Fall bottom to top 3D"
+
+#: class-css-animator.php:101
+msgid "Fall top to bottom 3D"
+msgstr "Fall top to bottom 3D"
+
+#: class-css-animator.php:102
+msgid "Roll bottom to top 3D"
+msgstr "Roll bottom to top 3D"
+
+#: class-css-animator.php:103
+msgid "Roll right to left 3D"
+msgstr "Roll right to left 3D"
+
+#: class-css-animator.php:104
+msgid "Roll left to right 3D"
+msgstr "Roll left to right 3D"
+
+#: class-css-animator.php:105
+msgid "Rotate in top left 2D"
+msgstr "Rotate in top left 2D"
+
+#: class-css-animator.php:106
+msgid "Rotate in top right 2D"
+msgstr "Rotate in top right 2D"
+
+#: class-css-animator.php:107
+msgid "Rotate in bottom left 2D"
+msgstr "Rotate in bottom left 2D"
+
+#: class-css-animator.php:108
+msgid "Rotate in bottom right 2D"
+msgstr "Rotate in bottom right 2D"
+
+#: class-css-animator.php:109
+msgid "Slide top to bottom 3D"
+msgstr "Slide top to bottom 3D"
+
+#: class-css-animator.php:110
+msgid "Slide bottom to top 3D"
+msgstr "Slide bottom to top 3D"
+
+#: class-css-animator.php:111
+msgid "Slide right to left 3D"
+msgstr "Slide right to left 3D"
+
+#: class-css-animator.php:112
+msgid "Slide left to right 3D"
+msgstr "Slide left to right 3D"
+
+#: class-css-animator.php:113
+msgid "Slide elastic bottom to top 2D"
+msgstr "Slide elastic bottom to top 2D"
+
+#: class-css-animator.php:114
+msgid "Slide elastic top to bottom 2D"
+msgstr "Slide elastic top to bottom 2D"
+
+#: class-css-animator.php:115
+msgid "Slide elastic right to left 2D"
+msgstr "Slide elastic right to left 2D"
+
+#: class-css-animator.php:116
+msgid "Slide elastic left to right 2D"
+msgstr "Slide elastic left to right 2D"
+
+#: class-css-animator.php:117
+msgid "Grow 2D"
+msgstr "Grow 2D"
+
+#: class-css-animator.php:118
+msgid "Shrink 2D"
+msgstr "Shrink 2D"
+
+#: class-css-animator.php:119
+msgid "Spin 2D"
+msgstr "Spin 2D"
+
+#: class-css-animator.php:120
+msgid "Spin 2D reverse"
+msgstr "Spin 2D reverse"
+
+#: class-css-animator.php:121
+msgid "Spin 3D"
+msgstr "Spin 3D"
+
+#: class-css-animator.php:122
+msgid "Spin 3D reverse"
+msgstr "Spin 3D reverse"
+
+#: class-css-animator.php:123
+msgid "Twirl top left 3D"
+msgstr "Twirl top left 3D"
+
+#: class-css-animator.php:124
+msgid "Twirl top right 3D"
+msgstr "Twirl top right 3D"
+
+#: class-css-animator.php:125
+msgid "Twirl bottom left 3D"
+msgstr "Twirl bottom left 3D"
+
+#: class-css-animator.php:126
+msgid "Twirl bottom right 3D"
+msgstr "Twirl bottom right 3D"
+
+#: class-css-animator.php:127
+msgid "Twirl 3D"
+msgstr "Twirl 3D"
+
+#: class-css-animator.php:128
+msgid "Unfold top to bottom 3D"
+msgstr "Unfold top to bottom 3D"
+
+#: class-css-animator.php:129
+msgid "Unfold bottom to top 3D"
+msgstr "Unfold bottom to top 3D"
+
+#: class-css-animator.php:130
+msgid "Unfold right to left 3D"
+msgstr "Unfold right to left 3D"
+
+#: class-css-animator.php:131
+msgid "Unfold left to right 3D"
+msgstr "Unfold left to right 3D"
+
+#: class-css-animator.php:132
+msgid "Unfold horzitonal 3D"
+msgstr "Unfold horzitonal 3D"
+
+#: class-css-animator.php:133
+msgid "Unfold vertical 3D"
+msgstr "Unfold vertical 3D"
+
+#: class-css-animator.php:134
+msgid "Three unfold top to bottom 3D"
+msgstr "Three unfold top to bottom 3D"
+
+#: class-css-animator.php:135
+msgid "Three unfold bottom to top 3D"
+msgstr "Three unfold bottom to top 3D"
+
+#: class-css-animator.php:136
+msgid "Three unfold right to left 3D"
+msgstr "Three unfold right to left 3D"
+
+#: class-css-animator.php:137
+msgid "Three unfold left to right 3D"
+msgstr "Three unfold left to right 3D"
+
+#: class-css-animator.php:138
+msgid "- Looped Animations -"
+msgstr "- Looped Animations -"
+
+#: class-css-animator.php:139
+msgid "Pulsate"
+msgstr "Pulsate"
+
+#: class-css-animator.php:140
+msgid "Pulsate fade"
+msgstr "Pulsate fade"
+
+#: class-css-animator.php:141
+msgid "Hover"
+msgstr "Hover"
+
+#: class-css-animator.php:142
+msgid "Hover floating"
+msgstr "Hover floating"
+
+#: class-css-animator.php:143
+msgid "Wobble"
+msgstr "Wobble"
+
+#: class-css-animator.php:144
+msgid "Wobble 3D"
+msgstr "Wobble 3D"
+
+#: class-css-animator.php:145
+msgid "Dangle"
+msgstr "Dangle"
+
+#: class-css-animator.php:166
+msgid "CSS Animator"
+msgstr "CSS Animator"
+
+#: class-css-animator.php:172
+msgid "Add animations to your elements"
+msgstr "Add animations to your elements"
+
+#: class-css-animator.php:173
+msgid "Super Bundle"
+msgstr "Super Bundle"
+
+#: class-css-animator.php:177
+msgid "Functionality"
+msgstr "Functionality"
+
+#: class-css-animator.php:180
+msgid "All devices"
+msgstr "All devices"
+
+#: class-css-animator.php:181
+msgid "Disabled in mobile"
+msgstr "Disabled in mobile"
+
+#: class-css-animator.php:183
+msgid ""
+"Select whether to have CSS Animator work in all devices, or disable on "
+"mobile devices."
+msgstr ""
+"Select whether to have CSS Animator work in all devices, or disable on "
+"mobile devices."
+
+#: class-css-animator.php:195
+msgid "Animation Duration"
+msgstr "Animation Duration"
+
+#: class-css-animator.php:198
+msgid ""
+"Duration in seconds. You can use decimal points in the value. Use this field "
+"to specify the amount of time the animation plays. <em>The default value "
+"depends on the animation, leave blank to use the default.</em>"
+msgstr ""
+"Duration in seconds. You can use decimal points in the value. Use this field "
+"to specify the amount of time the animation plays. <em>The default value "
+"depends on the animation, leave blank to use the default.</em>"
+
+#: class-css-animator.php:202
+msgid "Animation Delay"
+msgstr "Animation Delay"
+
+#: class-css-animator.php:205
+msgid ""
+"Delay in seconds. You can use decimal points in the value. Use this field to "
+"delay the animation for a few seconds, this is helpful if you want to chain "
+"different effects one after another above the fold."
+msgstr ""
+"Delay in seconds. You can use decimal points in the value. Use this field to "
+"delay the animation for a few seconds, this is helpful if you want to chain "
+"different effects one after another above the fold."
+
+#: class-css-animator.php:332
+msgid "Enable Compatibility Mode"
+msgstr "Enable Compatibility Mode"
+
+#: class-css-animator.php:337
+msgid "Disable Compatibility Mode"
+msgstr "Disable Compatibility Mode"
+
+#: class-plugin.php:83
+msgid "Get Customer Support"
+msgstr "Get Customer Support"
+
+#: class-plugin.php:87
+msgid "Get More Plugins"
+msgstr "Get More Plugins"

@@ -1,0 +1,15 @@
+Version 1.1 - July 19, 2017
+===========================
+
+* New: Added index.php files to hide folder structure.
+* New: Now using minified scripts.
+
+Version 1.0.1 - March 6, 2017
+=============================
+
+* Fixed: JS error on other backend VC pages.
+
+Version 1.0
+===========
+
+* First release

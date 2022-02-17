@@ -1,0 +1,41 @@
+.hero-box.hero-box-effect-kira {
+  h3.hero-box-title {
+    color: #fff;
+  }
+  p.hero-box-caption {
+    color: #2C3E50;
+  }
+  img, .hero-box-img {
+    opacity: .8;
+  }
+  .hero-box-text {
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+  }
+  h3.hero-box-title {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    border-bottom: 2px solid rgba(255,255,255,.7);
+    transition-delay: .15s;
+  }
+  p.hero-box-caption {
+    padding: 28px 30px 30px;
+    transform: translateY(0) scaleY(0);
+    transform-origin: top left;
+    background: rgba(255,255,255,.7);
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: .5;
+    }
+    h3.hero-box-title {
+      border-bottom: 0;
+      transition-delay: 0s;
+    }
+    p.hero-box-caption {
+      transform: translateY(10px) scaleY(1);
+    }
+  }
+}

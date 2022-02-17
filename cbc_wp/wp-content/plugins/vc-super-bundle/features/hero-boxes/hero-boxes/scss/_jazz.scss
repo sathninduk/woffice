@@ -1,0 +1,60 @@
+.hero-box.hero-box-effect-jazz {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: 0.95;
+    transform: scale(1);
+  }
+  figcaption {
+    &:before {
+      position: absolute;
+      content: '';
+      top: -50%;
+      left: -20px;
+      right: -20px;
+      bottom: -50%;
+      border-right: 1px solid rgba(255,255,255,.8);
+      border-left: 1px solid rgba(255,255,255,.8);
+      z-index: 3;
+      opacity: 0;
+      transition: all .35s;
+      transform: scale(.3) skewX(45deg);
+    }
+  }
+  .hero-box-text {
+    top: 50%;
+    left: 50px;
+    right: 50px;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  h3.hero-box-title {
+    margin-bottom: 10px;
+    transform-origin: top center;
+    transform: scale(.8) translateY(-5px);
+  }
+  p.hero-box-caption {
+    opacity: 0;
+    transform: scale(.7);
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: .7;
+      transform: scale(1.1);
+    }
+    figcaption {
+      &:before {
+        opacity: 1;
+        transform: scale(1) skewX(45deg);
+      }
+    }
+    h3.hero-box-title {
+      transform: scale(1) translateY(0);
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}

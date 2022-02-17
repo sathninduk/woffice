@@ -1,0 +1,61 @@
+Version 1.8.1 - June 14, 2019
+=============================
+
+* Fixed Waypoints script not being loaded
+
+Version 1.8 - March 21, 2018
+============================
+
+* Removed Gambit menu & pointers
+* Cleanups
+
+Version 1.7 - June 26, 2017
+===========================
+
+* Standards fixes and modernizations, including snake case fixes, and more.
+* Simpler mobile detection routine
+* WordPress standards
+* Added autoupdating of plugin.
+
+Version 1.6 - November 20, 2014
+===============================
+
+* Added compatibility mode for themes that heavily modify Visual Composer and break our plugin (if you are encountering cases where the CSS Animator does not animate at all, enable compatibility mode)
+* Added uninstall.php file to clean up after ourselves when the plugin is deleted
+
+Version 1.5 - October 10, 2014
+==============================
+
+* New simple Fade In effect
+* Added option to disable in mobile devices
+* Updated icon & updated icon to show up properly in VC 4.2+
+* Minified scripts
+* Fixed errors that made the plugin stop working in some themes (e.g. Salient)
+* Fixed bug where in IE, some animations sometimes skipped to the end
+* Fixed bug where the plugin stops working when VC is not activated
+* Updated with a welcome notice
+
+Version 1.4
+===========
+
+* Fixed backward compatibility
+
+Version 1.3
+===========
+
+* Now supports Visual Composer v4.2
+
+Version 1.2
+===========
+
+* Fixed bug where embedded copies of Visual Composer could not load the plugin properly
+
+Version 1.1
+===========
+
+* Fixed bug where a Fatal Error prevented the plugin from being activated
+
+Version 1.0
+===========
+
+* First release

@@ -1,0 +1,64 @@
+.hero-box.hero-box-effect-hera {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: .8;
+  }
+  figcaption {
+    &:before {
+      height: 200px;
+      width: 200px;
+      border: 2px solid #fff;
+      position: absolute;
+      content: '';
+      left: 50%;
+      top: 50%;
+      z-index: 3;
+      opacity: 0;
+      transition: all .35s;
+      transform: translate(-50%, -50%) rotate(45deg) scale(0);
+    }
+  }
+  p.hero-box-caption {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(.3);
+  }
+  .hero-box-text {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  h3.hero-box-title {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    right: 30px;
+    text-align: center;
+    opacity: 1;
+    transform-origin: center;
+    transform: translateY(-50%) scale(1);
+  }
+  &:hover {
+    h3.hero-box-title {
+      opacity: 0;
+      transform: translateY(-50%) scale(.8);
+    }
+    figcaption {
+      &:before {
+        opacity: .9;
+        transform: translate(-50%, -50%) rotate(45deg) scale(1);
+      }
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+}

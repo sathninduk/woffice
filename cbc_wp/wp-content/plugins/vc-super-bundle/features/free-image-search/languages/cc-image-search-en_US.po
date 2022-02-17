@@ -1,0 +1,171 @@
+# Copyright (C) 2018 CC Image Search
+# This file is distributed under the same license as the CC Image Search package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CC Image Search\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: none\n"
+"Last-Translator: Automatically generated\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: class-cc-image-search.php:64
+msgid "Search for Free Images"
+msgstr "Search for Free Images"
+
+#: class-cc-image-search.php:65
+msgid "Free Image Search"
+msgstr "Free Image Search"
+
+#: class-cc-image-search.php:204, class-cc-image-search.php:206
+msgid "Photo"
+msgstr "Photo"
+
+#: class-cc-image-search.php:215
+msgid "%1$s by %2$s is licensed under %3$s"
+msgstr "%1$s by %2$s is licensed under %3$s"
+
+#: class-cc-image-search.php:252
+msgid "Image by %1$s from %1$s"
+msgstr "Image by %1$s from %1$s"
+
+#: class-plugin.php:81
+msgid "Get Customer Support"
+msgstr "Get Customer Support"
+
+#: class-plugin.php:85
+msgid "Get More Plugins"
+msgstr "Get More Plugins"
+
+#: search-template.php:15
+msgid "Filter by provider"
+msgstr "Filter by provider"
+
+#: search-template.php:17
+msgid "All image providers"
+msgstr "All image providers"
+
+#: search-template.php:18
+msgid "Flickr"
+msgstr "Flickr"
+
+#: search-template.php:19
+msgid "Pixabay"
+msgstr "Pixabay"
+
+#: search-template.php:20
+msgid "Unsplash"
+msgstr "Unsplash"
+
+#: search-template.php:21
+msgid "Pexels"
+msgstr "Pexels"
+
+#: search-template.php:22
+msgid "Giphy"
+msgstr "Giphy"
+
+#: search-template.php:24
+msgid "Filter by license"
+msgstr "Filter by license"
+
+#: search-template.php:26
+msgid "Licenses that allow commercial use"
+msgstr "Licenses that allow commercial use"
+
+#: search-template.php:27
+msgid "Include noncommercial licenses"
+msgstr "Include noncommercial licenses"
+
+#: search-template.php:28
+msgid "Licenses with no attribution required"
+msgstr "Licenses with no attribution required"
+
+#: search-template.php:33
+msgid "Downloaded images will appear in your library"
+msgstr "Downloaded images will appear in your library"
+
+#: search-template.php:34
+msgid "Search Image"
+msgstr "Search Image"
+
+#: search-template.php:40
+msgid "Image Details"
+msgstr "Image Details"
+
+#: search-template.php:46
+msgid "Image Provider:"
+msgstr "Image Provider:"
+
+#: search-template.php:47
+msgid "Title:"
+msgstr "Title:"
+
+#: search-template.php:48
+msgid "Date:"
+msgstr "Date:"
+
+#: search-template.php:49
+msgid "Owner:"
+msgstr "Owner:"
+
+#: search-template.php:50
+msgid "License:"
+msgstr "License:"
+
+#: search-template.php:51
+msgid "Sizes:"
+msgstr "Sizes:"
+
+#: search-template.php:68
+msgid "From Flickr"
+msgstr "From Flickr"
+
+#: search-template.php:70
+msgid "From Pixabay"
+msgstr "From Pixabay"
+
+#: search-template.php:72
+msgid "From Unsplash"
+msgstr "From Unsplash"
+
+#: search-template.php:74
+msgid "From Pexels"
+msgstr "From Pexels"
+
+#: search-template.php:76
+msgid "From Giphy"
+msgstr "From Giphy"
+
+#: search-template.php:80
+msgid "Download"
+msgstr "Download"
+
+#: search-template.php:81
+msgid "Download to site"
+msgstr "Download to site"
+
+#: search-template.php:83
+msgid "Needs attribution"
+msgstr "Needs attribution"
+
+#: search-template.php:86
+msgid "Noncommercial"
+msgstr "Noncommercial"
+
+#: search-template.php:89
+msgid "Public Domain"
+msgstr "Public Domain"
+
+#: search-template.php:92
+msgid "Check License"
+msgstr "Check License"

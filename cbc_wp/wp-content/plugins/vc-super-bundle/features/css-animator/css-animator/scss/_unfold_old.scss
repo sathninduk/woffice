@@ -1,0 +1,339 @@
+@import "_animations_base";
+
+.wpb_animate_when_almost_visible.unfold-3d-to-left,
+.wpb_animate_when_almost_visible.unfold-3d-to-right,
+.wpb_animate_when_almost_visible.unfold-3d-to-bottom,
+.wpb_animate_when_almost_visible.unfold-3d-to-top {
+	position: relative;
+	opacity: 0;
+	-webkit-transition: opacity 1.5s;
+	-moz-transition: opacity 1.5s;
+	-o-transition: opacity 1.5s;
+	transition: opacity 1.5s;
+}
+
+.wpb_start_animation.unfold-3d-to-left,
+.wpb_start_animation.unfold-3d-to-right,
+.wpb_start_animation.unfold-3d-to-bottom,
+.wpb_start_animation.unfold-3d-to-top {
+	opacity: 1;
+	.unfolder-container .unfolder-content {
+		opacity: 1;
+		position: relative;
+	}
+}
+
+.unfold-3d-to-left .unfolder-container,
+.unfold-3d-to-right .unfolder-container,
+.unfold-3d-to-bottom .unfolder-container,
+.unfold-3d-to-top .unfolder-container {
+	position: absolute;
+	overflow: hidden;
+	bottom: 0;
+	width: calc(100% / 2);
+	opacity: 0;
+	height: 0;
+}
+.unfold-3d-to-bottom .unfolder-container,
+.unfold-3d-to-top .unfolder-container {
+	width: 100%;
+	height: 0;
+}
+
+.unfold-3d-to-left,
+.unfold-3d-to-right {
+	.unfolder-container.right {
+		right: 0;
+		.unfolder-content {
+			left: -100%;
+		}
+	}
+	.unfolder-container.left {
+		left: 0;
+		.unfolder-content {
+			left: 0;
+		}
+	}
+}
+.unfold-3d-to-bottom,
+.unfold-3d-to-top {
+	.unfolder-container.left { // top
+		bottom: 50%;
+	}
+	.unfolder-container.right { // bottom
+		.unfolder-content {
+			bottom: 100%;
+		}
+	}
+}
+
+
+
+.wpb_start_animation {
+	&.unfold-3d-to-left,
+	&.unfold-3d-to-right,
+	&.unfold-3d-to-top,
+	&.unfold-3d-to-bottom {
+		> .real-content {
+			animation: unfold-main-opacity 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+			animation-fill-mode: forwards;
+		}
+		.unfold-container {
+			transform-style: preserve-3d;
+		}
+	}
+}
+
+
+.unfold-3d-to-left .unfolder-container.left,
+.unfold-3d-to-right .unfolder-container.right,
+.unfold-3d-to-bottom .unfolder-container.right, // bottom
+.unfold-3d-to-top .unfolder-container.left { // top
+	z-index: 2;
+}
+
+.wpb_start_animation.unfold-3d-to-left:not(.double) {
+	.unfolder-container.left {
+		animation: unfold-3d-to-left-flap 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+		animation-fill-mode: forwards;
+	}
+	.unfolder-container.right {
+		animation: unfold-opacity 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+		animation-fill-mode: forwards;
+	}
+}
+
+.wpb_start_animation.unfold-3d-to-right:not(.double) {
+	.unfolder-container.right {
+		animation: unfold-3d-to-right-flap 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+		animation-fill-mode: forwards;
+	}
+	.unfolder-container.left {
+		animation: unfold-opacity 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+		animation-fill-mode: forwards;
+	}
+}
+
+.wpb_start_animation.unfold-3d-to-bottom:not(.double) {
+	.unfolder-container.right { // bottom
+		animation: unfold-3d-to-bottom-flap 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+		animation-fill-mode: forwards;
+	}
+	.unfolder-container.left { // top
+		animation: unfold-opacity-vertical 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+		animation-fill-mode: forwards;
+	}
+}
+
+.wpb_start_animation.unfold-3d-to-top:not(.double) {
+	.unfolder-container.left { // top
+		animation: unfold-3d-to-top-flap 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+		animation-fill-mode: forwards;
+	}
+	.unfolder-container.right { // bottom
+		animation: unfold-opacity-vertical 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+		animation-fill-mode: forwards;
+	}
+}
+
+@keyframes unfold-3d-to-left-flap {
+	0% {
+		transform-origin: 100% 50%;
+		transform: perspective(1300px) rotateY(180deg);
+		opacity: 1;
+		height: auto;
+	}
+	99.99999% {
+		transform: perspective(1300px) rotateY(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform-origin: 100% 50%;
+		height: auto;
+	}
+}
+@keyframes unfold-opacity {
+	0% {
+		height: auto;
+		opacity: 1;
+	}
+	99.99999% {
+		opacity: 1;
+	}
+	100% {
+		height: auto;
+	}
+}
+@keyframes unfold-main-opacity {
+	0%, 99.99999% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+@keyframes unfold-3d-to-right-flap {
+	0% {
+		transform-origin: 0% 50%;
+		transform: perspective(1300px) rotateY(-180deg);
+		opacity: 1;
+		height: auto;
+	}
+	99.99999% {
+		transform: perspective(1300px) rotateY(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform-origin: 0% 50%;
+		height: auto;
+	}
+}
+
+
+@keyframes unfold-opacity-vertical {
+	0% {
+		height: calc(100% / 2);
+		opacity: 1;
+	}
+	99.99999% {
+		opacity: 1;
+	}
+	100% {
+		height: calc(100% / 2);
+	}
+}
+@keyframes unfold-3d-to-bottom-flap {
+	0% {
+		transform-origin: 50% 0%;
+		transform: perspective(1300px) rotateX(180deg);
+		opacity: 1;
+		height: calc(100% / 2);
+	}
+	99.99999% {
+		transform: perspective(1300px) rotateX(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform-origin: 50% 0%;
+		height: calc(100% / 2);
+	}
+}
+@keyframes unfold-3d-to-top-flap {
+	0% {
+		transform-origin: 50% 100%;
+		transform: perspective(1300px) rotateX(-180deg);
+		opacity: 1;
+		height: calc(100% / 2);
+	}
+	99.99999% {
+		transform: perspective(1300px) rotateX(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform-origin: 50% 100%;
+		height: calc(100% / 2);
+	}
+}
+
+
+
+
+/*
+ * Horizontal unfolding
+ */
+
+.wpb_start_animation.unfold-3d-to-bottom.double {
+	.unfolder-container.left { // top
+		animation: unfold-3d-horizontal-top-flap 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+		animation-fill-mode: forwards;
+	}
+	.unfolder-container.right { // bottom
+		animation: unfold-3d-horizontal-bottom-flap 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+		animation-fill-mode: forwards;
+	}
+}
+
+@keyframes unfold-3d-horizontal-top-flap {
+	0% {
+		transform-origin: 50% 100%;
+		transform: perspective(1300px) rotateX(-90deg);
+		opacity: 1;
+		height: calc(100% / 2);
+	}
+	99.99999% {
+		transform: perspective(1300px) rotateX(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform-origin: 50% 100%;
+		height: calc(100% / 2);
+	}
+}
+@keyframes unfold-3d-horizontal-bottom-flap {
+	0% {
+		transform-origin: 50% 0%;
+		transform: perspective(1300px) rotateX(90deg);
+		opacity: 1;
+		height: calc(100% / 2);
+	}
+	99.99999% {
+		transform: perspective(1300px) rotateX(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform-origin: 50% 0%;
+		height: calc(100% / 2);
+	}
+}
+
+
+
+/*
+ * Vertical unfolding
+ */
+
+.wpb_start_animation.unfold-3d-to-right.double {
+	.unfolder-container.left {
+		animation: unfold-3d-vertical-left-flap 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+		animation-fill-mode: forwards;
+	}
+	.unfolder-container.right {
+		animation: unfold-3d-vertical-right-flap 1.5s 0s 1 cubic-bezier(0.51, 0.02, 0, 1.335);
+		animation-fill-mode: forwards;
+	}
+}
+
+@keyframes unfold-3d-vertical-left-flap {
+	0% {
+		transform-origin: 100% 50%;
+		transform: perspective(1300px) rotateY(90deg);
+		opacity: 1;
+		height: auto;
+	}
+	99.99999% {
+		transform: perspective(1300px) rotateY(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform-origin: 100% 50%;
+		height: auto;
+	}
+}
+@keyframes unfold-3d-vertical-right-flap {
+	0% {
+		transform-origin: 0% 50%;
+		transform: perspective(1300px) rotateY(-90deg);
+		opacity: 1;
+		height: auto;
+	}
+	99.99999% {
+		transform: perspective(1300px) rotateY(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform-origin: 0% 50%;
+		height: auto;
+	}
+}

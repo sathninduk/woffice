@@ -1,0 +1,34 @@
+/*
+ * Alignment amendments
+ */
+.gcp-alignleft, .gcp-alignleft a {
+	text-align: left;
+}
+
+.gcp-aligncenter, .gcp-aligncenter a {
+	text-align: center;
+}
+
+.gcp-alignright, .gcp-alignright a {
+	text-align: right;
+}
+
+.floattop {
+	margin: 0 auto;
+	display: block;
+}
+
+.floatleft {
+	display: block;
+	float: left;
+}
+
+.floatcenter {
+	display: block;
+	margin: 0 auto;
+}
+
+.floatright {
+	display: block;
+	float: right;
+}

@@ -1,0 +1,258 @@
+# Copyright (C) 2018 Row Scroll Animation
+# This file is distributed under the same license as the Row Scroll Animation package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Row Scroll Animation\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: class-plugin.php:81
+msgid "Get Customer Support"
+msgstr "Get Customer Support"
+
+#: class-plugin.php:85
+msgid "Get More Plugins"
+msgstr "Get More Plugins"
+
+#: class-row-scroll.php:72
+msgid "Row Scroll Animation"
+msgstr "Row Scroll Animation"
+
+#: class-row-scroll.php:75
+msgid "Entrance & exit row animations."
+msgstr "Entrance & exit row animations."
+
+#: class-row-scroll.php:76
+msgid "Super Bundle"
+msgstr "Super Bundle"
+
+#: class-row-scroll.php:81
+msgid "Entrance animation"
+msgstr "Entrance animation"
+
+#: class-row-scroll.php:84, class-row-scroll.php:110
+msgid "None"
+msgstr "None"
+
+#: class-row-scroll.php:85, class-row-scroll.php:112
+msgid "Content fade (animates only the content)"
+msgstr "Content fade (animates only the content)"
+
+#: class-row-scroll.php:86, class-row-scroll.php:111
+msgid "Content fly up (animates only the content)"
+msgstr "Content fly up (animates only the content)"
+
+#: class-row-scroll.php:87, class-row-scroll.php:113
+msgid "Content fly left (animates only the content)"
+msgstr "Content fly left (animates only the content)"
+
+#: class-row-scroll.php:88, class-row-scroll.php:114
+msgid "Content fly right (animates only the content)"
+msgstr "Content fly right (animates only the content)"
+
+#: class-row-scroll.php:89, class-row-scroll.php:115
+msgid "Scale smaller"
+msgstr "Scale smaller"
+
+#: class-row-scroll.php:90
+msgid "Fade in"
+msgstr "Fade in"
+
+#: class-row-scroll.php:91, class-row-scroll.php:117
+msgid "3D Rotate backward"
+msgstr "3D Rotate backward"
+
+#: class-row-scroll.php:92, class-row-scroll.php:118
+msgid "3D Rotate forward"
+msgstr "3D Rotate forward"
+
+#: class-row-scroll.php:93, class-row-scroll.php:119
+msgid "Carousel forward"
+msgstr "Carousel forward"
+
+#: class-row-scroll.php:94, class-row-scroll.php:120
+msgid "Fly up"
+msgstr "Fly up"
+
+#: class-row-scroll.php:95, class-row-scroll.php:121
+msgid "Fly left"
+msgstr "Fly left"
+
+#: class-row-scroll.php:96, class-row-scroll.php:122
+msgid "Fly right"
+msgstr "Fly right"
+
+#: class-row-scroll.php:97
+msgid ""
+"Stick to bottom (will make your row have at least the height of the screen)"
+msgstr ""
+"Stick to bottom (will make your row have at least the height of the screen)"
+
+#: class-row-scroll.php:98
+msgid ""
+"Stick & scale smaller (will make your row have at least half the height of "
+"the screen)"
+msgstr ""
+"Stick & scale smaller (will make your row have at least half the height of "
+"the screen)"
+
+#: class-row-scroll.php:99, class-row-scroll.php:134
+msgid ""
+"3D cube (use 3D cube entrance animation on the next row to make this look "
+"good)"
+msgstr ""
+"3D cube (use 3D cube entrance animation on the next row to make this look "
+"good)"
+
+#: class-row-scroll.php:107
+msgid "Exit animation"
+msgstr "Exit animation"
+
+#: class-row-scroll.php:116
+msgid "Fade out"
+msgstr "Fade out"
+
+#: class-row-scroll.php:123
+msgid ""
+"Stick to top (will make your row have at least the height of the screen)"
+msgstr ""
+"Stick to top (will make your row have at least the height of the screen)"
+
+#: class-row-scroll.php:124
+msgid ""
+"Stick & scale smaller (will make your row have at least the height of the "
+"screen)"
+msgstr ""
+"Stick & scale smaller (will make your row have at least the height of the "
+"screen)"
+
+#: class-row-scroll.php:125
+msgid ""
+"Stick & flip left (will make your row have at least the height of the screen)"
+msgstr ""
+"Stick & flip left (will make your row have at least the height of the screen)"
+
+#: class-row-scroll.php:126
+msgid ""
+"Stick & flip right (will make your row have at least the height of the "
+"screen)"
+msgstr ""
+"Stick & flip right (will make your row have at least the height of the "
+"screen)"
+
+#: class-row-scroll.php:127
+msgid ""
+"Stick & flip top (will make your row have at least the height of the screen)"
+msgstr ""
+"Stick & flip top (will make your row have at least the height of the screen)"
+
+#: class-row-scroll.php:128
+msgid ""
+"Stick & flip bottom (will make your row have at least the height of the "
+"screen)"
+msgstr ""
+"Stick & flip bottom (will make your row have at least the height of the "
+"screen)"
+
+#: class-row-scroll.php:129
+msgid ""
+"Stick & fly left (will make your row have at least the height of the screen)"
+msgstr ""
+"Stick & fly left (will make your row have at least the height of the screen)"
+
+#: class-row-scroll.php:130
+msgid ""
+"Stick & fly right (will make your row have at least the height of the screen)"
+msgstr ""
+"Stick & fly right (will make your row have at least the height of the screen)"
+
+#: class-row-scroll.php:131
+msgid ""
+"Stick & fly down (will make your row have at least the height of the screen)"
+msgstr ""
+"Stick & fly down (will make your row have at least the height of the screen)"
+
+#: class-row-scroll.php:132
+msgid ""
+"Stick & rotate left (will make your row have at least the height of the "
+"screen)"
+msgstr ""
+"Stick & rotate left (will make your row have at least the height of the "
+"screen)"
+
+#: class-row-scroll.php:133
+msgid ""
+"Stick & rotate right (will make your row have at least the height of the "
+"screen)"
+msgstr ""
+"Stick & rotate right (will make your row have at least the height of the "
+"screen)"
+
+#: class-row-scroll.php:142
+msgid "Entrance delay"
+msgstr "Entrance delay"
+
+#: class-row-scroll.php:145
+msgid ""
+"Add any value from -20 to 20.<br>(Tip: <strong>Positive</strong> numbers "
+"lengthen the entrance animation duration, and <strong>negative</strong> "
+"numbers shorten it.)"
+msgstr ""
+"Add any value from -20 to 20.<br>(Tip: <strong>Positive</strong> numbers "
+"lengthen the entrance animation duration, and <strong>negative</strong> "
+"numbers shorten it.)"
+
+#: class-row-scroll.php:149
+msgid "Exit delay"
+msgstr "Exit delay"
+
+#: class-row-scroll.php:152
+msgid ""
+"The exit animation triggers when your container reaches more than 1/3th of "
+"the screen from the top (some effects are different, some are unchangeable). "
+"Add any value from -20 to 20.<br>(Tip: <strong>Positive</strong> numbers "
+"lengthen the exit animation duration, and <strong>negative</strong> numbers "
+"shorten it.)"
+msgstr ""
+"The exit animation triggers when your container reaches more than 1/3th of "
+"the screen from the top (some effects are different, some are unchangeable). "
+"Add any value from -20 to 20.<br>(Tip: <strong>Positive</strong> numbers "
+"lengthen the exit animation duration, and <strong>negative</strong> numbers "
+"shorten it.)"
+
+#: class-row-scroll.php:159
+msgid "Fix Body Overflow"
+msgstr "Fix Body Overflow"
+
+#: class-row-scroll.php:161
+msgid ""
+"Check this if you see an unwanted scrollbar that shows up for a very short "
+"time while scrolling with some effects & some themes."
+msgstr ""
+"Check this if you see an unwanted scrollbar that shows up for a very short "
+"time while scrolling with some effects & some themes."
+
+#: class-row-scroll.php:162
+msgid "Advanced"
+msgstr "Advanced"
+
+#: class-row-scroll.php:318
+msgid "Row Scroll Error: Entrance animation .$entrance. is not valid"
+msgstr "Row Scroll Error: Entrance animation .$entrance. is not valid"
+
+#: class-row-scroll.php:321
+msgid "Row Scroll Error: Exit animation .$exit. is not valid"
+msgstr "Row Scroll Error: Exit animation .$exit. is not valid"

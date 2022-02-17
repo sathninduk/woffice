@@ -1,0 +1,41 @@
+Version 1.3.2 - September 11, 2018
+==================================
+
+* Fixed: PHP 7.2 warning regarding count()
+
+Version 1.3.1 - March 21, 2018
+==============================
+
+* Fixed: Autoplay for Vimeo videos.
+
+Version 1.3 - July 20, 2017
+===========================
+
+* New: iPhone 6 / 6s / 7 / 7s and its plus variants.
+* New: Now supports youtu.be shortened URLs, and will parse URLs if the user entered full video URLs.
+* New: Added the ability to use iframes and custom content in a mockup (shortcodes are possible in custom content).
+* Fixed: Rewrote certain captions for better explanation of options.
+* Fixed: Multiple Vimeo videos won't play
+* Fixed: Hyperlinks in image mockups may sometimes fail to render properly.
+* Fixed: Occasionally occuring muting and looping issues in YouTube and Vimeo.
+* Fixed: Jetpack Fluidvids may cause Vimeo videos to be hidden with 0 height.
+* Fixed: Default value now displays correctly as a browser mockup
+
+Version 1.2 – October 3, 2014
+=============================
+
+* Added slider functionality, now you can select multiple images for your mockup. When multiple images are selected, the mockup will automatically transform into a slider.
+* Added option to change the amount of time for each slide (only applicable for multiple images)
+* Image links are now only applicable in single mockup images
+
+Version 1.1
+===========
+
+* Added 3 new device mockups: Samsung Galaxy S5, Nokia Lumia 930 and HTC One M8
+* Added 18 designs for the new device mockups above
+* Fixed bug where images were displayed a bit lower than the center
+
+Version 1.0
+===========
+
+* Initial release

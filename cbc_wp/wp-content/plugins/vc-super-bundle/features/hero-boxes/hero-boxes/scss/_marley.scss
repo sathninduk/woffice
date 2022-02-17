@@ -1,0 +1,56 @@
+.hero-box.hero-box-effect-marley {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: 0.9;
+  }
+  .hero-box-text {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  h3.hero-box-title {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    left: 30px;
+    text-align: right;
+    transform: translateY(30px);
+    &:after {
+      position: absolute;
+      content: '';
+      height: 3px;
+      background-color: #fff;
+      left: 0;
+      right: 0;
+      bottom: -20px;
+      opacity: 0;
+      transition: all .35s;
+      transform: translateY(20px);
+    }
+  }
+  p.hero-box-caption {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    left: 30px;
+    text-align: right;
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  &:hover {
+    h3.hero-box-title {
+      transform: translateY(0);
+      &:after {
+        opacity: 0.9;
+        transform: translateY(0);
+      }
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

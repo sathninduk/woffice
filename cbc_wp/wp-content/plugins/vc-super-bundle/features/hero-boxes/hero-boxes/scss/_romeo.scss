@@ -1,0 +1,68 @@
+.hero-box.hero-box-effect-romeo {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: 0.9;
+    transform: scale(1.3);
+  }
+  .hero-box-text {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  h3.hero-box-title {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 30px;
+    right: 30px;
+    text-align: center;
+    transform: translateY(calc(-50% - 50px));
+  }
+  p.hero-box-caption {
+    position: absolute;
+    bottom: 50%;
+    left: 30px;
+    right: 30px;
+    text-align: center;
+    transform: translateY(calc(50% + 50px));
+  }
+  figcaption {
+    &:after, &:before {
+      content: '';
+      position: absolute;
+      right: 0;
+      left: 0;
+      top: 50%;
+      margin: 0 60px;
+      height: 1px;
+      background: #fff;
+      opacity: .5;
+      z-index: 3;
+      transition: all .35s;
+    }
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: .7;
+      transform: scale(1);
+    }
+    figcaption:before {
+      opacity: .4;
+      transform: rotate(45deg);
+    }
+    figcaption:after {
+      opacity: .4;
+      transform: rotate(-45deg);
+    }
+    h3.hero-box-title {
+      transform: translateY(calc(-50% - 30px));
+    }
+    p.hero-box-caption {
+      transform: translateY(calc(50% + 30px));
+    }
+  }
+}

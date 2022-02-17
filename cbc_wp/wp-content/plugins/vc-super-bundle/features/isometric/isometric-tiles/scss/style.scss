@@ -1,0 +1,116 @@
+.iso-tiles-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.iso-tiles-wrapper {
+    transform: scaleY(.6);
+	backface-visibility: hidden;
+}
+.iso-tiles-inner {
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    position: relative;
+    margin-left: 50%;
+    -webkit-perspective: 0px;
+    -moz-perspective: 0px;
+    -ms-perspective: 0px;
+    perspective: 0px;
+    transform: rotate(45deg);
+	backface-visibility: hidden;
+    width: 0px;
+    height: 0px;
+    overflow: visible;
+}
+.iso-tile-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: transparent;
+}
+.iso-tile-inner > a, .iso-tile-inner > div {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: block;
+}
+.iso-tile.rotated .iso-tile-inner > a, .iso-tile.rotated .iso-tile-inner > div {
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    transform: rotate(-90deg) translateX(-100%);
+	backface-visibility: hidden;
+}
+
+.iso-tile-inner {
+    &:before {
+        content: '';
+        width: 10px;
+        height: 100%;
+        background: #3498db;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        -webkit-transform-origin: left top;
+        -moz-transform-origin: left top;
+        -ms-transform-origin: left top;
+        transform-origin: left top;
+        transform: skewY(45deg);
+		backface-visibility: hidden;
+    }
+    &:after {
+        content: '';
+        width: 100%;
+        height: 10px;
+        background: #2980b9;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        -webkit-transform-origin: left top;
+        -moz-transform-origin: left top;
+        -ms-transform-origin: left top;
+        transform-origin: left top;
+        transform: skewX(45deg);
+		backface-visibility: hidden;
+    }
+}
+.iso-tile.flat .iso-tile-inner, .iso-tile.transparent .iso-tile-inner {
+  &:before, &:after {
+    display: none;
+  }
+}
+.iso-tile {
+    position: absolute;
+    z-index: 1;
+    &[data-link-to] {
+        cursor: pointer;
+    }
+}
+.iso-tiles-container:not(.ie9) .iso-tile[data-link-to],
+.iso-tiles-container:not(.ie9) .iso-tile[data-hover-on] {
+    -webkit-transition: -webkit-transform .3s ease-in-out, z-index .0s ease-in-out .2s;
+    -moz-transition: -moz-transform .3s ease-in-out, z-index .0s ease-in-out .2s;
+    -ms-transition: -ms-transform .3s ease-in-out, z-index .0s ease-in-out .2s;
+    transition: transform .3s ease-in-out, z-index .0s ease-in-out .2s;
+	backface-visibility: hidden;
+}
+.iso-tiles-container:not(.ie9) .iso-tile[data-link-to]:hover,
+.iso-tiles-container:not(.ie9) .iso-tile[data-hover-on]:hover {
+    z-index: 2;
+    -webkit-transition: -webkit-transform .3s ease-in-out, z-index .0s ease-in-out .1s;
+    -moz-transition: -moz-transform .3s ease-in-out, z-index .0s ease-in-out .1s;
+    -ms-transition: -ms-transform .3s ease-in-out, z-index .0s ease-in-out .1s;
+    transition: transform .3s ease-in-out, z-index .0s ease-in-out .1s;
+    transform: translateX(-30px) translateY(-30px);
+}
+
+@media screen and (max-width: 768px) {
+	.iso-tiles-container[data-disable-mobile="1"] {
+		display: none;
+		opacity: 0;
+	}
+}

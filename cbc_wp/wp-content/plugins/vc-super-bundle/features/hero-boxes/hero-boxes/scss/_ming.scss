@@ -1,0 +1,53 @@
+.hero-box.hero-box-effect-ming {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: .9;
+  }
+  figcaption {
+    &:before {
+      content: '';
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      bottom: 30px;
+      right: 30px;
+      background: rgba(0,0,0,.4);
+      z-index: 3;
+      border: 2px solid rgba(255,255,255,.8);
+      opacity: 0;
+      transition: all .35s;
+      transform: scale(1.35);
+    }
+  }
+  .hero-box-text {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    right: 60px;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 4;
+  }
+  h3.hero-box-title {
+    margin-bottom: 30px;
+    transform: scale(1.05);
+  }
+  p.hero-box-caption {
+    opacity: 0;
+    transform: scale(1.35);
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: .6;
+    }
+    figcaption:before, p.hero-box-caption {
+      opacity: 1;
+      transform: scale(1);
+    }
+    h3.hero-box-title {
+      transform: scale(1);
+    }
+  }
+}

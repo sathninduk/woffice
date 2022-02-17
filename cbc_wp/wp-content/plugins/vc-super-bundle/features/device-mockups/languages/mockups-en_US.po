@@ -1,0 +1,564 @@
+# Copyright (C) 2018 Mockups for VC
+# This file is distributed under the same license as the Mockups for VC package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mockups for VC\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: none\n"
+"Last-Translator: Automatically generated\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: class-mockup.php:117
+msgid "Screen Mockup"
+msgstr "Screen Mockup"
+
+#: class-mockup.php:120
+msgid "An image placed inside a mockup device"
+msgstr "An image placed inside a mockup device"
+
+#: class-mockup.php:121
+msgid "Super Bundle"
+msgstr "Super Bundle"
+
+#: class-mockup.php:127
+msgid "Mockup Type"
+msgstr "Mockup Type"
+
+#: class-mockup.php:130
+msgid "Image Mockup"
+msgstr "Image Mockup"
+
+#: class-mockup.php:131
+msgid "Video Mockup - YouTube"
+msgstr "Video Mockup - YouTube"
+
+#: class-mockup.php:132
+msgid "Video Mockup - Vimeo"
+msgstr "Video Mockup - Vimeo"
+
+#: class-mockup.php:133
+msgid "IFrame"
+msgstr "IFrame"
+
+#: class-mockup.php:134, class-mockup.php:153
+msgid "Custom Content"
+msgstr "Custom Content"
+
+#: class-mockup.php:136
+msgid "Choose the type of mockup to display"
+msgstr "Choose the type of mockup to display"
+
+#: class-mockup.php:137, class-mockup.php:149, class-mockup.php:161,
+#: class-mockup.php:175, class-mockup.php:188, class-mockup.php:200,
+#: class-mockup.php:212, class-mockup.php:226, class-mockup.php:236,
+#: class-mockup.php:250, class-mockup.php:268, class-mockup.php:280,
+#: class-mockup.php:292, class-mockup.php:357, class-mockup.php:413,
+#: class-mockup.php:467, class-mockup.php:498, class-mockup.php:512,
+#: class-mockup.php:524, class-mockup.php:532, class-mockup.php:544,
+#: class-mockup.php:558, class-mockup.php:565
+msgid "General Options"
+msgstr "General Options"
+
+#: class-mockup.php:141
+msgid "IFrame URL to Show"
+msgstr "IFrame URL to Show"
+
+#: class-mockup.php:144
+msgid ""
+"Enter the URL to load in the iframe. Remember though that iframes are "
+"governed by the same-site policy and Javascripts can only parse iframes of "
+"the same origin."
+msgstr ""
+"Enter the URL to load in the iframe. Remember though that iframes are "
+"governed by the same-site policy and Javascripts can only parse iframes of "
+"the same origin."
+
+#: class-mockup.php:156
+msgid ""
+"If you wish to place customizable content inside your mockup, do so here. "
+"Shortcodes are also accepted."
+msgstr ""
+"If you wish to place customizable content inside your mockup, do so here. "
+"Shortcodes are also accepted."
+
+#: class-mockup.php:165
+msgid "Scrollbars"
+msgstr "Scrollbars"
+
+#: class-mockup.php:168
+msgid "If checked, scrolling will be enabled"
+msgstr "If checked, scrolling will be enabled"
+
+#: class-mockup.php:180
+msgid "Custom Content background color"
+msgstr "Custom Content background color"
+
+#: class-mockup.php:183
+msgid "Select the background color for your custom content, if you so choose"
+msgstr "Select the background color for your custom content, if you so choose"
+
+#: class-mockup.php:192
+msgid "Mocked Up Image"
+msgstr "Mocked Up Image"
+
+#: class-mockup.php:195
+msgid ""
+"Select the image that will be displayed inside the mockup device. The size "
+"of your image adjusts depending on the width of your container, just "
+"remember that the device adjusts to fill the whole width of the container. "
+"Use a larger image if your mockup image gts a bit blurry because of scaling."
+"<br><br><strong>If you upload multiple images, the mockup will be converted "
+"into a slider element.</strong><br><br>Your image will be cropped to fit the "
+"screen size of your mockup, you can use these dimensions to fit your images "
+"exactly into your mockups:<br>For browser mockups, use 1400x789, 700x395 or "
+"350x198<br>For iPhone portrait mockups, use 640x1136 or 320x568<br>For "
+"iPhone landscape mockups, use 1136x640 or 568x320<br>For iPad portrait "
+"mockups, use 1536x2048, 768x1024 or 384x512<br>For iPad landscape mockups, "
+"use 2048x1536, 1024x768 or 512x384<br>For iMac mockups, use 2560x1440 "
+"1280x720 or 640x360<br>For MacBook Pro mockups, use 2880x1800 1440x900 or "
+"720x450"
+msgstr ""
+"Select the image that will be displayed inside the mockup device. The size "
+"of your image adjusts depending on the width of your container, just "
+"remember that the device adjusts to fill the whole width of the container. "
+"Use a larger image if your mockup image gts a bit blurry because of scaling."
+"<br><br><strong>If you upload multiple images, the mockup will be converted "
+"into a slider element.</strong><br><br>Your image will be cropped to fit the "
+"screen size of your mockup, you can use these dimensions to fit your images "
+"exactly into your mockups:<br>For browser mockups, use 1400x789, 700x395 or "
+"350x198<br>For iPhone portrait mockups, use 640x1136 or 320x568<br>For "
+"iPhone landscape mockups, use 1136x640 or 568x320<br>For iPad portrait "
+"mockups, use 1536x2048, 768x1024 or 384x512<br>For iPad landscape mockups, "
+"use 2048x1536, 1024x768 or 512x384<br>For iMac mockups, use 2560x1440 "
+"1280x720 or 640x360<br>For MacBook Pro mockups, use 2880x1800 1440x900 or "
+"720x450"
+
+#: class-mockup.php:204
+msgid "Mocked Up Video ID"
+msgstr "Mocked Up Video ID"
+
+#: class-mockup.php:207
+msgid ""
+"Enter the ID of your YouTube or Vimeo video.<br><br>You can get the ID of "
+"your video from the URL. For example:<br>https://www.youtube.com/watch?"
+"v=XXXXXXXXX<br>https://youtu.be/XXXXXXXXX<br>http://vimeo.com/"
+"XXXXXXXXX<br><em>The XXXX is your video ID</em>"
+msgstr ""
+"Enter the ID of your YouTube or Vimeo video.<br><br>You can get the ID of "
+"your video from the URL. For example:<br>https://www.youtube.com/watch?"
+"v=XXXXXXXXX<br>https://youtu.be/XXXXXXXXX<br>http://vimeo.com/"
+"XXXXXXXXX<br><em>The XXXX is your video ID</em>"
+
+#: class-mockup.php:216
+msgid "Hide Video Controls"
+msgstr "Hide Video Controls"
+
+#: class-mockup.php:219
+msgid "If checked, video controls will not be shown"
+msgstr "If checked, video controls will not be shown"
+
+#: class-mockup.php:231
+msgid "Mute Video"
+msgstr "Mute Video"
+
+#: class-mockup.php:234
+msgid "No sound will play from the video being played"
+msgstr "No sound will play from the video being played"
+
+#: class-mockup.php:245
+msgid "Loop Video"
+msgstr "Loop Video"
+
+#: class-mockup.php:248
+msgid "The video will play repeatedly if checked"
+msgstr "The video will play repeatedly if checked"
+
+#: class-mockup.php:258
+msgid "Autoplay Video"
+msgstr "Autoplay Video"
+
+#: class-mockup.php:261
+msgid "If checked, your video will play automatically once loaded"
+msgstr "If checked, your video will play automatically once loaded"
+
+#: class-mockup.php:272
+msgid "Horizontal Black Bar Video Fix"
+msgstr "Horizontal Black Bar Video Fix"
+
+#: class-mockup.php:275
+msgid ""
+"If you&apos;re getting horizontal black bars in your video, you can widen "
+"the video to make the viewable area larger. Enter here a percentage value "
+"from 0 to 50."
+msgstr ""
+"If you&apos;re getting horizontal black bars in your video, you can widen "
+"the video to make the viewable area larger. Enter here a percentage value "
+"from 0 to 50."
+
+#: class-mockup.php:284
+msgid "Vertical Black Bar Video Fix"
+msgstr "Vertical Black Bar Video Fix"
+
+#: class-mockup.php:287
+msgid ""
+"If you&apos;re getting vertical black bars in your video, you can increase "
+"the height of the video to make the viewable area larger. Enter here a "
+"percentage value from 0 to 50."
+msgstr ""
+"If you&apos;re getting vertical black bars in your video, you can increase "
+"the height of the video to make the viewable area larger. Enter here a "
+"percentage value from 0 to 50."
+
+#: class-mockup.php:297
+msgid "Mockup Device"
+msgstr "Mockup Device"
+
+#: class-mockup.php:300
+msgid "Browser - Flat Silver"
+msgstr "Browser - Flat Silver"
+
+#: class-mockup.php:301
+msgid "Browser - Flat White"
+msgstr "Browser - Flat White"
+
+#: class-mockup.php:302
+msgid "Browser - Flat Black"
+msgstr "Browser - Flat Black"
+
+#: class-mockup.php:303
+msgid "iPhone - Flat White"
+msgstr "iPhone - Flat White"
+
+#: class-mockup.php:304
+msgid "iPhone - Flat Black"
+msgstr "iPhone - Flat Black"
+
+#: class-mockup.php:305
+msgid "iPhone - Flat Gold"
+msgstr "iPhone - Flat Gold"
+
+#: class-mockup.php:306
+msgid "iPhone - Outlined White"
+msgstr "iPhone - Outlined White"
+
+#: class-mockup.php:307
+msgid "iPhone - Outlined Black"
+msgstr "iPhone - Outlined Black"
+
+#: class-mockup.php:309
+msgid "iPhone 6 / 6s / 7 / 7s - Flat Gold"
+msgstr "iPhone 6 / 6s / 7 / 7s - Flat Gold"
+
+#: class-mockup.php:310
+msgid "iPhone 6 / 6s / 7 / 7s - Flat Rose Gold"
+msgstr "iPhone 6 / 6s / 7 / 7s - Flat Rose Gold"
+
+#: class-mockup.php:311
+msgid "iPhone 6 / 6s / 7 / 7s - Flat Silver"
+msgstr "iPhone 6 / 6s / 7 / 7s - Flat Silver"
+
+#: class-mockup.php:312
+msgid "iPhone 6 / 6s / 7 / 7s - Flat Space Gray"
+msgstr "iPhone 6 / 6s / 7 / 7s - Flat Space Gray"
+
+#: class-mockup.php:313
+msgid "iPhone 6 / 6s / 7 / 7s - Outline Silver"
+msgstr "iPhone 6 / 6s / 7 / 7s - Outline Silver"
+
+#: class-mockup.php:314
+msgid "iPhone 6 / 6s / 7 / 7s - Outline Space Gray"
+msgstr "iPhone 6 / 6s / 7 / 7s - Outline Space Gray"
+
+#: class-mockup.php:316
+msgid "iPhone 6 / 6s / 7 / 7s Plus - Flat Gold"
+msgstr "iPhone 6 / 6s / 7 / 7s Plus - Flat Gold"
+
+#: class-mockup.php:317
+msgid "iPhone 6 / 6s / 7 / 7s Plus - Flat Rose Gold"
+msgstr "iPhone 6 / 6s / 7 / 7s Plus - Flat Rose Gold"
+
+#: class-mockup.php:318
+msgid "iPhone 6 / 6s / 7 / 7s Plus - Flat Silver"
+msgstr "iPhone 6 / 6s / 7 / 7s Plus - Flat Silver"
+
+#: class-mockup.php:319
+msgid "iPhone 6 / 6s / 7 / 7s Plus - Flat Space Gray"
+msgstr "iPhone 6 / 6s / 7 / 7s Plus - Flat Space Gray"
+
+#: class-mockup.php:320
+msgid "iPhone 6 / 6s / 7 / 7s Plus - Outline Silver"
+msgstr "iPhone 6 / 6s / 7 / 7s Plus - Outline Silver"
+
+#: class-mockup.php:321
+msgid "iPhone 6 / 6s / 7 / 7s Plus - Outline Space Gray"
+msgstr "iPhone 6 / 6s / 7 / 7s Plus - Outline Space Gray"
+
+#: class-mockup.php:323
+msgid "iPad - Flat White"
+msgstr "iPad - Flat White"
+
+#: class-mockup.php:324
+msgid "iPad - Flat Black"
+msgstr "iPad - Flat Black"
+
+#: class-mockup.php:325
+msgid "iPad - Outlined White"
+msgstr "iPad - Outlined White"
+
+#: class-mockup.php:326
+msgid "iPad - Outlined Black"
+msgstr "iPad - Outlined Black"
+
+#: class-mockup.php:327
+msgid "iMac - Flat Silver"
+msgstr "iMac - Flat Silver"
+
+#: class-mockup.php:328
+msgid "iMac - Flat White"
+msgstr "iMac - Flat White"
+
+#: class-mockup.php:329
+msgid "iMac - Flat Black"
+msgstr "iMac - Flat Black"
+
+#: class-mockup.php:330
+msgid "iMac - Outlined White"
+msgstr "iMac - Outlined White"
+
+#: class-mockup.php:331
+msgid "iMac - Outlined Black"
+msgstr "iMac - Outlined Black"
+
+#: class-mockup.php:332
+msgid "MacBook Pro - Flat Silver"
+msgstr "MacBook Pro - Flat Silver"
+
+#: class-mockup.php:333
+msgid "MacBook Pro - Flat White"
+msgstr "MacBook Pro - Flat White"
+
+#: class-mockup.php:334
+msgid "MacBook Pro - Flat Black"
+msgstr "MacBook Pro - Flat Black"
+
+#: class-mockup.php:335
+msgid "MacBook Pro - Outlined White"
+msgstr "MacBook Pro - Outlined White"
+
+#: class-mockup.php:336
+msgid "MacBook Pro - Outlined Black"
+msgstr "MacBook Pro - Outlined Black"
+
+#: class-mockup.php:337
+msgid "Lumia 930 - Flat White"
+msgstr "Lumia 930 - Flat White"
+
+#: class-mockup.php:338
+msgid "Lumia 930 - Flat Silver"
+msgstr "Lumia 930 - Flat Silver"
+
+#: class-mockup.php:339
+msgid "Lumia 930 - Flat Black"
+msgstr "Lumia 930 - Flat Black"
+
+#: class-mockup.php:340
+msgid "Lumia 930 - Outlined White"
+msgstr "Lumia 930 - Outlined White"
+
+#: class-mockup.php:341
+msgid "Lumia 930 - Outlined Black"
+msgstr "Lumia 930 - Outlined Black"
+
+#: class-mockup.php:342
+msgid "Galaxy S5 - Flat White"
+msgstr "Galaxy S5 - Flat White"
+
+#: class-mockup.php:343
+msgid "Galaxy S5 - Flat Silver"
+msgstr "Galaxy S5 - Flat Silver"
+
+#: class-mockup.php:344
+msgid "Galaxy S5 - Flat Black"
+msgstr "Galaxy S5 - Flat Black"
+
+#: class-mockup.php:345
+msgid "Galaxy S5 - Flat Gold"
+msgstr "Galaxy S5 - Flat Gold"
+
+#: class-mockup.php:346
+msgid "Galaxy S5 - Outlined White"
+msgstr "Galaxy S5 - Outlined White"
+
+#: class-mockup.php:347
+msgid "Galaxy S5 - Outlined Black"
+msgstr "Galaxy S5 - Outlined Black"
+
+#: class-mockup.php:348
+msgid "HTC One M8 - Flat White"
+msgstr "HTC One M8 - Flat White"
+
+#: class-mockup.php:349
+msgid "HTC One M8 - Flat White 2"
+msgstr "HTC One M8 - Flat White 2"
+
+#: class-mockup.php:350
+msgid "HTC One M8 - Flat Silver"
+msgstr "HTC One M8 - Flat Silver"
+
+#: class-mockup.php:351
+msgid "HTC One M8 - Flat Gold"
+msgstr "HTC One M8 - Flat Gold"
+
+#: class-mockup.php:352
+msgid "HTC One M8 - Flat Red"
+msgstr "HTC One M8 - Flat Red"
+
+#: class-mockup.php:353
+msgid "HTC One M8 - Outlined White"
+msgstr "HTC One M8 - Outlined White"
+
+#: class-mockup.php:354
+msgid "HTC One M8 - Outlined Black"
+msgstr "HTC One M8 - Outlined Black"
+
+#: class-mockup.php:356
+msgid "The device to display your image in"
+msgstr "The device to display your image in"
+
+#: class-mockup.php:362
+msgid "Device Orientation"
+msgstr "Device Orientation"
+
+#: class-mockup.php:365
+msgid "Portrait"
+msgstr "Portrait"
+
+#: class-mockup.php:366
+msgid "Landscape"
+msgstr "Landscape"
+
+#: class-mockup.php:368
+msgid "The orientation of the selected device above"
+msgstr "The orientation of the selected device above"
+
+#: class-mockup.php:417
+msgid "Flip Mockup Device"
+msgstr "Flip Mockup Device"
+
+#: class-mockup.php:420
+msgid ""
+"By default, mockup devices are displayed standing up for portrait, or "
+"rotated to the left for landscape. Check this if you want to flip the device."
+msgstr ""
+"By default, mockup devices are displayed standing up for portrait, or "
+"rotated to the left for landscape. Check this if you want to flip the device."
+
+#: class-mockup.php:471
+msgid "Device Opacity"
+msgstr "Device Opacity"
+
+#: class-mockup.php:474
+msgid ""
+"For outlined mockup devices, you can change the opacity of the outline. "
+"Values here can be 0.0 to 1.0."
+msgstr ""
+"For outlined mockup devices, you can change the opacity of the outline. "
+"Values here can be 0.0 to 1.0."
+
+#: class-mockup.php:502
+msgid "Mockup Display Area"
+msgstr "Mockup Display Area"
+
+#: class-mockup.php:505
+msgid "Display the whole device"
+msgstr "Display the whole device"
+
+#: class-mockup.php:506
+msgid "Display only the top part of the device"
+msgstr "Display only the top part of the device"
+
+#: class-mockup.php:507
+msgid "Display only the bottom part of the device"
+msgstr "Display only the bottom part of the device"
+
+#: class-mockup.php:508
+msgid "Display only the left part of the device"
+msgstr "Display only the left part of the device"
+
+#: class-mockup.php:509
+msgid "Display only the right part of the device"
+msgstr "Display only the right part of the device"
+
+#: class-mockup.php:511
+msgid "Use if you want to display only a specific portion of the mockup"
+msgstr "Use if you want to display only a specific portion of the mockup"
+
+#: class-mockup.php:516
+msgid "Mockup Display Area Offset"
+msgstr "Mockup Display Area Offset"
+
+#: class-mockup.php:519
+msgid "Select a value from 0 (no offset) to 75 (show 1/4 of the device)"
+msgstr "Select a value from 0 (no offset) to 75 (show 1/4 of the device)"
+
+#: class-mockup.php:528
+msgid "Horizontal Offset"
+msgstr "Horizontal Offset"
+
+#: class-mockup.php:531
+msgid ""
+"Select a negative value to pull the mockup to the left, or a positive value "
+"to push it to the right"
+msgstr ""
+"Select a negative value to pull the mockup to the left, or a positive value "
+"to push it to the right"
+
+#: class-mockup.php:536
+msgid "Add Link to Image"
+msgstr "Add Link to Image"
+
+#: class-mockup.php:539, class-mockup.php:551
+msgid ""
+"<strong>(Tip: Links will only work if you have selected a single image for "
+"your mockup)</strong>"
+msgstr ""
+"<strong>(Tip: Links will only work if you have selected a single image for "
+"your mockup)</strong>"
+
+#: class-mockup.php:548
+msgid "Open Link in a New Window"
+msgstr "Open Link in a New Window"
+
+#: class-mockup.php:569
+msgid "Slider Duration"
+msgstr "Slider Duration"
+
+#: class-mockup.php:572
+msgid ""
+"The duration in milliseconds each slide will stay until switching to the "
+"other slide"
+msgstr ""
+"The duration in milliseconds each slide will stay until switching to the "
+"other slide"
+
+#: class-mockup.php:573
+msgid "Slider Options"
+msgstr "Slider Options"
+
+#: class-plugin.php:81
+msgid "Get Customer Support"
+msgstr "Get Customer Support"
+
+#: class-plugin.php:85
+msgid "Get More Plugins"
+msgstr "Get More Plugins"

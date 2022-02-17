@@ -1,0 +1,76 @@
+Version 3.3 - July 21, 2017
+===========================
+
+* Enhanced: Now uses wp_add_inline_script instead of echoing the script
+* Change: Removed admin pointers
+* Change: Removed license field
+
+Version 3.2 - April 25, 2015
+============================
+
+* Now smooth scrolls scrollable elements like textareas and divs.
+* Fixed for new releases of Safari.
+* Coding standards fixes.
+
+Version 3.1 - August 6, 2015
+============================
+
+* Speed parameter now works as expected
+
+Version 3.0.1 - July 2, 2015
+============================
+
+* Now disables smooth scrolling on trackpads
+
+Version 3.0 - July 1, 2015
+==========================
+
+* Now only 1kb minified!
+* Rewritten in pure Javascript for better performance
+* No longer needs jQuery
+* Now scrolls a bit faster when scrolling continuously
+
+Version 2.1 - June 5, 2015
+==========================
+
+* Even scrolling for touchpads
+* Added requestAnimationFrame for a faster feel
+* Tweaked timings to make things feel smoother
+
+Version 2.0.1 - May 27, 2015
+============================
+
+* Enhanced scrolling feel
+
+Version 2.0 - May 27, 2015
+==========================
+
+* Revamped the whole scrolling system.
+* Now uses mousewheel.js
+* Now requires jQuery
+* Now normalizes scroll amounts across different browsers
+* Now better handles trackpad scrolling
+* More stable performance, less skipping and lagging
+* Removed key up and down scroll for practicality
+
+Version 1.1.1 - November 28, 2014
+=================================
+
+* Emergency bug fix where sometimes page scrolling stops
+* Emergency bug fix where Mac & Windows browsers had different scroll amounts
+
+Version 1.1 - November 28, 2014
+===============================
+
+* Script now handles scrollable elements properly
+* Fixed issue with inconsistent scroll speeds in different browsers
+* Added settings inside the General settings page
+	* Scroll Speed
+	* Scroll Decomposition Rate
+	* Scrolling Method: request animation frame or setInterval
+* Added a settings link in the plugins page
+
+Version 1.0
+===========
+
+* First release

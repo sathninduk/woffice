@@ -1,0 +1,58 @@
+.hero-box.hero-box-effect-chico {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: .9;
+    transform: scale(1.2);
+  }
+  figcaption {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    padding: 30px;
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      border: 1px solid rgba(255,255,255,.7);
+      transition: all .35s;
+      transform: scale(1.1);
+      opacity: 0;
+      z-index: 3;
+    }
+  }
+  .hero-box-text {
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    left: 30px;
+    right: 30px;
+  }
+  h3.hero-box-title {
+    transform: translateY(-10px);
+  }
+  p.hero-box-caption {
+    opacity: 0;
+    transform: translateY(10px) scale(1.2);
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: .7;
+      transform: scale(1);
+    }
+    figcaption:before {
+      transform: scale(1);
+      opacity: 1;
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transform: translateY(10px) scale(1);
+    }
+  }
+}

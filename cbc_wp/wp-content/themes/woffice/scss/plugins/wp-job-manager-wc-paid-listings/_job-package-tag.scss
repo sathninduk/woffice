@@ -1,0 +1,31 @@
+.job-package-tag {
+	color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-shadow: none;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: -30px;
+	right: -22px;
+    display: inline-block;
+    z-index: 20;
+    background-color: #82b440;
+}
+
+.job-package-tag__text {
+	line-height: 1.5;
+	color: #FFF;
+	font-size: 11px;
+	top: 50%;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	cursor: text;
+	-webkit-transform: translateY(-54%);
+	-moz-transform: translateY(-54%);
+	transform: translateY(-54%);
+}

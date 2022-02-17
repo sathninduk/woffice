@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parallax Backgrounds for VC\n"
+"POT-Creation-Date: 2014-11-20 16:29+0800\n"
+"PO-Revision-Date: 2014-11-20 16:29+0800\n"
+"Last-Translator: Benjamin Intal <bfintal@gmail.com>\n"
+"Language-Team: Gambit <bf.intal@gambit.ph>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../vc-css-animations.php:78
+msgid "- Entrance Animations -"
+msgstr ""
+
+#: ../vc-css-animations.php:79
+msgid "Fade in"
+msgstr ""
+
+#: ../vc-css-animations.php:80
+msgid "Flip top to bottom 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:81
+msgid "Flip bottom to top 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:82
+msgid "Flip right to left 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:83
+msgid "Flip left to right 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:84
+msgid "Flip in horizontally 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:85
+msgid "Flip in vertically 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:86
+msgid "Fall bottom to top 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:87
+msgid "Fall top to bottom 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:88
+msgid "Roll bottom to top 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:89
+msgid "Roll right to left 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:90
+msgid "Roll left to right 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:91
+msgid "Rotate in top left 2D"
+msgstr ""
+
+#: ../vc-css-animations.php:92
+msgid "Rotate in top right 2D"
+msgstr ""
+
+#: ../vc-css-animations.php:93
+msgid "Rotate in bottom left 2D"
+msgstr ""
+
+#: ../vc-css-animations.php:94
+msgid "Rotate in bottom right 2D"
+msgstr ""
+
+#: ../vc-css-animations.php:95
+msgid "Slide top to bottom 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:96
+msgid "Slide bottom to top 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:97
+msgid "Slide right to left 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:98
+msgid "Slide left to right 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:99
+msgid "Slide elastic bottom to top 2D"
+msgstr ""
+
+#: ../vc-css-animations.php:100
+msgid "Slide elastic top to bottom 2D"
+msgstr ""
+
+#: ../vc-css-animations.php:101
+msgid "Slide elastic right to left 2D"
+msgstr ""
+
+#: ../vc-css-animations.php:102
+msgid "Slide elastic left to right 2D"
+msgstr ""
+
+#: ../vc-css-animations.php:103
+msgid "Grow 2D"
+msgstr ""
+
+#: ../vc-css-animations.php:104
+msgid "Shrink 2D"
+msgstr ""
+
+#: ../vc-css-animations.php:105
+msgid "Spin 2D"
+msgstr ""
+
+#: ../vc-css-animations.php:106
+msgid "Spin 2D reverse"
+msgstr ""
+
+#: ../vc-css-animations.php:107
+msgid "Spin 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:108
+msgid "Spin 3D reverse"
+msgstr ""
+
+#: ../vc-css-animations.php:109
+msgid "Twirl top left 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:110
+msgid "Twirl top right 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:111
+msgid "Twirl bottom left 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:112
+msgid "Twirl bottom right 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:113
+msgid "Twirl 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:114
+msgid "Unfold top to bottom 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:115
+msgid "Unfold bottom to top 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:116
+msgid "Unfold right to left 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:117
+msgid "Unfold left to right 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:118
+msgid "Unfold horzitonal 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:119
+msgid "Unfold vertical 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:124
+msgid "- Looped Animations -"
+msgstr ""
+
+#: ../vc-css-animations.php:125
+msgid "Pulsate"
+msgstr ""
+
+#: ../vc-css-animations.php:126
+msgid "Pulsate fade"
+msgstr ""
+
+#: ../vc-css-animations.php:127
+msgid "Hover"
+msgstr ""
+
+#: ../vc-css-animations.php:128
+msgid "Hover floating"
+msgstr ""
+
+#: ../vc-css-animations.php:129
+msgid "Wobble"
+msgstr ""
+
+#: ../vc-css-animations.php:130
+msgid "Wobble 3D"
+msgstr ""
+
+#: ../vc-css-animations.php:131
+msgid "Dangle"
+msgstr ""
+
+#: ../vc-css-animations.php:162
+msgid "Get Customer Support"
+msgstr ""
+
+#: ../vc-css-animations.php:166
+msgid "Get More Plugins"
+msgstr ""
+
+#: ../vc-css-animations.php:281
+#, php-format
+msgid "Enjoying %s?"
+msgstr ""
+
+#: ../vc-css-animations.php:282
+msgid ""
+"Help us out by rating our plugin 5 stars in CodeCanyon! This will allow us "
+"to create more awesome products and provide top notch customer support."
+msgstr ""
+
+#: ../vc-css-animations.php:283
+msgid "Rate us 5 stars in CodeCanyon :)"
+msgstr ""
+
+#: ../vc-css-animations.php:284
+msgid "Remind me tomorrow"
+msgstr ""
+
+#: ../vc-css-animations.php:285
+msgid "I&apos;ve already rated!"
+msgstr ""
+
+#: ../vc-css-animations.php:359
+#, php-format
+msgid "Thank you for activating %s!"
+msgstr ""
+
+#: ../vc-css-animations.php:361
+msgid ""
+"Create a CSS Animator Element in Visual Composer then put other elements in "
+"it and you are good to go."
+msgstr ""
+
+#: ../vc-css-animations.php:363
+msgid ""
+"If you need any support, you can leave us a ticket in our support site. The "
+"link to our support site is listed in the plugin details for future "
+"reference."
+msgstr ""
+
+#: ../vc-css-animations.php:364
+msgid "Visit our support site"
+msgstr ""
+
+#: ../vc-css-animations.php:366
+msgid "This notice will go away in a moment"
+msgstr ""
+
+#: ../vc-css-animations.php:389
+msgid "CSS Animator"
+msgstr ""
+
+#: ../vc-css-animations.php:395
+msgid "Add animations to your elements"
+msgstr ""
+
+#: ../vc-css-animations.php:400
+msgid "Functionality"
+msgstr ""
+
+#: ../vc-css-animations.php:403
+msgid "All devices"
+msgstr ""
+
+#: ../vc-css-animations.php:404
+msgid "Disabled in mobile"
+msgstr ""
+
+#: ../vc-css-animations.php:406
+msgid ""
+"Select whether to have CSS Animator work in all devices, or disable on "
+"mobile devices."
+msgstr ""
+
+#: ../vc-css-animations.php:410
+msgid "CSS Animation"
+msgstr ""
+
+#: ../vc-css-animations.php:412
+msgid "No"
+msgstr ""
+
+#: ../vc-css-animations.php:413
+msgid ""
+"Select type of animation if you want this element to be animated when it "
+"enters into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: ../vc-css-animations.php:417
+msgid "Animation Duration"
+msgstr ""
+
+#: ../vc-css-animations.php:420
+msgid ""
+"Duration in seconds. You can use decimal points in the value. Use this field "
+"to specify the amount of time the animation plays. <em>The default value "
+"depends on the animation, leave blank to use the default.</em>"
+msgstr ""
+
+#: ../vc-css-animations.php:424
+msgid "Animation Delay"
+msgstr ""
+
+#: ../vc-css-animations.php:427
+msgid ""
+"Delay in seconds. You can use decimal points in the value. Use this field to "
+"delay the animation for a few seconds, this is helpful if you want to chain "
+"different effects one after another above the fold."
+msgstr ""
+
+#: ../vc-css-animations.php:431
+msgid "Extra class name"
+msgstr ""
+
+#: ../vc-css-animations.php:433
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../vc-css-animations.php:534
+msgid "Enable Compatibility Mode"
+msgstr ""
+
+#: ../vc-css-animations.php:539
+msgid "Disable Compatibility Mode"
+msgstr ""

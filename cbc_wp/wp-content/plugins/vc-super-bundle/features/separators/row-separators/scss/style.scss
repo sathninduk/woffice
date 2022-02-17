@@ -1,0 +1,60 @@
+body {
+	overflow-x: hidden;
+}
+.vc_row, .wpb_row {
+	position: relative;
+	z-index: 1;
+}
+.gambit_sep_parent {
+	position: relative;
+	z-index: 3 !important; // This is so that our separators will always be visible
+	overflow: visible !important;
+}
+svg.gambit_separator {
+	display: none;
+	background: transparent;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0px;
+	z-index: 9;
+	transform: translateY(-100%) translateY(2px);
+	width: 100%;
+	&.gambit_sep_flip {
+		transform: translateY(-100%) translateY(2px) scaleX(-1);
+	}
+	&.gambit_sep_loaded {
+		display: block;
+	}
+}
+svg.gambit_sep_bottom {
+	top: auto;
+	bottom: 0px;
+	transform: translateY(100%) translateY(-2px) scaleY(-1);
+	&.gambit_sep_flip {
+		transform: translateY(100%) translateY(-2px) scale(-1);
+	}
+}
+
+
+// Do not do any positioning stuff when inside the frontend editor since we will not look right
+body.vc_editor {
+	svg.gambit_separator {
+	    position: relative !important;
+	    display: block !important;
+	    transform: none !important;
+		height: auto !important;
+		&.gambit_sep_flip {
+			-webkit-transform: scaleX(-1) !important;
+			transform: scaleX(-1) !important;
+		}
+	}
+	svg.gambit_sep_bottom {
+		-webkit-transform: scaleY(-1) !important;
+		transform: scaleY(-1) !important;
+		&.gambit_sep_flip {
+			-webkit-transform: scale(-1) !important;
+			transform: scale(-1) !important;
+		}
+	}
+}

@@ -1,0 +1,127 @@
+@import "_animations_base";
+
+/*
+ * Normal slides
+ */
+
+@include generate-animation( 'slide-to-right' );
+@keyframes slide-to-right {
+	0% {
+		opacity: 0;
+		transform: translateX(-900px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+@include generate-animation( 'slide-to-left' );
+@keyframes slide-to-left {
+	0% {
+		opacity: 0;
+		transform: translateX(900px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+@include generate-animation( 'slide-to-bottom' );
+@keyframes slide-to-bottom {
+	0% {
+		opacity: 0;
+		transform: translateY(-900px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+@include generate-animation( 'slide-to-top' );
+@keyframes slide-to-top {
+	0% {
+		opacity: 0;
+		transform: translateY(900px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+/*
+ * Elastic
+ */
+
+@include generate-animation( 'slide-elastic-to-top', .7s, 1, 0, '', '', ease-in-out );
+@keyframes slide-elastic-to-top {
+	0% {
+		opacity: 0;
+		transform: scale(.6) scaleY(.5) translate(0, 300%);
+	}
+	60% {
+		transform: scaleY(1.1) translate(0, -7%);
+	}
+	75% {
+		transform: translate(0, 3%);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1) scaleY(1) translate(0, 0%);
+	}
+}
+
+@include generate-animation( 'slide-elastic-to-bottom', .7s, 1, 0, '', '', ease-in-out );
+@keyframes slide-elastic-to-bottom {
+	0% {
+		opacity: 0;
+		transform: scale(.6) scaleY(.5) translate(0, -300%);
+	}
+	60% {
+		transform: scaleY(1.1) translate(0, 7%);
+	}
+	75% {
+		transform: translate(0, -3%);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1) scaleY(1) translate(0, 0%);
+	}
+}
+
+@include generate-animation( 'slide-elastic-to-left', .7s, 1, 0, '', '', ease-in-out );
+@keyframes slide-elastic-to-left {
+	0% {
+		opacity: 0;
+		transform: scale(.6) scaleX(.6) translate(300%, 0);
+	}
+	60% {
+		transform: scaleX(1.1) translate(-7%, 0);
+	}
+	75% {
+		transform: translate(3%, 0);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1) scaleX(1) translate(0%, 0);
+	}
+}
+
+@include generate-animation( 'slide-elastic-to-right', .7s, 1, 0, '', '', ease-in-out );
+@keyframes slide-elastic-to-right {
+	0% {
+		opacity: 0;
+		transform: scale(.6) scaleX(.6) translate(-300%, 0);
+	}
+	60% {
+		transform: scaleX(1.1) translate(7%, 0);
+	}
+	75% {
+		transform: translate(-3%, 0);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1) scaleX(1) translate(0%, 0);
+	}
+}

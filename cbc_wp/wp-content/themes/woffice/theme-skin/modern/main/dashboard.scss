@@ -1,0 +1,176 @@
+/*---------------------------------------------------------
+**
+** DASHBOARD
+**
+----------------------------------------------------------*/
+/*#dashboard{display: none;}*/
+.is-modern-skin{ 
+  #dashboard {
+    margin: 0 -1% 0 -1%;
+    .widget {
+      display: inline-block;
+      padding: 0;
+      margin: 0px 1% 20px 1%;
+      border-radius: 20px;
+      .intern-box {
+        border-radius: 4px;
+      }
+      .box-title {
+        margin-top: -15px;
+        position: relative;
+        text-align: center;
+        border-top: 0;
+        padding-bottom: 8px;
+        background-color: transparent;
+        border-radius: 0;
+        padding-left: 0;
+        padding-right: 0;
+        &::after {
+          display: none;
+        }
+        h3 {
+          margin: 0;
+          display: inline-block;
+          position: relative;
+          background-color: #FFF;
+          z-index: 11;
+          letter-spacing: initial;
+          font-weight: 700;
+          font-size: 1.25rem;
+          padding: 0 10px;
+          text-align: left;
+          display: block;
+          overflow: hidden;
+        }
+      }
+      .intern-padding {
+        padding: 20px;
+      }
+      &.evoFC_Widget{
+        .widget-title{
+          display: none;
+        }
+      }
+      .woffice-poll-result-answer, .list-projects li{
+        &:nth-child(3n+1) {
+          .progress-bar{background-color: #3a98ff !important;}
+        }
+        &:nth-child(3n+2) {
+          .progress-bar{background-color: #65b35d !important;}
+        }
+        &:nth-child(3n+3) {
+          .progress-bar{background-color:#545dad !important;}
+        }
+        &:nth-child(3n+4) {
+          .progress-bar{background-color:#fea804 !important;}
+        }
+      }
+    }
+    
+    &.is-draggie{
+      .packery-drop-placeholder {
+        outline: 3px dashed rgba(0, 0, 0, 0.2);
+        outline-offset: -6px;
+        transition: -webkit-transform 0.2s;
+        transition: transform 0.2s;
+      }
+      .widget{
+        overflow: hidden;
+        &:hover{
+          .widget-drag-button {
+            opacity: 1;
+            transition-duration: 0.4s;
+          }
+        }
+        .widget-drag-button{
+          position: absolute;
+          right: -30px;
+          top: -11px;
+          padding: 15px 35px 5px 35px;
+          -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+          font-size: 1.5em;
+          color: #FFF;
+          z-index: 11;
+          font-family: $font-icon-solid;
+          opacity: 0;
+          cursor: move;
+          transition-duration: 0.4s;
+        }
+      }
+    }
+    
+    .woffice-calendar {
+      .border{
+        border-width: 0px !important;
+      }
+      .text-left {
+        text-align: center !important;
+      }
+      .present {
+        border-width: 0 !important;
+        border-color: #fd7b38;
+        .date-day {
+          background-color: #fd7b38!important;
+          padding-top: 8px;
+          border-radius: 50%;
+          color: #fff;
+          margin-left: -5px;
+          display: inline-block;
+          margin-bottom: .1rem;
+          height: 36px;
+          width: 36px;
+        }
+      }
+      .wo-date-events{
+        text-align: center !important;
+      }
+      .event-box {
+          display: inline-block;
+          margin-right: 1px;
+          padding: 0;
+          margin-bottom: .1rem;
+          height: 6px;
+          width: 6px;
+      }
+    }
+    .event-daily-view {
+      .modal-body {
+        .daily-event {
+          text-align: left;
+          .event-link {
+            color: #fff !important;
+            .details {
+              h6 {
+                color: #fff !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #content-container {
+    .widget {
+      .intern-padding {
+        ul {
+          padding-left: 0;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .widget {
+    #calendar_wrap {
+      #wp-calendar {
+        width: 100%;
+        tr {
+          padding: 5px 0;
+        }
+        td {
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+}

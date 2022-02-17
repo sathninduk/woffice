@@ -1,0 +1,49 @@
+@import "_ca_animations";
+@import "_vc_elements";
+
+@mixin generate-animation( $animationClass, $speed: .7s, $repeat: 1, $startOpacity: 0, $transformOriginX: '', $transformOriginY: '', $easing: '' ) {
+	// Pre-animation / hidden stage
+	$classes: ();
+	@each $class in unquote($vcElements) {
+	    $classes: join($classes, unquote(".wpb_animate_when_almost_visible.#{$animationClass}#{$class}"), comma);
+	}
+	.wpb_animate_when_almost_visible.#{$animationClass} {
+//		opacity: $startOpacity;
+//		transition: opacity $speed;
+	}
+	#{$classes} {
+		@if $transformOriginX != '' {
+			transform-origin: $transformOriginX $transformOriginY;
+		}
+	}
+
+	// Animation
+	$classes: ();
+	@each $class in unquote($vcElements) {
+	    $classes: join($classes, unquote(".wpb_start_animation.#{$animationClass}#{$class}"), comma);
+	}
+	.wpb_start_animation.#{$animationClass} {
+//		opacity: 0;
+		animation: #{$animationClass}-main-opacity $speed 0s 1 ease-in-out;
+	}
+	#{$classes} {
+		@if $easing == '' {
+			animation: unquote($animationClass) $speed 0s $repeat cubic-bezier(0.510, 0.020, 0.000, 1.335);
+			animation-fill-mode: forwards;
+		} @else {
+			animation: unquote($animationClass) $speed 0s $repeat $easing;
+			animation-fill-mode: forwards;
+		}
+		transform-style: preserve-3d;
+		opacity: 1;
+	}
+
+	@keyframes #{$animationClass}-main-opacity {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+}

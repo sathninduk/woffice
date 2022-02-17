@@ -1,0 +1,45 @@
+.hero-box.hero-box-effect-selena {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  figcaption {
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      z-index: 3;
+      border: 10px solid #fff;
+      transition: all .35s;
+      transform: scale(1.1);
+      backface-visibility: hidden;
+    }
+  }
+  .hero-box-text {
+    left: 30px;
+    right: 30px;
+    top: 40px;
+    text-align: center;
+  }
+  h3.hero-box-title {
+    transform: translateY(20px);
+  }
+  p.hero-box-caption {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+  &:hover {
+    figcaption:before {
+      transform: scale(1);
+    }
+    h3.hero-box-title {
+      transform: translateY(0);
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+  }
+}

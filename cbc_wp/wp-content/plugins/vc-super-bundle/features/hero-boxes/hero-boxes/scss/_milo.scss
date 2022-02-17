@@ -1,0 +1,44 @@
+.hero-box.hero-box-effect-milo {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: .9;
+    transform-origin: right;
+    transform: scale(1.15);
+    backface-visibility: hidden;
+  }
+  .hero-box-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  h3.hero-box-title {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+  }
+  p.hero-box-caption {
+    position: absolute;
+    left: 30px;
+    right: 50%;
+    top: 30px;
+    text-align: right;
+    padding-right: 10px;
+    border-right: 1px solid #fff;
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: .7;
+      transform: scale(1);
+    }
+    p.hero-box-caption {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}

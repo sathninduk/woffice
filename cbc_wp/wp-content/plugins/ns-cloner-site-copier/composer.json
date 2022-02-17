@@ -1,0 +1,9 @@
+{
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "kint-php/kint": "^4.0",
+        "harvesthq/chosen": "^1.8",
+        "a5hleyrich/wp-background-processing": "^1.0"
+    }
+}

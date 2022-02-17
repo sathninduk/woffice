@@ -1,0 +1,49 @@
+.hero-box.hero-box-effect-duke {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: .9;
+    transform: scale(1);
+  }
+  .hero-box-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  h3.hero-box-title {
+    left: 30px;
+    right: 30px;
+    top: 40px;
+    text-align: center;
+    position: absolute;
+    transform-origin: bottom center;
+    transform: scale(0.8);
+  }
+  p.hero-box-caption {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    padding: 30px;
+    border: 2px solid rgba(255,255,255,.8);
+    text-align: center;
+    opacity: 0;
+    transform: scale(0.7) translateY(-30px);
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: .5;
+      transform: scale(1.6);
+    }
+    h3.hero-box-title {
+      transform: scale(1);
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+}

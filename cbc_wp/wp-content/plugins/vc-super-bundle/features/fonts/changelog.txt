@@ -1,0 +1,38 @@
+Version 1.3.1 - October 24, 2018
+================================
+
+* Updated: Font listings
+
+Version 1.3 - May 22, 2018
+==========================
+
+* New: Added font size options
+* Updated: Font listings
+
+Version 1.2.1 - March 21, 2018
+==============================
+
+* Updated: Font listings
+* Fixed: Modified VCs that override the vc_shortcodes_css_class hook wp-config won't display a warning, but still won't work.
+
+Version 1.2 - July 10, 2017
+===========================
+
+* Fixed: Now compatible with Visual Composer 5.2
+
+Version 1.1.1 - March 6, 2017
+=============================
+
+* Fixed: Adding color to a heading prevents the font family from being applied.
+* Fixed: JS error when the dropdown is closed abruptly.
+
+Version 1.1 - March 3, 2017
+===========================
+
+* Fixed: Namespaced select2 to prevent conflicts
+* Fixed: Incorrect script enqueuing in the admin
+
+Version 1.0
+===========
+
+* First release

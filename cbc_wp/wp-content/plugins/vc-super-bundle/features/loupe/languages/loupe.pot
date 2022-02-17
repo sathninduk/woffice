@@ -1,0 +1,148 @@
+# Copyright (C) 2018 Loupe Magnifying Glass for VC
+# This file is distributed under the same license as the Loupe Magnifying Glass for VC package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Loupe Magnifying Glass for VC\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Gambit Technologies Inc <info@gambit.ph>\n"
+"Last-Translator: Benjamin Intal <bf.intal@gambit.ph>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: class-loupe.php:56
+msgid "Loupe Magnifying Glass"
+msgstr ""
+
+#: class-loupe.php:59
+msgid "An image with a loupe magnifying glass"
+msgstr ""
+
+#: class-loupe.php:60
+msgid "Super Bundle"
+msgstr ""
+
+#: class-loupe.php:66
+msgid "Loupe Movement Type"
+msgstr ""
+
+#: class-loupe.php:69
+msgid "Click and Drag"
+msgstr ""
+
+#: class-loupe.php:70
+msgid "Follow Mouse (hover)"
+msgstr ""
+
+#: class-loupe.php:72
+msgid "Configure how the loupe behaves with pointing devices like the mouse.<br />Make the loupe element draggable or let it follow your mouse pointer."
+msgstr ""
+
+#: class-loupe.php:77
+msgid "Full Sized Image"
+msgstr ""
+
+#: class-loupe.php:80
+msgid "Select your full sized image. Your image will be displayed as <strong>full sized</strong> inside the loupe magnifying glass. The same image will be scaled down to match the width of the container behind the loupe."
+msgstr ""
+
+#: class-loupe.php:84
+msgid "Loupe Magnifying Glass X Position (Horizontal Position)"
+msgstr ""
+
+#: class-loupe.php:87
+msgid "The <strong>percentage</strong> x / horizontal position of the loupe on your image (from the left side of your image). The value should be between 0 to 100."
+msgstr ""
+
+#: class-loupe.php:91
+msgid "Loupe Magnifying Glass Y Position (Vertical Position)"
+msgstr ""
+
+#: class-loupe.php:94
+msgid "The <strong>percentage</strong> y / vertical position of the loupe on your image (from the top of your image). The value should be between 0 to 100."
+msgstr ""
+
+#: class-loupe.php:99
+msgid "Loupe Shape"
+msgstr ""
+
+#: class-loupe.php:102
+msgid "Circle"
+msgstr ""
+
+#: class-loupe.php:103
+msgid "Square"
+msgstr ""
+
+#: class-loupe.php:105
+msgid "The shape of your loupe magnifying glass."
+msgstr ""
+
+#: class-loupe.php:109
+msgid "Loupe Size"
+msgstr ""
+
+#: class-loupe.php:112
+msgid "The size of your loupe in pixels."
+msgstr ""
+
+#: class-loupe.php:116
+msgid "Hide Shadow"
+msgstr ""
+
+#: class-loupe.php:119
+msgid "If checked, the loupe magnifying glass will <strong>NOT</strong> have shadows."
+msgstr ""
+
+#: class-loupe.php:125
+msgid "Display Shine"
+msgstr ""
+
+#: class-loupe.php:128
+msgid "If checked, the loupe magnifying glass have a slight shine to it."
+msgstr ""
+
+#: class-loupe.php:134
+msgid "Loupe Border Size"
+msgstr ""
+
+#: class-loupe.php:137
+msgid "The thickness of the border of the loupe in pixels."
+msgstr ""
+
+#: class-loupe.php:141
+msgid "Loupe Border Color"
+msgstr ""
+
+#: class-loupe.php:144
+msgid "The border color of the loupe, note that you can also change the opacity."
+msgstr ""
+
+#: class-loupe.php:148
+msgid "Loupe Out-of-Bounds Background Color"
+msgstr ""
+
+#: class-loupe.php:151
+msgid "The out-of-bounds background color. This is visible when the loupe goes past the image."
+msgstr ""
+
+#: class-loupe.php:155
+msgid "Magnification Scaling"
+msgstr ""
+
+#: class-loupe.php:158
+msgid "Enter the scaling value (in percentage) of the magnified image. Always defaults to 100."
+msgstr ""
+
+#: class-plugin.php:83
+msgid "Get Customer Support"
+msgstr ""
+
+#: class-plugin.php:87
+msgid "Get More Plugins"
+msgstr ""

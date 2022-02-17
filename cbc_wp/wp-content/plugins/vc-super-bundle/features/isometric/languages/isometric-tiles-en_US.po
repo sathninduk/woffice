@@ -1,0 +1,338 @@
+# Copyright (C) 2018 Isometric Tiles for Visual Composer
+# This file is distributed under the same license as the Isometric Tiles for Visual Composer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Isometric Tiles for Visual Composer\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: none\n"
+"Last-Translator: Automatically generated\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: class-isometric-tiles.php:86
+msgid "Tile Link To"
+msgstr "Tile Link To"
+
+#: class-isometric-tiles.php:89
+msgid ""
+"The URL to go to when the image tile is clicked. This is only used for the "
+"Isometric Tiles for Visual Composer addon."
+msgstr ""
+"The URL to go to when the image tile is clicked. This is only used for the "
+"Isometric Tiles for Visual Composer addon."
+
+#: class-isometric-tiles.php:98
+msgid "Open link in new window"
+msgstr "Open link in new window"
+
+#: class-isometric-tiles.php:134
+msgid "Isometric Tiles"
+msgstr "Isometric Tiles"
+
+#: class-isometric-tiles.php:137
+msgid "Display images as isometric tiles"
+msgstr "Display images as isometric tiles"
+
+#: class-isometric-tiles.php:138
+msgid "Super Bundle"
+msgstr "Super Bundle"
+
+#: class-isometric-tiles.php:142
+msgid "Tile Images"
+msgstr "Tile Images"
+
+#: class-isometric-tiles.php:146
+msgid ""
+"Choose images that will be placed inside the tiles.<br>You can enter the "
+"<strong>links for each image tile</strong> on the sidebar when selecting "
+"images.<br>Check the layout details for the ideal number of images you&apos;"
+"ll need"
+msgstr ""
+"Choose images that will be placed inside the tiles.<br>You can enter the "
+"<strong>links for each image tile</strong> on the sidebar when selecting "
+"images.<br>Check the layout details for the ideal number of images you&apos;"
+"ll need"
+
+#: class-isometric-tiles.php:147
+msgid "Resources"
+msgstr "Resources"
+
+#: class-isometric-tiles.php:151
+msgid "Area Height"
+msgstr "Area Height"
+
+#: class-isometric-tiles.php:154
+msgid ""
+"The height of the whole tile area (in pixels). You can use this to clip the "
+"area of the tiles, to get some nice effects."
+msgstr ""
+"The height of the whole tile area (in pixels). You can use this to clip the "
+"area of the tiles, to get some nice effects."
+
+#: class-isometric-tiles.php:155, class-isometric-tiles.php:174,
+#: class-isometric-tiles.php:190, class-isometric-tiles.php:198,
+#: class-isometric-tiles.php:206, class-isometric-tiles.php:214,
+#: class-isometric-tiles.php:225, class-isometric-tiles.php:237,
+#: class-isometric-tiles.php:249, class-isometric-tiles.php:261,
+#: class-isometric-tiles.php:276, class-isometric-tiles.php:284
+msgid "Design"
+msgstr "Design"
+
+#: class-isometric-tiles.php:159
+msgid "Tiles Layout"
+msgstr "Tiles Layout"
+
+#: class-isometric-tiles.php:162
+msgid "Rectangles (use 11-22 images)"
+msgstr "Rectangles (use 11-22 images)"
+
+#: class-isometric-tiles.php:163
+msgid "Rectangles Arrow (use 9-18 images)"
+msgstr "Rectangles Arrow (use 9-18 images)"
+
+#: class-isometric-tiles.php:164
+msgid "Squares (use 12-32 images)"
+msgstr "Squares (use 12-32 images)"
+
+#: class-isometric-tiles.php:165
+msgid "Squares Arrow (use 10-25 images)"
+msgstr "Squares Arrow (use 10-25 images)"
+
+#: class-isometric-tiles.php:166
+msgid "Single Rectangle Left (use 1 image)"
+msgstr "Single Rectangle Left (use 1 image)"
+
+#: class-isometric-tiles.php:167
+msgid "Rectangles Left Layered (use 2-10 images)"
+msgstr "Rectangles Left Layered (use 2-10 images)"
+
+#: class-isometric-tiles.php:168
+msgid "Single Rectangle Right (use 1 image)"
+msgstr "Single Rectangle Right (use 1 image)"
+
+#: class-isometric-tiles.php:169
+msgid "Rectangles Right Layered (use 2-10 images)"
+msgstr "Rectangles Right Layered (use 2-10 images)"
+
+#: class-isometric-tiles.php:170
+msgid "Single Square (use 1 image)"
+msgstr "Single Square (use 1 image)"
+
+#: class-isometric-tiles.php:171
+msgid "Squares Layered (use 2-10 images)"
+msgstr "Squares Layered (use 2-10 images)"
+
+#: class-isometric-tiles.php:178
+msgid "Image Direction"
+msgstr "Image Direction"
+
+#: class-isometric-tiles.php:181
+msgid "Facing Left"
+msgstr "Facing Left"
+
+#: class-isometric-tiles.php:182
+msgid "Facing Right"
+msgstr "Facing Right"
+
+#: class-isometric-tiles.php:183
+msgid "Facing Left or Right (Randomized)"
+msgstr "Facing Left or Right (Randomized)"
+
+#: class-isometric-tiles.php:185
+msgid ""
+"The direction the image&apos;s are facing. <strong>For &quot;"
+"Rectangles&quot; and &quot;Rectangles Arrow&quot;, the directions are set "
+"for you.</strong>"
+msgstr ""
+"The direction the image&apos;s are facing. <strong>For &quot;"
+"Rectangles&quot; and &quot;Rectangles Arrow&quot;, the directions are set "
+"for you.</strong>"
+
+#: class-isometric-tiles.php:194
+msgid "Tile Size"
+msgstr "Tile Size"
+
+#: class-isometric-tiles.php:197
+msgid ""
+"The size of each tile (in pixels). Rectangular tiles have one side doubled. "
+"Value should be from 100 to 300"
+msgstr ""
+"The size of each tile (in pixels). Rectangular tiles have one side doubled. "
+"Value should be from 100 to 300"
+
+#: class-isometric-tiles.php:202
+msgid "Tile Gap"
+msgstr "Tile Gap"
+
+#: class-isometric-tiles.php:205
+msgid "The gap between the tiles (in pixels). Value should be from 0 to 50"
+msgstr "The gap between the tiles (in pixels). Value should be from 0 to 50"
+
+#: class-isometric-tiles.php:210
+msgid "Tilt Angle"
+msgstr "Tilt Angle"
+
+#: class-isometric-tiles.php:213
+msgid "The tilt angle of the tiles (in degrees). Value should be from 0 to 70"
+msgstr "The tilt angle of the tiles (in degrees). Value should be from 0 to 70"
+
+#: class-isometric-tiles.php:218
+msgid "Tile Display"
+msgstr "Tile Display"
+
+#: class-isometric-tiles.php:221
+msgid "3D (with sides)"
+msgstr "3D (with sides)"
+
+#: class-isometric-tiles.php:222
+msgid "Flat (without sides)"
+msgstr "Flat (without sides)"
+
+#: class-isometric-tiles.php:224
+msgid "The look of the tiles."
+msgstr "The look of the tiles."
+
+#: class-isometric-tiles.php:229
+msgid "Tile Height"
+msgstr "Tile Height"
+
+#: class-isometric-tiles.php:232
+msgid "The height of the tile (in pixels). Value should be from 0 to 15"
+msgstr "The height of the tile (in pixels). Value should be from 0 to 15"
+
+#: class-isometric-tiles.php:241
+msgid "Left Side Tile Color"
+msgstr "Left Side Tile Color"
+
+#: class-isometric-tiles.php:244, class-isometric-tiles.php:256
+msgid "This is the color of the left side of the 3d tile."
+msgstr "This is the color of the left side of the 3d tile."
+
+#: class-isometric-tiles.php:253
+msgid "Right Side Tile Color"
+msgstr "Right Side Tile Color"
+
+#: class-isometric-tiles.php:265
+msgid "Hover Direction"
+msgstr "Hover Direction"
+
+#: class-isometric-tiles.php:268
+msgid "Right"
+msgstr "Right"
+
+#: class-isometric-tiles.php:269
+msgid "Left"
+msgstr "Left"
+
+#: class-isometric-tiles.php:271
+msgid ""
+"For layered layouts, tiles with links hover either to the right or left. "
+"Choose the direction here."
+msgstr ""
+"For layered layouts, tiles with links hover either to the right or left. "
+"Choose the direction here."
+
+#: class-isometric-tiles.php:280
+msgid "Hover Distance"
+msgstr "Hover Distance"
+
+#: class-isometric-tiles.php:283
+msgid ""
+"The distance a tile rises or slides when hovered on (in pixels)."
+"<br><strong>If you&apos;re finding that your tiles do not hover, that means "
+"you need to put in a <em>Tile Link To</em> value while selecting your images "
+"in the &quot;Add Images&quot; modal window.</strong>"
+msgstr ""
+"The distance a tile rises or slides when hovered on (in pixels)."
+"<br><strong>If you&apos;re finding that your tiles do not hover, that means "
+"you need to put in a <em>Tile Link To</em> value while selecting your images "
+"in the &quot;Add Images&quot; modal window.</strong>"
+
+#: class-isometric-tiles.php:288, class-isometric-tiles.php:294,
+#: class-isometric-tiles.php:309, class-isometric-tiles.php:331
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: class-isometric-tiles.php:291
+msgid ""
+"If checked, clicking the isometric tiles will trigger a lightbox that "
+"displays the image in full."
+msgstr ""
+"If checked, clicking the isometric tiles will trigger a lightbox that "
+"displays the image in full."
+
+#: class-isometric-tiles.php:298
+msgid "Image to display in lightbox"
+msgstr "Image to display in lightbox"
+
+#: class-isometric-tiles.php:301
+msgid "Use attached image"
+msgstr "Use attached image"
+
+#: class-isometric-tiles.php:302
+msgid "Use the link provided in the post meta"
+msgstr "Use the link provided in the post meta"
+
+#: class-isometric-tiles.php:304
+msgid ""
+"Choose what to show in the lightbox.<br />If you use the \"Use the link "
+"provided in the post meta\", the image URLs you have placed in the \"Tile "
+"Link To\" when selecting images will be used in the lightbox.<br />If the "
+"\"Tile Link To\" URL is not an image, or if it is blank, it will not open a "
+"lightbox."
+msgstr ""
+"Choose what to show in the lightbox.<br />If you use the \"Use the link "
+"provided in the post meta\", the image URLs you have placed in the \"Tile "
+"Link To\" when selecting images will be used in the lightbox.<br />If the "
+"\"Tile Link To\" URL is not an image, or if it is blank, it will not open a "
+"lightbox."
+
+#: class-isometric-tiles.php:324
+msgid "Lightbox Caption"
+msgstr "Lightbox Caption"
+
+#: class-isometric-tiles.php:335
+msgid "Enable hover effect"
+msgstr "Enable hover effect"
+
+#: class-isometric-tiles.php:338
+msgid "Check this to enable hover effect"
+msgstr "Check this to enable hover effect"
+
+#: class-isometric-tiles.php:340
+msgid ""
+"To make sure the hover effect is fully disabled, remove all links entered on "
+"the field."
+msgstr ""
+"To make sure the hover effect is fully disabled, remove all links entered on "
+"the field."
+
+#: class-isometric-tiles.php:341, class-isometric-tiles.php:351,
+#: class-isometric-tiles.php:358
+msgid "Advanced"
+msgstr "Advanced"
+
+#: class-isometric-tiles.php:345
+msgid "Disable on mobile devices"
+msgstr "Disable on mobile devices"
+
+#: class-isometric-tiles.php:348
+msgid "Check this to disable the display in mobile devices."
+msgstr "Check this to disable the display in mobile devices."
+
+#: class-plugin.php:81
+msgid "Get Customer Support"
+msgstr "Get Customer Support"
+
+#: class-plugin.php:85
+msgid "Get More Plugins"
+msgstr "Get More Plugins"

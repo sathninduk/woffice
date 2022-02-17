@@ -1,0 +1,829 @@
+# Copyright (C) 2018 Carousel Anything for VC
+# This file is distributed under the same license as the Carousel Anything for VC package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Carousel Anything for VC\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: class-carousel-anything.php:91
+msgid "Carousel Anything"
+msgstr "Carousel Anything"
+
+#: class-carousel-anything.php:94
+msgid "A modern and responsive content carousel system"
+msgstr "A modern and responsive content carousel system"
+
+#: class-carousel-anything.php:106, class-carousel-posts.php:384
+msgid "Items to display on screen"
+msgstr "Items to display on screen"
+
+#: class-carousel-anything.php:109, class-carousel-anything.php:195,
+#: class-carousel-posts.php:387, class-carousel-posts.php:473
+msgid "General Options"
+msgstr "General Options"
+
+#: class-carousel-anything.php:110, class-carousel-posts.php:388
+msgid "Maximum items to display at a time"
+msgstr "Maximum items to display at a time"
+
+#: class-carousel-anything.php:114
+msgid "Slide Animations"
+msgstr "Slide Animations"
+
+#: class-carousel-anything.php:117, class-carousel-anything.php:206,
+#: class-carousel-posts.php:395, class-carousel-posts.php:746
+msgid "None"
+msgstr "None"
+
+#: class-carousel-anything.php:118, class-carousel-posts.php:396
+msgid "Bounce"
+msgstr "Bounce"
+
+#: class-carousel-anything.php:119, class-carousel-posts.php:397
+msgid "Flash"
+msgstr "Flash"
+
+#: class-carousel-anything.php:120, class-carousel-posts.php:398
+msgid "Pulse"
+msgstr "Pulse"
+
+#: class-carousel-anything.php:121, class-carousel-posts.php:399
+msgid "RubberBand"
+msgstr "RubberBand"
+
+#: class-carousel-anything.php:122, class-carousel-posts.php:400
+msgid "Shake"
+msgstr "Shake"
+
+#: class-carousel-anything.php:123, class-carousel-posts.php:401
+msgid "Swing"
+msgstr "Swing"
+
+#: class-carousel-anything.php:124, class-carousel-posts.php:402
+msgid "Tada"
+msgstr "Tada"
+
+#: class-carousel-anything.php:125, class-carousel-posts.php:403
+msgid "Wobble"
+msgstr "Wobble"
+
+#: class-carousel-anything.php:126, class-carousel-posts.php:404
+msgid "Jello"
+msgstr "Jello"
+
+#: class-carousel-anything.php:127, class-carousel-posts.php:405
+msgid "Bounce In"
+msgstr "Bounce In"
+
+#: class-carousel-anything.php:128, class-carousel-posts.php:406
+msgid "Bounce In Down"
+msgstr "Bounce In Down"
+
+#: class-carousel-anything.php:129, class-carousel-posts.php:407
+msgid "Bounce In Left"
+msgstr "Bounce In Left"
+
+#: class-carousel-anything.php:130, class-carousel-posts.php:408
+msgid "Bounce In Right"
+msgstr "Bounce In Right"
+
+#: class-carousel-anything.php:131, class-carousel-posts.php:409
+msgid "Bounce In Up"
+msgstr "Bounce In Up"
+
+#: class-carousel-anything.php:132, class-carousel-posts.php:410
+msgid "Bounce Out"
+msgstr "Bounce Out"
+
+#: class-carousel-anything.php:133, class-carousel-posts.php:411
+msgid "Bounce Out Down"
+msgstr "Bounce Out Down"
+
+#: class-carousel-anything.php:134, class-carousel-posts.php:412
+msgid "Bounce Out Left"
+msgstr "Bounce Out Left"
+
+#: class-carousel-anything.php:135, class-carousel-posts.php:413
+msgid "Bounce Out Right"
+msgstr "Bounce Out Right"
+
+#: class-carousel-anything.php:136, class-carousel-posts.php:414
+msgid "Bounce Out Up"
+msgstr "Bounce Out Up"
+
+#: class-carousel-anything.php:137, class-carousel-posts.php:415
+msgid "Fade In"
+msgstr "Fade In"
+
+#: class-carousel-anything.php:138, class-carousel-posts.php:416
+msgid "Fade In Down"
+msgstr "Fade In Down"
+
+#: class-carousel-anything.php:139, class-carousel-posts.php:417
+msgid "Fade In Down Big"
+msgstr "Fade In Down Big"
+
+#: class-carousel-anything.php:140, class-carousel-posts.php:418
+msgid "Fade In Left"
+msgstr "Fade In Left"
+
+#: class-carousel-anything.php:141, class-carousel-posts.php:419
+msgid "Fade In Left Big"
+msgstr "Fade In Left Big"
+
+#: class-carousel-anything.php:142, class-carousel-posts.php:420
+msgid "Fade In Right"
+msgstr "Fade In Right"
+
+#: class-carousel-anything.php:143, class-carousel-posts.php:421
+msgid "Fade In Right Big"
+msgstr "Fade In Right Big"
+
+#: class-carousel-anything.php:144, class-carousel-posts.php:422
+msgid "Fade In Up"
+msgstr "Fade In Up"
+
+#: class-carousel-anything.php:145, class-carousel-posts.php:423
+msgid "Fade In Up Big"
+msgstr "Fade In Up Big"
+
+#: class-carousel-anything.php:146, class-carousel-posts.php:424
+msgid "Fade Out"
+msgstr "Fade Out"
+
+#: class-carousel-anything.php:147, class-carousel-posts.php:425
+msgid "Fade Out Down"
+msgstr "Fade Out Down"
+
+#: class-carousel-anything.php:148, class-carousel-posts.php:426
+msgid "Fade Out Down Big"
+msgstr "Fade Out Down Big"
+
+#: class-carousel-anything.php:149, class-carousel-posts.php:427
+msgid "Fade Out Left"
+msgstr "Fade Out Left"
+
+#: class-carousel-anything.php:150, class-carousel-posts.php:428
+msgid "Fade Out Left Big"
+msgstr "Fade Out Left Big"
+
+#: class-carousel-anything.php:151, class-carousel-posts.php:429
+msgid "Fade Out Right"
+msgstr "Fade Out Right"
+
+#: class-carousel-anything.php:152, class-carousel-posts.php:430
+msgid "Fade Out Right Big"
+msgstr "Fade Out Right Big"
+
+#: class-carousel-anything.php:153, class-carousel-posts.php:431
+msgid "Fade Out Up"
+msgstr "Fade Out Up"
+
+#: class-carousel-anything.php:154, class-carousel-posts.php:432
+msgid "Fade Out Up Big"
+msgstr "Fade Out Up Big"
+
+#: class-carousel-anything.php:155, class-carousel-posts.php:433
+msgid "Flip"
+msgstr "Flip"
+
+#: class-carousel-anything.php:156, class-carousel-posts.php:434
+msgid "Flip In X"
+msgstr "Flip In X"
+
+#: class-carousel-anything.php:157, class-carousel-posts.php:435
+msgid "Flip In Y"
+msgstr "Flip In Y"
+
+#: class-carousel-anything.php:158, class-carousel-posts.php:436
+msgid "Flip Out X"
+msgstr "Flip Out X"
+
+#: class-carousel-anything.php:159, class-carousel-posts.php:437
+msgid "Flip Out Y"
+msgstr "Flip Out Y"
+
+#: class-carousel-anything.php:160, class-carousel-posts.php:438
+msgid "Light Speed In"
+msgstr "Light Speed In"
+
+#: class-carousel-anything.php:161, class-carousel-posts.php:439
+msgid "Light Speed Out"
+msgstr "Light Speed Out"
+
+#: class-carousel-anything.php:162, class-carousel-posts.php:440
+msgid "Rotate In"
+msgstr "Rotate In"
+
+#: class-carousel-anything.php:163, class-carousel-posts.php:441
+msgid "Rotate In Down Left"
+msgstr "Rotate In Down Left"
+
+#: class-carousel-anything.php:164, class-carousel-posts.php:442
+msgid "Rotate In Down Right"
+msgstr "Rotate In Down Right"
+
+#: class-carousel-anything.php:165, class-carousel-posts.php:443
+msgid "Rotate In Up Left"
+msgstr "Rotate In Up Left"
+
+#: class-carousel-anything.php:166, class-carousel-posts.php:444
+msgid "Rotate In Up Right"
+msgstr "Rotate In Up Right"
+
+#: class-carousel-anything.php:167, class-carousel-posts.php:445
+msgid "Rotate Out"
+msgstr "Rotate Out"
+
+#: class-carousel-anything.php:168, class-carousel-posts.php:446
+msgid "Rotate Out Down Left"
+msgstr "Rotate Out Down Left"
+
+#: class-carousel-anything.php:169, class-carousel-posts.php:447
+msgid "Rotate Out Down Right"
+msgstr "Rotate Out Down Right"
+
+#: class-carousel-anything.php:170, class-carousel-posts.php:448
+msgid "Rotate Out Up Left"
+msgstr "Rotate Out Up Left"
+
+#: class-carousel-anything.php:171, class-carousel-posts.php:449
+msgid "Rotate Out Up Right"
+msgstr "Rotate Out Up Right"
+
+#: class-carousel-anything.php:172, class-carousel-posts.php:450
+msgid "Slide In Up"
+msgstr "Slide In Up"
+
+#: class-carousel-anything.php:173, class-carousel-posts.php:451
+msgid "Slide In Down"
+msgstr "Slide In Down"
+
+#: class-carousel-anything.php:174, class-carousel-posts.php:452
+msgid "Slide In Left"
+msgstr "Slide In Left"
+
+#: class-carousel-anything.php:175, class-carousel-posts.php:453
+msgid "Slide In Right"
+msgstr "Slide In Right"
+
+#: class-carousel-anything.php:176, class-carousel-posts.php:454
+msgid "Slide Out Up"
+msgstr "Slide Out Up"
+
+#: class-carousel-anything.php:177, class-carousel-posts.php:455
+msgid "Slide Out Down"
+msgstr "Slide Out Down"
+
+#: class-carousel-anything.php:178, class-carousel-posts.php:456
+msgid "Slide Out Left"
+msgstr "Slide Out Left"
+
+#: class-carousel-anything.php:179, class-carousel-posts.php:457
+msgid "Slide Out Right"
+msgstr "Slide Out Right"
+
+#: class-carousel-anything.php:180, class-carousel-posts.php:458
+msgid "Zoom In"
+msgstr "Zoom In"
+
+#: class-carousel-anything.php:181, class-carousel-posts.php:459
+msgid "Zoom In Down"
+msgstr "Zoom In Down"
+
+#: class-carousel-anything.php:182, class-carousel-posts.php:460
+msgid "Zoom In Left"
+msgstr "Zoom In Left"
+
+#: class-carousel-anything.php:183, class-carousel-posts.php:461
+msgid "Zoom In Right"
+msgstr "Zoom In Right"
+
+#: class-carousel-anything.php:184, class-carousel-posts.php:462
+msgid "Zoom In Up"
+msgstr "Zoom In Up"
+
+#: class-carousel-anything.php:185, class-carousel-posts.php:463
+msgid "Zoom Out"
+msgstr "Zoom Out"
+
+#: class-carousel-anything.php:186, class-carousel-posts.php:464
+msgid "Zoom Out Down"
+msgstr "Zoom Out Down"
+
+#: class-carousel-anything.php:187, class-carousel-posts.php:465
+msgid "Zoom Out Left"
+msgstr "Zoom Out Left"
+
+#: class-carousel-anything.php:188, class-carousel-posts.php:466
+msgid "Zoom Out Right"
+msgstr "Zoom Out Right"
+
+#: class-carousel-anything.php:189, class-carousel-posts.php:467
+msgid "Zoom Out Up"
+msgstr "Zoom Out Up"
+
+#: class-carousel-anything.php:190, class-carousel-posts.php:468
+msgid "Hinge"
+msgstr "Hinge"
+
+#: class-carousel-anything.php:191, class-carousel-posts.php:469
+msgid "Jack In The Box"
+msgstr "Jack In The Box"
+
+#: class-carousel-anything.php:192, class-carousel-posts.php:470
+msgid "Roll In"
+msgstr "Roll In"
+
+#: class-carousel-anything.php:193, class-carousel-posts.php:471
+msgid "Roll Out"
+msgstr "Roll Out"
+
+#: class-carousel-anything.php:196, class-carousel-posts.php:474
+msgid ""
+"Note: Slide Animations only work with one item per slide and only in modern "
+"browsers. Slide Animations will not work on touch dragging and has to be "
+"navigated using thumbnails or arrows."
+msgstr ""
+"Note: Slide Animations only work with one item per slide and only in modern "
+"browsers. Slide Animations will not work on touch dragging and has to be "
+"navigated using thumbnails or arrows."
+
+#: class-carousel-anything.php:200, class-carousel-posts.php:740
+msgid "Navigation"
+msgstr "Navigation"
+
+#: class-carousel-anything.php:203, class-carousel-anything.php:208,
+#: class-carousel-anything.php:223, class-carousel-anything.php:236,
+#: class-carousel-anything.php:248, class-carousel-anything.php:260,
+#: class-carousel-anything.php:272, class-carousel-anything.php:284,
+#: class-carousel-anything.php:296, class-carousel-anything.php:308,
+#: class-carousel-anything.php:320, class-carousel-posts.php:743,
+#: class-carousel-posts.php:748, class-carousel-posts.php:764,
+#: class-carousel-posts.php:776, class-carousel-posts.php:788,
+#: class-carousel-posts.php:800, class-carousel-posts.php:812,
+#: class-carousel-posts.php:824, class-carousel-posts.php:836,
+#: class-carousel-posts.php:848, class-carousel-posts.php:860
+msgid "Thumbnails"
+msgstr "Thumbnails"
+
+#: class-carousel-anything.php:204, class-carousel-posts.php:744
+msgid "Arrows (will display navigation arrows at each side)"
+msgstr "Arrows (will display navigation arrows at each side)"
+
+#: class-carousel-anything.php:205, class-carousel-posts.php:745
+msgid "Thumbnails and Arrows"
+msgstr "Thumbnails and Arrows"
+
+#: class-carousel-anything.php:213, class-carousel-posts.php:753
+msgid "Navigation Thumbnails"
+msgstr "Navigation Thumbnails"
+
+#: class-carousel-anything.php:216, class-carousel-posts.php:756
+msgid "Circle"
+msgstr "Circle"
+
+#: class-carousel-anything.php:217, class-carousel-posts.php:757
+msgid "Square"
+msgstr "Square"
+
+#: class-carousel-anything.php:224, class-carousel-posts.php:759
+msgid "Select the thumbnail type for your carousel for navigation"
+msgstr "Select the thumbnail type for your carousel for navigation"
+
+#: class-carousel-anything.php:228, class-carousel-posts.php:768
+msgid "Thumbnail Offset"
+msgstr "Thumbnail Offset"
+
+#: class-carousel-anything.php:231, class-carousel-posts.php:771
+msgid "The distance of the thumbnails from the carousel, in pixels"
+msgstr "The distance of the thumbnails from the carousel, in pixels"
+
+#: class-carousel-anything.php:240, class-carousel-posts.php:780
+msgid "Thumbnail Default Color"
+msgstr "Thumbnail Default Color"
+
+#: class-carousel-anything.php:243
+msgid ""
+"The color of the non-active thumbnail. Not applicable to Arrows type of "
+"navigation"
+msgstr ""
+"The color of the non-active thumbnail. Not applicable to Arrows type of "
+"navigation"
+
+#: class-carousel-anything.php:252, class-carousel-posts.php:792
+msgid "Thumbnail Active Color"
+msgstr "Thumbnail Active Color"
+
+#: class-carousel-anything.php:255
+msgid ""
+"The color of the active / current thumbnail. Not applicable to Arrows type "
+"of navigation"
+msgstr ""
+"The color of the active / current thumbnail. Not applicable to Arrows type "
+"of navigation"
+
+#: class-carousel-anything.php:264, class-carousel-posts.php:804
+msgid "Arrow Offset"
+msgstr "Arrow Offset"
+
+#: class-carousel-anything.php:267, class-carousel-posts.php:807
+msgid ""
+"The horizontal distance of the arrows, in pixels. Use this to either put the "
+"arrows within the box or outside of it"
+msgstr ""
+"The horizontal distance of the arrows, in pixels. Use this to either put the "
+"arrows within the box or outside of it"
+
+#: class-carousel-anything.php:276, class-carousel-posts.php:816
+msgid "Arrow Alignment"
+msgstr "Arrow Alignment"
+
+#: class-carousel-anything.php:279, class-carousel-posts.php:819
+msgid ""
+"Use this to align the arrows vertically to an ideal place, such as portrait "
+"areas in the carousel"
+msgstr ""
+"Use this to align the arrows vertically to an ideal place, such as portrait "
+"areas in the carousel"
+
+#: class-carousel-anything.php:288, class-carousel-posts.php:828
+msgid "Arrows Size"
+msgstr "Arrows Size"
+
+#: class-carousel-anything.php:291
+msgid "Customize the size of arrows in pixels"
+msgstr "Customize the size of arrows in pixels"
+
+#: class-carousel-anything.php:300, class-carousel-posts.php:840
+msgid "Arrows Default Color"
+msgstr "Arrows Default Color"
+
+#: class-carousel-anything.php:303, class-carousel-posts.php:843
+msgid "The default color of the navigation arrow"
+msgstr "The default color of the navigation arrow"
+
+#: class-carousel-anything.php:312, class-carousel-posts.php:852
+msgid "Arrows Active Color"
+msgstr "Arrows Active Color"
+
+#: class-carousel-anything.php:315, class-carousel-posts.php:855
+msgid "The color of the active / current arrows when highlighted"
+msgstr "The color of the active / current arrows when highlighted"
+
+#: class-carousel-anything.php:324, class-carousel-posts.php:864
+msgid "Items to display on tablets"
+msgstr "Items to display on tablets"
+
+#: class-carousel-anything.php:327, class-carousel-anything.php:335,
+#: class-carousel-posts.php:867, class-carousel-posts.php:875
+msgid "Responsive"
+msgstr "Responsive"
+
+#: class-carousel-anything.php:328, class-carousel-posts.php:868
+msgid "Maximum items to display at a time for tablet devices"
+msgstr "Maximum items to display at a time for tablet devices"
+
+#: class-carousel-anything.php:332, class-carousel-posts.php:872
+msgid "Items to display on mobile phones"
+msgstr "Items to display on mobile phones"
+
+#: class-carousel-anything.php:336, class-carousel-posts.php:876
+msgid "Maximum items to display at a time for mobile devices"
+msgstr "Maximum items to display at a time for mobile devices"
+
+#: class-carousel-anything.php:340, class-carousel-posts.php:880
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: class-carousel-anything.php:343, class-carousel-posts.php:883
+msgid ""
+"Enter an amount in milliseconds for the carousel to move. Leave blank to "
+"disable autoplay"
+msgstr ""
+"Enter an amount in milliseconds for the carousel to move. Leave blank to "
+"disable autoplay"
+
+#: class-carousel-anything.php:344, class-carousel-anything.php:356,
+#: class-carousel-anything.php:364, class-carousel-anything.php:372,
+#: class-carousel-anything.php:382, class-carousel-anything.php:390,
+#: class-carousel-posts.php:884, class-carousel-posts.php:896,
+#: class-carousel-posts.php:904, class-carousel-posts.php:912,
+#: class-carousel-posts.php:922, class-carousel-posts.php:930
+msgid "Advanced"
+msgstr "Advanced"
+
+#: class-carousel-anything.php:350, class-carousel-posts.php:890
+msgid "Pause the carousel when the mouse is hovered onto it."
+msgstr "Pause the carousel when the mouse is hovered onto it."
+
+#: class-carousel-anything.php:360, class-carousel-posts.php:900
+msgid "Scroll Speed"
+msgstr "Scroll Speed"
+
+#: class-carousel-anything.php:363, class-carousel-posts.php:903
+msgid ""
+"The speed the carousel scrolls in milliseconds. Use a reasonable duration, "
+"as slower speeds higher than 1500ms may bring unpredictable results in "
+"browsers"
+msgstr ""
+"The speed the carousel scrolls in milliseconds. Use a reasonable duration, "
+"as slower speeds higher than 1500ms may bring unpredictable results in "
+"browsers"
+
+#: class-carousel-anything.php:370, class-carousel-posts.php:910
+msgid ""
+"Check this box to disable touch dragging of the carousel. (Normally enabled "
+"by default)"
+msgstr ""
+"Check this box to disable touch dragging of the carousel. (Normally enabled "
+"by default)"
+
+#: class-carousel-anything.php:376, class-carousel-posts.php:916
+msgid "Keyboard Navigation"
+msgstr "Keyboard Navigation"
+
+#: class-carousel-anything.php:379, class-carousel-posts.php:919
+msgid "Enable keyboard navigation"
+msgstr "Enable keyboard navigation"
+
+#: class-carousel-anything.php:386, class-carousel-posts.php:926
+msgid "Custom Class"
+msgstr "Custom Class"
+
+#: class-carousel-anything.php:389, class-carousel-posts.php:929
+msgid "Add a custom class name for the carousel here"
+msgstr "Add a custom class name for the carousel here"
+
+#: class-carousel-posts.php:99
+msgid "All Categories"
+msgstr "All Categories"
+
+#: class-carousel-posts.php:121
+msgid "Choose a Category"
+msgstr "Choose a Category"
+
+#: class-carousel-posts.php:126, class-carousel-posts.php:482,
+#: class-carousel-posts.php:501, class-carousel-posts.php:514,
+#: class-carousel-posts.php:525
+msgid "Contents"
+msgstr "Contents"
+
+#: class-carousel-posts.php:368
+msgid "Carousel Posts"
+msgstr "Carousel Posts"
+
+#: class-carousel-posts.php:371
+msgid "A modern and responsive posts carousel system"
+msgstr "A modern and responsive posts carousel system"
+
+#: class-carousel-posts.php:392
+msgid "Slide Animation"
+msgstr "Slide Animation"
+
+#: class-carousel-posts.php:478
+msgid "Select Post Type"
+msgstr "Select Post Type"
+
+#: class-carousel-posts.php:497
+msgid "Number of Total Posts"
+msgstr "Number of Total Posts"
+
+#: class-carousel-posts.php:505
+msgid "Post ordering"
+msgstr "Post ordering"
+
+#: class-carousel-posts.php:508
+msgid "By Date"
+msgstr "By Date"
+
+#: class-carousel-posts.php:509
+msgid "By Post Title"
+msgstr "By Post Title"
+
+#: class-carousel-posts.php:510
+msgid "By Comment count"
+msgstr "By Comment count"
+
+#: class-carousel-posts.php:511
+msgid "Random"
+msgstr "Random"
+
+#: class-carousel-posts.php:513
+msgid "Select the order of posting to pull"
+msgstr "Select the order of posting to pull"
+
+#: class-carousel-posts.php:518
+msgid "Post direction"
+msgstr "Post direction"
+
+#: class-carousel-posts.php:521
+msgid "Descending"
+msgstr "Descending"
+
+#: class-carousel-posts.php:522
+msgid "Ascending"
+msgstr "Ascending"
+
+#: class-carousel-posts.php:524
+msgid "Choose sorting order of the post"
+msgstr "Choose sorting order of the post"
+
+#: class-carousel-posts.php:529
+msgid "Post Details to Display"
+msgstr "Post Details to Display"
+
+#: class-carousel-posts.php:532
+msgid "Featured Image"
+msgstr "Featured Image"
+
+#: class-carousel-posts.php:536, class-carousel-posts.php:547,
+#: class-carousel-posts.php:557, class-carousel-posts.php:568,
+#: class-carousel-posts.php:579, class-carousel-posts.php:596,
+#: class-carousel-posts.php:608, class-carousel-posts.php:619,
+#: class-carousel-posts.php:626, class-carousel-posts.php:642,
+#: class-carousel-posts.php:652, class-carousel-posts.php:660,
+#: class-carousel-posts.php:672, class-carousel-posts.php:684,
+#: class-carousel-posts.php:696, class-carousel-posts.php:708,
+#: class-carousel-posts.php:720, class-carousel-posts.php:732
+msgid "Design"
+msgstr "Design"
+
+#: class-carousel-posts.php:543
+msgid "Title"
+msgstr "Title"
+
+#: class-carousel-posts.php:554
+msgid "Post Author"
+msgstr "Post Author"
+
+#: class-carousel-posts.php:564
+msgid "Content"
+msgstr "Content"
+
+#: class-carousel-posts.php:575
+msgid "Plain image"
+msgstr "Plain image"
+
+#: class-carousel-posts.php:576
+msgid "Use as background image"
+msgstr "Use as background image"
+
+#: class-carousel-posts.php:578
+msgid ""
+"(Tip: Images will only appear if your post has an uploaded Featured Image)"
+msgstr ""
+"(Tip: Images will only appear if your post has an uploaded Featured Image)"
+
+#: class-carousel-posts.php:590
+msgid "Default Alignment"
+msgstr "Default Alignment"
+
+#: class-carousel-posts.php:591
+msgid "Align left"
+msgstr "Align left"
+
+#: class-carousel-posts.php:592
+msgid "Align center"
+msgstr "Align center"
+
+#: class-carousel-posts.php:593
+msgid "Align right"
+msgstr "Align right"
+
+#: class-carousel-posts.php:595
+msgid "(Tip: You can force content alignment of the pulled posts)"
+msgstr "(Tip: You can force content alignment of the pulled posts)"
+
+#: class-carousel-posts.php:603
+msgid "Use WordPress default behavior for ellipsis"
+msgstr "Use WordPress default behavior for ellipsis"
+
+#: class-carousel-posts.php:604
+msgid "Customize excerpt or full content behavior"
+msgstr "Customize excerpt or full content behavior"
+
+#: class-carousel-posts.php:606
+msgid ""
+"Select the type of ellipsis to apply to excerpts<br>(Tip: If the wordcount "
+"is shorter than the limit, the ellipsis will not be added)"
+msgstr ""
+"Select the type of ellipsis to apply to excerpts<br>(Tip: If the wordcount "
+"is shorter than the limit, the ellipsis will not be added)"
+
+#: class-carousel-posts.php:612
+msgid "Excerpt word count"
+msgstr "Excerpt word count"
+
+#: class-carousel-posts.php:623
+msgid "Custom ellipsis"
+msgstr "Custom ellipsis"
+
+#: class-carousel-posts.php:636
+msgid ""
+"Check to use the original image aspect ratio instead of it being adjusted on "
+"the fly and having uniform size"
+msgstr ""
+"Check to use the original image aspect ratio instead of it being adjusted on "
+"the fly and having uniform size"
+
+#: class-carousel-posts.php:649
+msgid "Use the post's full content instead of excerpt for Content"
+msgstr "Use the post's full content instead of excerpt for Content"
+
+#: class-carousel-posts.php:656
+msgid "Image Height"
+msgstr "Image Height"
+
+#: class-carousel-posts.php:659
+msgid "Set to 0 to use the default size of your images"
+msgstr "Set to 0 to use the default size of your images"
+
+#: class-carousel-posts.php:668
+msgid "Minimum Content Height"
+msgstr "Minimum Content Height"
+
+#: class-carousel-posts.php:671
+msgid ""
+"Specify the total height of the carousel content for each post, inclusive of "
+"image and text content"
+msgstr ""
+"Specify the total height of the carousel content for each post, inclusive of "
+"image and text content"
+
+#: class-carousel-posts.php:680
+msgid "Title Text Color"
+msgstr "Title Text Color"
+
+#: class-carousel-posts.php:683
+msgid "The color of the title for each pulled post"
+msgstr "The color of the title for each pulled post"
+
+#: class-carousel-posts.php:692
+msgid "Author Text Color"
+msgstr "Author Text Color"
+
+#: class-carousel-posts.php:695
+msgid "The color of the text of the author of each pulled post"
+msgstr "The color of the text of the author of each pulled post"
+
+#: class-carousel-posts.php:704
+msgid "Body Text Color"
+msgstr "Body Text Color"
+
+#: class-carousel-posts.php:707
+msgid "The color of the body text for each pulled post"
+msgstr "The color of the body text for each pulled post"
+
+#: class-carousel-posts.php:716
+msgid "Body Background Color"
+msgstr "Body Background Color"
+
+#: class-carousel-posts.php:719
+msgid ""
+"The background color of the pulled post, if no featured image is present"
+msgstr ""
+"The background color of the pulled post, if no featured image is present"
+
+#: class-carousel-posts.php:728
+msgid "Background Tint Color"
+msgstr "Background Tint Color"
+
+#: class-carousel-posts.php:731
+msgid "The selected color will apply a tint to your featured image, if present"
+msgstr ""
+"The selected color will apply a tint to your featured image, if present"
+
+#: class-carousel-posts.php:783
+msgid "The color of the non-active thumbnail"
+msgstr "The color of the non-active thumbnail"
+
+#: class-carousel-posts.php:795
+msgid "The color of the active / current thumbnail"
+msgstr "The color of the active / current thumbnail"
+
+#: class-carousel-posts.php:831
+msgid "Customize the size of arrows, in pixels"
+msgstr "Customize the size of arrows, in pixels"
+
+#: class-plugin.php:80
+msgid "Get Customer Support"
+msgstr "Get Customer Support"
+
+#: class-plugin.php:84
+msgid "Get More Plugins"
+msgstr "Get More Plugins"

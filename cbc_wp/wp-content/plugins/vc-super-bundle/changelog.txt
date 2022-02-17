@@ -1,0 +1,85 @@
+Version 1.4.2 - June 14, 2019
+=============================
+
+* [CSS Animator] Fixed: Waypoints script not being loaded in WPBakery 6.x
+
+Version 1.4.1 - October 24, 2018
+================================
+
+* New: Super Bundle category for all our elements
+* New: Same colors for all icons
+* [Before & After] New: Added Swap before & after slides
+* [Fonts] Updated: Google Font listings
+* [Free Image Search] Fixed: Removed 500px provider since their API is now paid only
+* [Free Image Search] Fixed: Giphy and Pexels invalid SSL error
+
+Version 1.4 - August 4, 2018
+============================
+
+* New: Added Video Lightbox element!
+* Change: For first time activations, undo/redo is now disabled.
+* [Backgrounds] New: Added self-hosted video backgrounds
+* [Backgrounds] New: Face-lifted element icons
+* [Backgrounds] Fixed: When multiple YouTube backgrounds are used, only the last one played
+* [Backgrounds] Fixed: Chrome and Firefox showed different gradient directions
+
+Version 1.3 - June 28, 2018
+===========================
+
+* New: Added SVG Draw Animation element!
+* New: Added Number Count Up element!
+* [Backgrounds] Fixed: PHP 7.2 warning regarding count()
+* [Backgrounds] Fixed: YouTube videos sometimes did not show up in Window Chrome browsers
+* [Backgrounds] Fixed: Added mute=1 to Vimeo videos to enable autoplay without removing the audio track in Vimeo videos.
+* [Backgrounds] Change: Made videos permanently muted since browsers no longer allow autoplay on videos with audio
+* [Hover Animations] Fixed: Removed all Hover tabs in vc_pie, vc_round_chart, vc_line_chart and vc_raw_js to prevent any incompatibilities.
+* [Row Separators] Fixed: Custom colors get applied across all separators in the page.
+* [SVG Icons] Change: Exposed `gmb_svg_icons_get_icon()` for other plugin integration.
+
+Version 1.2.2 - May 22, 2018
+============================
+
+* [Fonts] Added: Font sizes
+* [Backgrounds] Fixed: Vimeo background videos stopped playing
+
+Version 1.2.1 - April 16, 2018
+==============================
+
+* [Row Separators] Fixed: Custom SVGs not being applied
+* [Isometric] Fixed: Some styles were not being applied
+
+Version 1.2 - March 22, 2018
+============================
+
+* [Shadows] Fixed: Shadows for nested columns are now working.
+* [Carousel Anything] Various updates - most notably Owl Carousel 2.0
+* [Before and After] Various updates
+* [SVG Icons] Major fixes - most notably icon styles
+* [Fonts] Updated Google Font listing & some minor fixes
+* [Hover Animations] Various fixes
+* [Device Mockups] Fixed autoplay for Vimeo videos.
+* [Isometric] Major fixes
+* [Separators] Various fixes
+
+Version 1.1 - November 23, 2017
+===============================
+
+* New: Added Shadows feature for columns, images and buttons.
+* New: Added Text Gradient feature for text elements.
+* Fixed: Removed feature plugin headers
+
+Version 1.0.2 - August 8, 2017
+==============================
+
+* [Hover animations & Fonts] Fixed: Modified VCs that override the vc_shortcodes_css_class hook wp-config won't display a warning, but still won't work.
+
+Version 1.0.1 - August 5, 2017
+==============================
+
+* Fixed: Compatibility with VC 5.1.1 + WC
+* Fixed: Fatal error VC_PAGE_MAIN_SLUG when VC is not activated.
+
+Version 1.0
+===========
+
+* Initial release

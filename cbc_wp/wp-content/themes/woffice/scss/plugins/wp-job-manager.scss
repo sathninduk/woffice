@@ -1,0 +1,53 @@
+$item-padding :3px 10px;
+$job-type-color : #ffffff;
+.lising-label-item-meta {
+    margin-top: 10px;
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        .lising-label-item-field {
+            position: relative;
+            margin-bottom: 8px;
+        }
+    }
+    .freelance span { 
+        padding: $item-padding;
+        border-radius: 4px; 
+        background-color: #ff5a5f;
+        color: $job-type-color;
+    } 
+    .full-time span { 
+        padding: $item-padding;
+        border-radius: 4px; 
+        background-color: #5bbc2e;
+        color: $job-type-color;
+    } 
+    .internship span { 
+        padding: $item-padding;
+        border-radius: 4px; 
+        background-color: #00b2a9;
+        color: $job-type-color;
+    } 
+    .part-time span { 
+        padding: $item-padding;
+        border-radius: 4px; 
+        background-color: #735fee;
+        color: $job-type-color;
+    } 
+    .temporary span { 
+        padding: $item-padding;
+        border-radius: 4px; 
+        background-color: #7dc246;
+        color: $job-type-color;
+    }
+    .position-filled,.listing-expired {color: #b81c23;}
+}
+.wpjms-chart-legend {
+    .wpjms-legend-search-wrap {
+        margin-bottom: 15px;
+    }
+    #wpjms-legend-search {
+        width: 100%;
+    }
+}

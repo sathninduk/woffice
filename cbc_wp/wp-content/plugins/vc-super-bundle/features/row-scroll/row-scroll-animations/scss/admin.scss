@@ -1,0 +1,31 @@
+[data-element_type="row_scroll"] .wpb_vc_param_value.entrance:after {
+	content: ', ';
+	margin-left: -3px;
+}
+[data-element_type="row_scroll"] .wpb_vc_param_value.entrance,
+[data-element_type="row_scroll"] .wpb_vc_param_value.exit {
+	text-transform: capitalize;
+
+	&.dropdown * {
+		display: inline-block;
+		margin: 0;
+	}
+}
+[data-element_type="row_scroll"] .wpb_vc_param_value.entrance:before {
+	content: 'Entrance Animation: ';
+}
+[data-element_type="row_scroll"] .wpb_vc_param_value.exit:before {
+	content: 'Exit Animation: ';
+}
+
+// .wpb_row_scroll
+// {
+// 	&.wpb_content_element {
+// 		.wpb_element_wrapper {
+// 			min-height: 0 !important;
+// 		}
+// 		.vc_element-icon {
+// 			width: 20px;
+// 		}
+// 	}
+// }

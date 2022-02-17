@@ -1,0 +1,55 @@
+.hero-box.hero-box-effect-terry {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  figcaption {
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      z-index: 3;
+      border: 20px solid #000;
+      transition: all .35s;
+      transform: scale(1.2);
+    }
+  }
+  .hero-box-text {
+    padding: 25px 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    &:before {
+      content: '';
+      position: absolute;
+      background: #000;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      transition: all .35s;
+      transform: translateY(110%);
+    }
+  }
+  p.hero-box-caption {
+    opacity: 0;
+    transition-delay: 0s;
+  }
+  &:hover {
+    figcaption:before {
+      transform: scale(1);
+    }
+    .hero-box-text {
+      &:before {
+        transform: translateY(0);
+      }
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transition-delay: .2s;
+    }
+  }
+}

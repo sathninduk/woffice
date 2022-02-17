@@ -1,0 +1,11 @@
+@mixin transition($type, $time, $ease:linear, $delay:0s ) {
+  -webkit-transition: $type $time $ease $delay;
+  -moz-transition: $type $time $ease $delay;
+  transition: $type $time $ease $delay;
+}
+@mixin box-shadow($params) {
+  -webkit-box-shadow: $params;
+  -moz-box-shadow: $params;
+  -ms-box-shadow: $params;
+  box-shadow: $params;
+}

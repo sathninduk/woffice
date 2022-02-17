@@ -1,0 +1,43 @@
+.hero-box.hero-box-effect-sadie {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  .hero-box-text {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    padding: 30px;
+  }
+  h3.hero-box-title {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  img, .hero-box-img {
+    opacity: 0.9;
+  }
+  p.hero-box-caption {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: .7;
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    h3.hero-box-title {
+      transform: translateY(calc(-50% - 30px));
+    }
+  }
+}

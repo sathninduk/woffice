@@ -1,0 +1,46 @@
+@import "_animations_base";
+
+@include generate-animation( 'rotate-in-bottom-left', .7s, 1, 0, 0%, 100% );
+@keyframes rotate-in-bottom-left {
+	0% {
+		opacity: 0;
+		transform: rotate(90deg);
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(0deg);
+	}
+}
+@include generate-animation( 'rotate-in-bottom-right', .7s, 1, 0, 100%, 100% );
+@keyframes rotate-in-bottom-right {
+	0% {
+		opacity: 0;
+		transform: rotate(-90deg);
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(0deg);
+	}
+}
+@include generate-animation( 'rotate-in-top-left', .7s, 1, 0, 0%, 100% );
+@keyframes rotate-in-top-left {
+	0% {
+		opacity: 0;
+		transform: rotate(-90deg);
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(0deg);
+	}
+}
+@include generate-animation( 'rotate-in-top-right', .7s, 1, 0, 100%, 100% );
+@keyframes rotate-in-top-right {
+	0% {
+		opacity: 0;
+		transform: rotate(90deg);
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(0deg);
+	}
+}

@@ -1,0 +1,27 @@
+[data-element_type="screen_mockup"] .wpb_vc_param_value.type:after,
+[data-element_type="screen_mockup"] .wpb_vc_param_value.device:after {
+	content: ', ';
+	margin-left: -3px;
+}
+[data-element_type="screen_mockup"] .wpb_vc_param_value.type {
+	font-weight: bold;
+}
+[data-element_type="screen_mockup"] .wpb_vc_param_value.type,
+[data-element_type="screen_mockup"] .wpb_vc_param_value.device,
+[data-element_type="screen_mockup"] .wpb_vc_param_value.orientation {
+	text-transform: capitalize;
+
+	&.dropdown * {
+		display: inline-block;
+		margin: 0;
+	}
+}
+[data-element_type="screen_mockup"] .wpb_vc_param_value.type:before {
+	content: 'Content: ';
+}
+[data-element_type="screen_mockup"] .wpb_vc_param_value.device:before {
+	content: ' Device: ';
+}
+[data-element_type="screen_mockup"] .wpb_vc_param_value.orientation:before {
+	content: ' Orientation: ';
+}

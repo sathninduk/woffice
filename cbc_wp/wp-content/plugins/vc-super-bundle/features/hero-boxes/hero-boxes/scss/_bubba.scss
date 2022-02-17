@@ -1,0 +1,71 @@
+.hero-box.hero-box-effect-bubba {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: 0.8;
+  }
+  figcaption {
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    padding: 30px;
+    &:before, &:after {
+      content: '';
+      z-index: 3;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      opacity: 0;
+      transition: all .35s;
+      transform: scaleX(0.05);
+    }
+    &:after {
+      border: 0;
+      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+      transform: scaleY(0.05);
+    }
+  }
+  .hero-box-text {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    text-align: center;
+    right: 30px;
+    left: 30px;
+  }
+  h3.hero-box-title {
+    transform: translateY(-20px);
+  }
+  p.hero-box-caption {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: .5;
+    }
+    h3.hero-box-title {
+      transform: translateY(-5px);
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transform: translateY(5px);
+    }
+    figcaption {
+      &:before, &:after {
+        opacity: 0.8;
+        transform: scaleX(1);
+      }
+      &:after {
+        transform: scaleY(1);
+      }
+    }
+  }
+}

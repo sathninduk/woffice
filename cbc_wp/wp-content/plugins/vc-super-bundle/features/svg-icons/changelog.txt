@@ -1,0 +1,28 @@
+Version 1.3 - June 26, 2018
+===========================
+
+* Change: Exposed `gmb_svg_icons_get_icon()` for other plugin integration.
+
+Version 1.2 - March 21, 2018
+============================
+
+* Fixed: Background Color still shows up even though Background Shape is set to No Background Shape
+* Fixed: Adding animation will move the button icon and text to the left
+* Fixed: Adding extra class adds an extra name in selector.
+* Fixed: Button icon quickly appears as huge icon when you load the page
+* Fixed: Custom action only works if you use single quotation marks
+* Fixed: Inline alignment doesn't work
+* Fixed: Modern, Classic and Flat looked the same
+
+Version 1.1 - July 19, 2017
+===========================
+
+* New: Added translation files.
+* Fixed: Now compatible with VC 5.2.
+* Fixed: Now doesn't enqueue the admin js file in the frontend.
+* Fixed: Enqueued JS & CSS files are now minified.
+
+Version 1.0
+===========
+
+* Initial release

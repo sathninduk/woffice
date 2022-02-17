@@ -1,0 +1,99 @@
+@import "_animations_base";
+
+/*
+ * Pulsate
+ */
+
+@include generate-animation( 'loop-pulsate', 1.5s, infinite, 1, '', '', ease-in-out );
+@keyframes loop-pulsate {
+	0%, 100% {
+		opacity: 1;
+		transform: scale(0.94);
+	}
+	50% {
+		transform: scale(1);
+	}
+}
+
+@include generate-animation( 'loop-pulsate-fade', 1.5s, infinite, 1, '', '', ease-in-out );
+@keyframes loop-pulsate-fade {
+	0%, 100% {
+		transform: scale(0.94);
+		opacity: 0.7;
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+
+/*
+ * Hover
+ */
+
+@include generate-animation( 'loop-hover', 1.5s, infinite, 1, '', '', ease-in-out );
+@keyframes loop-hover {
+	0%, 100% {
+		opacity: 1;
+		transform: translateY(-4%);
+	}
+	50% {
+		transform: translateY(4%);
+	}
+}
+
+@include generate-animation( 'loop-hover-float', 1.5s, infinite, 1, '', '', ease-in-out );
+@keyframes loop-hover-float {
+	0%, 100% {
+		opacity: 1;
+		transform: perspective(1300px) rotateX(30deg) scale(1) translate3d(0px, 0px, 8px);
+	}
+	50% {
+		transform: perspective(1300px) rotateX(30deg) scale(0.98) translate3d(0px, 0px, -4px);
+	}
+}
+
+
+/*
+ * Wobble
+ */
+
+@include generate-animation( 'loop-wobble', 2.5s, infinite, 1, '', '', ease-in-out );
+@keyframes loop-wobble {
+	0%, 100% {
+		opacity: 1;
+		transform: rotate(-4deg);
+	}
+	50% {
+		transform: rotate(4deg);
+	}
+}
+
+@include generate-animation( 'loop-wobble-3d', 2.5s, infinite, 1, '', '', ease-in-out );
+@keyframes loop-wobble-3d {
+	0%, 100% {
+		opacity: 1;
+		transform: perspective(500px) rotateY(-7deg);
+	}
+	50% {
+		transform: perspective(500px) rotateY(7deg);
+	}
+}
+
+
+/*
+ * Dangle
+ */
+
+
+@include generate-animation( 'loop-dangle', 2.5s, infinite, 1, 50%, 0%, ease-in-out );
+@keyframes loop-dangle {
+	0%, 100% {
+		opacity: 1;
+		transform: perspective(500px) rotate(-4deg);
+	}
+	50% {
+		transform: perspective(500px) rotate(4deg);
+	}
+}

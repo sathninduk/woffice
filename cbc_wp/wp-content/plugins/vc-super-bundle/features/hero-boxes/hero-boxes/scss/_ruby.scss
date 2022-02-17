@@ -1,0 +1,39 @@
+.hero-box.hero-box-effect-ruby {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: .8;
+    transform: scale(1.2);
+  }
+  .hero-box-text {
+    left: 30px;
+    right: 30px;
+    text-align: center;
+    top: 50%;
+    margin-top: 20px;
+    transform: translateY(calc(-50% + 20px));
+  }
+  h3.hero-box-title {
+    margin-bottom: 15px;
+  }
+  p.hero-box-caption {
+    padding: 40px;
+    border: 1px solid rgba(255,255,255,.6);
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: 0.5;
+      transform: scale(1);
+    }
+    .hero-box-text {
+      transform: translateY(-50%);
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.hero-box.hero-box-effect-lexi {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    width: calc(100% + 15px);
+    height: calc(100% + 15px);
+    transform-origin: top left;
+    transform: translate(0, 0);
+    opacity: .9;
+  }
+  .hero-box-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  h3.hero-box-title {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    transform: translate(5px, 5px);
+  }
+  p.hero-box-caption {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 140px;
+    text-align: right;
+    z-index: 1;
+    opacity: 0;
+    transform: translate(30px, 30px);
+    &:before {
+      z-index: -1;
+      position: absolute;
+      content: '';
+      width: 220px;
+      height: 220px;
+      background: rgba(0,0,0,.35);
+      left: 50%;
+      top: 50%;
+      transition: all .35s;
+      transform: scale(.8) translate(-50%, -50%);
+      border-radius: 100%;
+      border: 2px solid rgba(255,255,255,.8);
+    }
+  }
+  &:hover {
+    img, .hero-box-img {
+      transform: translate(-15px, -15px);
+      opacity: .6;
+    }
+    h3.hero-box-title {
+      transform: translate(0, 0);
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transform: translate(0, 0);
+      &:before {
+        transform: scale(1) translate(-50%, -50%);
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.job-package {
+	@include content-box;
+	text-align: center;
+	position: relative;
+	border: 3px solid transparent;
+}
+
+.widget_woffice_widget_panel_wcpl_pricing_table {
+	.job-packages--count-1 .job-package,
+	.job-packages--count-2 .job-package,
+	.job-packages--count-3 .job-package {
+		@include bp(sm) {
+			width: 100%;
+			padding: 5px 0 5px 10px;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+/* Inline */
+
+.job-packages--inline .job-package {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.job-packages--count-1 .job-package,
+.job-packages--count-2 .job-package,
+.job-packages--count-3 .job-package {
+	width: 100%;
+}
+
+.job-packages--count-2 .job-package,
+.job-packages--count-3 .job-package {
+	@include bp(sm) {
+		width: 47%;
+		margin-right: 5%;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.job-packages--count-3 .job-package {
+	@include bp(sm) {
+		&:nth-child(2n) {
+			margin-right: 0;
+		}
+
+		&:nth-child(3n) {
+			clear: left;
+		}
+	}
+
+	@include bp(lg) {
+		width: 31%;
+		margin-right: 3%;
+
+		&:nth-child(2n) {
+			margin-right: 3%;
+		}
+
+		&:nth-child(3n) {
+			margin-right: 0;
+		}
+
+		&:nth-child(4n) {
+			clear: left;
+		}
+	}
+}

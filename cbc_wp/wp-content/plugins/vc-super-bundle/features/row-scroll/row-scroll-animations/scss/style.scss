@@ -1,0 +1,65 @@
+// For the body_overflow parameter
+// This is to fix the unwanted scrollbar that shows up sometimes when scrolling for some themes
+.gambit_row_scroll_overflow {
+	overflow-y: hidden;
+}
+
+.gambit_row_scroll_parent {
+	box-sizing: border-box !important; // very important
+	position: relative !important; // very important
+	backface-visibility: hidden !important;
+	z-index: 1;
+}
+.gambit_row_scroll_parent + * {
+	z-index: 10;
+	position: relative;
+}
+
+// This is the inner wrapper of the row, make sure the contents are cleared
+.gambit_row_scroll_wrapper {
+	position: relative;
+}
+.gambit_row_scroll_wrapper:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+//.gambit_row_scroll_title {
+//	position: absolute !important;
+//	top: 0 !important;
+//	left: 0 !important;
+//	right: 0 !important;
+//	bottom: 0 !important;
+//	padding: 50px !important;
+//	margin: 0 !important;
+//	text-align: center !important;
+//	opacity: 0;
+//	z-index: 9 !important;
+//}
+
+.gambit_row_scroll_parent[data-row-exit="cube"],
+.gambit_row_scroll_parent[data-row-entrance="cube"] {
+	min-height: 50vh;
+}
+
+
+.gambit_row_scroll_parent[data-row-exit="stick"],
+.gambit_row_scroll_parent[data-row-entrance="stick-scale"] {
+	min-height: 50vh;
+}
+
+.gambit_row_scroll_parent[data-row-exit="stick-flip-left"],
+.gambit_row_scroll_parent[data-row-exit="stick-flip-right"],
+.gambit_row_scroll_parent[data-row-exit="stick-flip-top"],
+.gambit_row_scroll_parent[data-row-exit="stick-flip-bottom"],
+.gambit_row_scroll_parent[data-row-exit="stick-fly-left"],
+.gambit_row_scroll_parent[data-row-exit="stick-fly-right"],
+.gambit_row_scroll_parent[data-row-exit="stick-fly-down"],
+.gambit_row_scroll_parent[data-row-exit="stick-rotate-left"],
+.gambit_row_scroll_parent[data-row-exit="stick-rotate-right"],
+.gambit_row_scroll_parent[data-row-entrance="stick-fly-left"],
+.gambit_row_scroll_parent[data-row-entrance="stick-flip-left"],
+.gambit_row_scroll_parent[data-row-entrance="stick"] {
+	min-height: 100vh;
+}

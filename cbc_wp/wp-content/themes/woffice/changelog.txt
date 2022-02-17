@@ -1,0 +1,1477 @@
+Woffice - Intranet/Extranet WordPress Theme
+
+--------------------------
+September 30th, 2021 - Version 4.0.6
+- (ADDED) WOffice Timeline Compatibility for project Tasks.
+- (ADDED) Datetime option for project tasks
+September 23rd, 2021 - Version 4.0.5
+- (FIXED) Google calendar import issue
+- (FIXED) BuddyPress Template issue
+- (FIXED) Birthdate age issue on Birthdate Widget
+- (FIXED) WooCommerce 5.7.0 template compatibility
+- (UPDATED) Rev Slider 6.5.8
+September 2nd, 2021 - Version 4.0.4
+- (NEW) Docs To Wiki Compatibility
+- (NEW) Advanced task for Woffice Compatibility
+- (FIXED) Minor bugs
+- (UPDATED) Rev Slider 6.5.7
+August 19th, 2021 - Version 4.0.3
+- (NEW) Added LearnPress 4.0.0 Compatibility
+- (UPDATED) Rev Slider 6.5.6,EventOn Calendar 3.1.7
+- (Fixed) Compatibility with WordPress 5.8
+July 21st, 2021 - Version 4.0.2
+- (FIXED) Small security vulnerability patched
+- (UPDATED) Rev Slider 6.5.5
+July 15th, 2021 - Version 4.0.1
+- (NEW) Woffice Kanban compatibility for project Tasks.
+- (UPDATED) Rev Slider 6.5.4,WPBakery Page Builder for WordPress 6.7.0
+July 1st, 2021 - Version 4.0.0
+- (NEW) Added New Theme Skin
+- (NEW) Project Grid View
+- (UPDATED) Rev Slider 6.5.3,EventOn Calendar 3.1.6
+- (FIXED) Minor bugs
+May 20th, 2021 - Version 3.1.3
+- (FIXED) Envato theme check issue
+- (FIXED) Unicode string issue with search
+- (FIXED) Event visibility not selected on edit event
+- (FIXED) ICS file import issue
+- (UPDATED) Rev Slider 6.4.11,EventOn Calendar 3.1.5
+
+March 30th, 2021 - Version 3.1.2
+- (UPDATED) Rev Slider 6.4.6,EventOn Calendar 3.1.2,EventOn Full Cal 1.1.13
+- (FIXED) Super bundle for WPBackery page builder package issue
+- (FIXED) WordPress 5.7 compatibility
+- (NEW) WP JOB MANAGER Company Listing Compatibility
+- (NEW) WP JOB MANAGER Job Style Compatibility
+- (NEW) WP JOB MANAGER Job Auto Suggest Compatibility
+- (NEW) WP JOB MANAGER Listing Label Compatibility
+- (NEW) WP JOB MANAGER Listing Payments Compatibility
+- (NEW) WP JOB MANAGER Products Compatibility
+- (NEW) WP JOB MANAGER Stat Compatibility
+- (NEW) WP JOB MANAGER Reviews Compatibility
+March 4th, 2021 - Version 3.1.1
+- (UPDATED) Rev Slider 6.4.2
+- (UPDATED) WPBakery Page Builder for WordPress 6.6.0
+- (UPDATED) EventOn Calendar 3.1
+February 5th, 2021 - Version 3.1.0
+- (FIXED) Events not showing properly created by DP proevent
+- (FIXED) Font Awesome Icon not showing when activating the DpProEvent
+- (UPDATED) Rev Slider 6.3.9,DP Pro Events Calendar 3.2.6,EventOn Calendar 3.0.8
+- (NEW) WP JOB MANAGER Compatibility
+December 29th, 2020 - Version 3.0.1
+- (FIXED) WordPress 5.6 compatibility
+- (FIXED) PHP 8.0 compatibility
+- (UPDATED) Rev Slider 6.3.4, WPBakery 6.5.0
+November 25th, 2020 - Version 3.0.0
+- (UPDATED) Woffice email digest compatibility with Woffice Advanced Email plugin.
+- (UPDATED) Project compatibility with Woffice  WooCommerce and Woffice Subscription plugins.
+- (FIXED) Project widget issue on dashboard.
+- (NEW) Add new theme settings for plugins license.
+- (UPDATED) Rev Slider 6.3.1, WPBakery 6.4.2, EventOn Calendar 3.0.2.
+November 11th, 2020 - Version 2.9.5
+- (NEW) Add new setting for event visibility in "(Woffice) Calendar Events" widget.
+- (FIXED) Display issue on some font awesome icons.
+- (UPDATED) Latest WooCommerce & other recommended plugins.
+October 26th, 2020 - Version 2.9.4
+- (NEW) Daily email digest notification For project.
+- (FIXED) PHP Depreciation error.
+- (FIXED) Woffice calendar not showing proper events by visibility.
+- (FIXED) Lost Password URL issue.
+- (UPDATED) Rev Slider 6.2.23, WPBakery 6.4.1, EventOn Calendar 2.9.1.
+August 14th, 2020 - Version 2.9.3
+- (FIXED) Project filters.
+- (FIXED) Syntax error in Events loop.
+- (UPDATED) EventOn, Pro Events Calendar, Revolution Slider. 
+June 8th, 2020 - Version 2.9.2
+- (FIXED) undefined option type error
+- (FIXED) Calendar widget months are translatable.
+- (FIXED) Single event page translation.
+- (FIXED) Display issues in BP page dropdown.
+- (UPDATED) Revolution Slider to version 6.2.12
+- (UPDATED) DP Pro Events Calendar to version 3.1.8
+May 12th, 2020 - Version 2.9.1
+- (FIXED) Too many redirect issue on wp-admin
+- (UPDATED) Rev Slider 6.2.6, WPBakery 6.2.0
+April 30th, 2020 - Version 2.9.0
+- (FIXED) Previous Login Url
+- (FIXED) Birthday Widget Date Translation
+- (IMPROVED) Calendar Start Day on Project is now same as WordPress default Date
+- (NEW) Option to Select who can Approve Users
+February 8th, 2020 - Version 2.8.9.1
+- (FIXED) Clear button in the advanced members search
+- (FIXED) Fixed redirection issue
+- (IMPROVED) Advanced search when no filter is set
+January 31st, 2020 - Version 2.8.9
+- (IMPROVED) Global Security
+- (IMPROVED) Search design
+- (FIXED) Redirection to previous URL issue
+- (FIXED) Minor issues
+- (UPDATED) POT Language file
+- (UPDATED) EventON to version 2.8.5
+- (UPDATED) Revolution Slider to version 6.1.7
+- (UPDATED) WPBackery page builder to version 6.1
+December 4th, 2019 - Version 2.8.8.1
+- (IMPROVED) Role filter support in the Members page now support pagination
+- (FIXED) Z-index issue on the calendar widget when opening an event on the Dashboard
+- (FIXED) Broken wiki page
+- (UPDATED) POT Language file
+- (UPDATED) Vue.js to 2.6.1
+November 21st, 2019 - Version 2.8.8
+- (NEW) Calendar datepicker automatic localization
+- (IMPROVED) Calendar datepicker default values localization
+- (FIXED) Displayed login text on the registration screen
+- (FIXED) Event author not being able to delete their events
+- (FIXED) Fatal error when BuddyPress was not active and the events were enabled
+- (UPDATED) Revolution Slider to version 6.1.5
+- (UPDATED) EventON to version 2.8.12
+October 19th, 2019 - Version 2.8.7
+- (NEW) 6 colors added for the Woffice calendar events
+- (IMPROVED) Calendar event date/time localization
+- (IMPROVED) Calendar listing page now showing all events
+- (FIXED) Calendar encoding issue with accents
+- (FIXED) Calendar .ics import
+- (FIXED) Calendar backend saving date issue
+- (FIXED) Calendar event issue on multiple-months events
+- (FIXED) Child theme language files not loaded
+- (FIXED) Wiki extension dropdown broken when having more than 10 categories
+- (FIXED) Push notification extension when no storage URL was provided
+- (FIXED) ?filterRole sorter in the Members directory
+- (UPDATED) French language file
+- (UPDATED) German language file
+- (UPDATED) Revolution Slider to version 6.1.3
+- (UPDATED) Super bundle for WPBackery page builder to version 1.4.2
+September 10th, 2019 - Version 2.8.6.1
+- (FIXED) Advanced search in the BuddyPress directory
+- (FIXED) Calendar events multiple bugs
+August 31st, 2019 - Version 2.8.6
+- (NEW) Ability to change the Masonry refresh delay through the `woffice_js_exchanged_data` filter
+- (NEW) Link to give your Feedback on Woffice
+- (NEW) Admin can now view any Woffice calendar by default
+- (IMPROVED) Members/Groups page loading
+- (FIXED) In-site alerts on mobile devices
+- (FIXED) Poll widget
+- (FIXED) Calendar localization issues (colours and days)
+- (FIXED) Broken extended links in the Members directory
+- (FIXED) Advanced search with the multi-checkbox option on the members page
+- (FIXED) Non-visible hidden groups
+- (UPDATED) Revolution Slider to version 6.1.0
+July 26th, 2019 - Version 2.8.5
+- (NEW) Mobile menu for the BuddyPress group and member pages
+- (NEW) Filter `woffice_events_frontend_config` to configure the Events config
+- (IMPROVED) Events extension localization
+- (IMPROVED) WooCommerce live cart in the header
+- (IMPROVED) Extrafooter performance (thanks to @Alex)
+- (IMPROVED) Google login redirect (thanks to @Gerard)
+- (FIXED) Wrong "today" in the Events extension
+- (FIXED) Duplicated event when creating Project task synchronized with the Events extension
+- (FIXED) Broken Events widget when the Projects extension was disabled or user is a visitor
+- (FIXED) Bootstrap conflict on the Woffice chat
+- (UPDATED) POT Language file
+- (UPDATED) Revolution Slider to version 6.0.7
+- (UPDATED) WPBackery page builder to version 6.0.5
+- (UPDATED) EventON to version 2.7.3
+June 24th, 2019 - Version 2.8.4
+- (NEW) Woffice Events page template to list all events
+- (IMPROVED) Woffice Events on the Profile tab and widgets now list ALL events attached to the user
+- (IMPROVED) Woffice Events creation with pre-selection of the dates and better validation
+- (IMPROVED) Single project page to include the status
+- (FIXED) Internal tabs automatic redirection
+- (FIXED) Directory single item map when set in the frontend
+- (FIXED) WP Backery Page Builder assigned tasks block fixed
+- (FIXED) Woffice Calendar widget creation modal position issue
+- (UPDATED) POT Language file
+June 9th, 2019 - Version 2.8.3.3
+- (FIXED) Double breadcrumb on WooCommerce
+- (FIXED) Project to-dos sync issue when the email assignment notification was enabled
+- (UPDATED) WPBackery page builder to version 6.0.3
+- (UPDATED) EventON to version 2.7.1
+June 7th, 2019 - Version 2.8.3.2
+- (NEW) Filter `woffice_directory_single_map_zoom` to set the zoom level on the directory items
+- (FIXED) Global calendEr typo
+- (FIXED) Footer widgets layout issues on iOS
+- (FIXED) Timezone issues in the Woffice Event calendar
+- (FIXED) Wrong notice link in the user side menu
+- (FIXED) Missing breadcrumbs on some pages
+- (FIXED) WooCommerce 3.6.0 template compatibility notice
+May 15th, 2019 - Version 2.8.3.1
+- (FIXED) BuddyPress broken activity feed
+- (FIXED) Missing Font Awesome icons
+- (FIXED) Woffice-core blocked version
+May 11th, 2019 - Version 2.8.3
+- (NEW) Project task support in the Woffice Event extension
+- (NEW) Woffice Event widget
+- (IMPROVED) Map member's content was redesigned
+- (IMPROVED) Custom File Away plugin has been removed to let the official one back in
+- (IMPROVED) Global search with a support for the ENTER key to submit the form
+- (FIXED) Broken pagination when the advanced search was used
+- (FIXED) BuddyPress roles filter option
+- (UPDATED) Revolution Slider to version 5.4.8.3
+- (UPDATED) EventON to version 2.6.17
+- (UPDATED) WPBackery page builder to version 5.6
+- (UPDATED) Super bundle for WPBackery page builder to version 1.4.1
+- (UPDATED) Pro Event Calendar to version 3.0.5
+May 6th, 2019 - Version 2.8.2.3
+- (IMPROVED) Activity's responsive version
+- (FIXED) Custom fields on the directory items
+April 30th, 2019 - Version 2.8.2.1
+- (FIXED) User menu's Groups creation link
+- (FIXED) Alert on the directory page
+- (FIXED) Error if the Woffice Core plugin was not activated
+April 23rd, 2019 - Version 2.8.2
+- (IMPORTANT) Extensions and libraries are now included in a new "Woffice Core" plugin, must be enabled
+- (NEW) Woffice Live push notifications extension
+- (NEW) Woffice Event extension, to replace the Dp Pro Event Calendar
+- (FIXED) Broken random order on the Members directory
+March 18th, 2019 - Version 2.8.1.1
+- (FIXED) Planned global typo
+- (FIXED) Broken live chat
+- (FIXED) Missing edit button on the project tasks
+March 2nd, 2019 - Version 2.8.1
+- (NEW) Ultimate Addons for Gutemberg plugin support
+- (NEW) Matching functionality
+- (NEW) Filter `woffice_wiki_query_args` to customize the wiki args
+- (NEW) Auto friends enable/disable option
+- (NEW) New activity for `woffice_after_frontend_process` with filter `woffice_activity_log_after_frontend_process` to skip activity logging if it returns false
+- (IMPROVED) Font Awesome 5 conflicts
+- (IMPROVED) Profile buttons UI
+- (IMPROVED) Removed notifications for auto friends
+- (FIXED) Unclosed popover on chat conversation deletion
+- (FIXED) Yearly past birthdays being displayed
+- (FIXED) Wrong members count
+- (FIXED) ?members_table dynamic layout
+- (FIXED) Auto closing menu on mobile devices when scrolling
+- (FIXED) Live chat conversation creation with existing discussions
+January 29th, 2019 - Version 2.8.0.3
+- (NEW) Filter `woffice_register_user_data` to change the user data saved on registration
+- (NEW) Support for the "?blog_masonry" GET option in the category and archive templates
+- (IMPROVED) Dp Pro Event Calendar styling
+- (FIXED) Previous URL redirection
+- (FIXED) Missing Font Awesome icons
+- (FIXED) Social fields in the Members listing
+- (FIXED) Empty alert content
+- (FIXED) Font change with custom icon in widgets
+- (IMPROVED) Member listing design
+- (IMPROVED) Display post likers in a popover
+January 19th, 2019 - Version 2.8.0.2
+- (NEW) Filter `woffice_search_custom_icon` to change the search type's icon
+- (IMPROVED) Rtmedia compatibility
+- (IMPROVED) Live search to include all post types by default
+- (IMPROVED) Sidebar state is now saved in a cookie by default
+- (FIXED) Broken order option in the Members page
+- (FIXED) Missing fields when registering with Google
+- (FIXED) Lost password link design
+- (FIXED) Missing Font Awesome icons
+- (FIXED) Broken page title if the cover extension was deactivated
+January 6th, 2019 - Version 2.8.0.1
+- (NEW) Filter `woffice_wiki_columns_number` to change the number of columns in the wiki
+- (NEW) Filter `woffice_birthdays_date_format` to change Birthday date format
+- (IMPROVED) Woffice chat now supports custom date formats
+- (FIXED) Missing first & last names when signing up with Google
+- (FIXED) Project's "Planned" typo
+- (FIXED) Broken group members listing layout
+- (FIXED) Missing File Away .zip file
+- (FIXED) WPML language switcher
+December 22th, 2018 - Version 2.8.0
+- (NEW) BuddyPress Nouveau template pack support
+- (NEW) Design using Font Awesome 5 and Bootstrap 4.1
+- (NEW) Profile layouts -> horizontal or vertical
+- (NEW) Filter `woffice_has_live_search` to enable or disable the live search
+- (NEW) Custom File Away plugin that will be maintained by the Alkalab team
+- (NEW) Time tracking task description a.k.a meta (with modal and custom report)
+- (IMPROVED) Time tracking export CSV feature
+- (IMPROVED) Time tracking user report
+- (IMPROVED) Time tracking user report
+- (IMPROVED) DP Pro Event Calendar integration
+- (IMPROVED) WooCommerce integration
+- (IMPROVED) Advanced search is now asynchronous
+- (IMPROVED) PHP 7.2 support
+- (IMPROVED) Responsive version
+- (IMPROVED) WordPress 5.0 compatibility
+- (IMPROVED) BuddyPress register and activation native pages
+- (FIXED) Fatal error on multi-site setups
+- (FIXED) Comments number on the masonry layout
+- (UPDATED) Revolution Slider to version 5.4.8.1
+- (UPDATED) EventON to version 2.6.15
+- (UPDATED) WPBackery page builder to version 5.6
+- (UPDATED) Pro Event Calendar to version 3.0.4
+November 23rd, 2018 - Version 2.7.8
+- (NEW) Extension "Woffice Auto Friends" to create BuddyPress relationships automatically for all members
+- (NEW) Filter `woffice_featured_images_height` to change the featured image height through filters
+- (IMPROVED) Featured blog images are now forced to go full-width for a better design
+- (IMPROVED) `Height of featured image of elements` option has been moved to the Blog section
+- (FIXED) Unsaved HTML markup on the BuddyPress profile note tab
+- (FIXED) 3rd level mobile navigation
+- (FIXED) 3rd level rtl navigation
+November 12th, 2018 - Version 2.7.7
+- (NEW) Live search module with categorized result
+- (NEW) Projects widget option to sort displayed projects by status
+- (NEW) Theme settings navigation right from the admin bar
+- (NEW) Navigation links to directly download the bundled plugins
+- (FIXED) Unable to create new private conversations with members of existing chat groups
+- (FIXED) Issues with the BuddyPress Nouveau template by overriding it back to Legacy for now
+- (FIXED) Events Calendar plugin wrong events page title
+- (UPDATED) EventON Full Call to version 1.1.6
+- (UPDATED) Revolution Slider to version 5.4.8
+- (UPDATED) EventON to version 2.6.13
+- (UPDATED) WPBackery page builder to version 5.5.5
+October 10th, 2018 - Version 2.7.6.1
+- (FIXED) Header default image issue for PHP > 7.1
+October 8th, 2018 - Version 2.7.6
+- (NEW) Dynamic variables in the todo assigned email: {user_name}, {project_url}, {project_title}, {todo_title}
+- (NEW) `woffice_options_post` filter to set default post options screen
+- (NEW) `woffice_options_posts` filter to set default posts options screen
+- (IMPROVED) Project tasks sync performance
+- (IMPROVED) BuddyPress message module design
+- (FIXED) Todo sync issues with the assigned member automatic email feature on
+- (FIXED) Duplicated entries in the custom term lists
+- (FIXED) Broken submenus in some cases
+- (FIXED) Messages page "favorite" feature (fixed by Olga)
+September 19th, 2018 - Version 2.7.5
+- (NEW) Frontend edit for the directory item with dynamic custom fields
+- (IMPROVED) Frontend design and UI
+- (IMPROVED) Merged several Woffice JS files into one woffice.min.js to load faster
+- (FIXED) Mobile menu third level support
+- (FIXED) Project todos compatibility issue with the Elementor plugin
+- (FIXED) Groups grid layout issue on groups tab click
+- (FIXED) Activation signup entry not created
+- (FIXED) Spinner conflict with Rtmedia
+- (UPDATED) WooCommerce 3.4.x compatibility
+September 8th, 2018 - Version 2.7.4
+- (NEW) Wiki articles list limit
+- (FIXED) Menu layout issues
+- (FIXED) Leave group button alignment on small screens
+- (FIXED) Weird character appearing in the BuddyPress members directory.
+September 4th, 2018 - Version 2.7.3
+- (NEW) Bundle Vc Super Bundle plugin for free to make more creativity pages with WPBakery Page builder
+- (NEW) 'woffice_menu_layout' filter to customize Woffice menu layout through PHP
+- (NEW) Remove todo task confirm dialog
+- (NEW) Project current status option
+- (NEW) 'woffice_alert_timeout' to customize alerts timeout delay
+- (IMPROVED) Project calendar sync
+- (IMPROVED) Bundle plugins are now loaded remotely, saving 20MB to the Woffice package
+- (FIXED) Missing first and last name in the newly registered users
+- (FIXED) Geolocation permission alert coming up for non-logged users
+- (FIXED) Social fields layout issues in members directory table view
+- (FIXED) Deprecated create_function notices in most recent PHP versions
+- (FIXED) Layout issues in single group pages for small screens
+July 15th, 2018 - Version 2.7.2.1
+- (FIXED) Bug related to dynamic CSS generated on the frontend
+July 15th, 2018 - Version 2.7.2
+- (NEW) GeoDirectory support
+- (NEW) GamiPress plugin integration
+- (NEW) Option to remove the localization button in the map (available from the extension's settings)
+- (NEW) Button on the group page to start a chat with the group members in one click
+- (NEW) 'woffice_map_info_box_content' filter to make the map info box content customizable
+- (NEW) 'woffice_customization_array' filter to customize Woffice dynamic's style
+- (FIXED) Wiki permissions for custom user roles
+- (FIXED) BuddPress Media uploader on small devices
+- (FIXED) WP ERP Plugin styles issues in the backend
+- (FIXED) Auto hide wiki categories if no article
+- (FIXED) BuddyPress search result issues
+- (FIXED) WP Editor frontend style
+- (UPDATED) WPBackery Visual Composer to version 5.5.2
+June 24th, 2018 - Version 2.7.1.2
+- (FIXED) Logo left offset when the sidebar was closed
+- (FIXED) PHP Error with the Woffice chat
+- (FIXED) PHP Error on the groups page with the last BuddyPress version
+June 13th, 2018 - Version 2.7.1.1
+- (IMPROVED) WP Editor frontend style
+June 13th, 2018 - Version 2.7.1
+- (NEW) Active filter for project todos
+- (IMPROVED) Live chat (delete button, hide button, single conversation support...)
+- (IMPROVED) Wiki category count markup
+- (IMPROVED) Sidebar options logic
+- (FIXED) PHP Fatal error for old PHP versions
+- (FIXED) Activation issue with BuddyPress 3.0
+- (FIXED) WooCommerce deprecated functions notices
+- (UPDATED) Revolution Slider to version 5.4.7.4
+- (UPDATED) EventON to version 2.6.10
+May 23rd, 2018 - Version 2.7.0
+- (NEW) Live and private chat feature with one or several members (a.k.a Alka Pro's chat, now using BuddyPress)
+- (NEW) Register options to show/hide password confirmation and last name fields
+- (NEW) Access to Woffice Pro is now FREE, including feature request portal, video set...
+- (NEW) Support for WordPress 4.9.6 and the Privacy page
+- (NEW) WP ERP plugin integration
+- (IMPROVED) Footer sticky to bottom
+- (IMPROVED) Print styles
+- (IMPROVED) Frontend wiki revisions
+- (IMPROVED) Responsive sub menus on touchable devices (not desktop)
+- (FIXED) BuddyPress who's online widget tooltips
+- (FIXED) Closed sidebar by default option
+- (FIXED) Hard coded title box background image
+- (FIXED) Issue on registration if BuddyPress not enabled
+- (FIXED) Fatal error with the new 3.0 BuddyPress update
+- (UPDATED) Revolution Slider to version 5.4.7.3
+- (UPDATED) EventON to version 2.6.9
+April 18th, 2018 - Version 2.6.2
+- (NEW) Global privacy options for every custom post types
+- (FIXED) BuddyPress personal notes only for current logged in user
+- (FIXED) Footer doesn't sit on bottom when using large screen resolutions
+- (FIXED) Call to undefined function 'woffice_wiki_display_actions_buttons' in taxonomy-wiki-category.php
+- (FIXED) Wrong message displayed when user sings up if Eonet Manual User Approve plugin isn't installed
+- (FIXED) Reset the extrafooter cache on theme settings saving
+- (UPDATED) EventON to version 2.6.8
+March 24th, 2018 - Version 2.6.1
+- (NEW) BuddyPress cover images support (members and groups)
+- (NEW) Social login now also fetches the avatar of the signing up user
+- (NEW) Added ability to hide a chat conversation and reduce the number of conversations shown by default
+- (IMPROVED) Header alignment in RTL view
+- (FIXED) Members table view didn't show always all the columns and it was broken for logged out users
+- (FIXED) Facebook login works again after the Facebook API update
+- (FIXED) Advanced members search only works with default WordPress database tables prefix
+- (FIXED) Impossible to make the feeds public
+- (FIXED) Now cover images are actual deleted from the server when removed by the user
+- (FIXED) Removed the link "Notices" from the user menu when the current user isn't an admin
+- (UPDATED) Revolution Slider to version 5.4.7.2
+- (UPDATED) Visual Composer to version 5.4.7
+February 28th, 2018 - Version 2.6.0
+- (NEW) Option "Members per page"
+- (NEW) Added support for old users cover images handled by BuddyPress
+- (IMPROVED) Added compatibility with WooCommerce 3.3.1
+- (IMPROVED) The simple members search of BuddyPress now seeks also for first name and last name
+- (IMPROVED) Behavior of the clear button in the advanced members search form
+- (FIXED) Advanced members search with multiple fields
+- (FIXED) Sub menus remain opened sometime also without the passage of the mouse
+- (FIXED) Option for header background color works again
+- (FIXED) A portion of the theme styles not loaded in certain conditions
+- (FIXED) Assigned member stuck after project task creation
+- (UPDATED) Revolution Slider to version 5.4.7.1
+February 6th, 2018 - Version 2.5.9.1
+- (FIXED) Restricted projects visible in the projects list, also if they cannot be opened by the current user
+February 3rd, 2018 - Version 2.5.9
+- (IMPROVED) BuddyPress tables on mobile devices
+- (IMPROVED) Projects visibility: if a project isn't set "public", it won't be showed to logged out users
+- (IMPROVED) Google web font loading
+- (FIXED) Removed restricted projects from search results
+- (FIXED) Prevent the loop if Login page is missing or not valid
+- (FIXED) Prevent the loop if Maintenance page is missing.
+- (FIXED) BuddyPress activity page reload on activity meta click
+- (FIXED) Broken users fields icon in the table view
+- (UPDATED) Revolution Slider to version 5.4.7
+- (UPDATED) DpProEvent Calendar to version 3.0.2
+December 23th, 2017 - Version 2.5.8
+- (NEW) Woffice documentation, all links have been updated
+- (IMPROVED) The Woffice Social Extension was removed as it is fully replaced by the Woffice Settings, with more features
+- (IMPROVED) SEO by adding support to the Google hentry markup
+- (IMPROVED) Many behaviors of the menu and touch screen devices management
+- (FIXED) Flickering of the navbar during the scrolling
+- (FIXED) Members map button not showing up for non-SSL websites
+- (FIXED) Some widgets broken in BuddyPress pages
+- (FIXED) Creators of the projects cannot delete their projects by front end if they are not administrators
+- (FIXED) Project sorting by completion date
+- (FIXED) Fatal error for PHP versions < 5.6
+- (UPDATED) Revolution Slider to version 5.4.6.4
+- (UPDATED) Visual Composer to version 5.4.5
+- (UPDATED) DpProEvent Calendar to version 2.9.9
+- (UPDATED) EventON to version 2.6.5
+November 21th, 2017 - Version 2.5.7
+- (NEW) Members map support geo location to show the members around you
+- (NEW) Now new users can request a new email verification if they lose the first one
+- (NEW) Cover images are optimized on upload, you can change the quality and even set auto-cropping for better performances
+- (NEW) Support for the WordPress customizer
+- (IMPROVED) Options to force strong password: register and reset forms
+- (IMPROVED) Project file manager is now by default using the manager mode. Including a filter: woffice_projects_fileway_manager_mode
+- (FIXED) wp-login.php redirection to /login/
+- (FIXED) Prevent the project page content to be rendered if no content is set.
+- (FIXED) Shortcode front-end creation with Visual Composer
+- (FIXED) Drop down menus not working on large responsive devices
+- (FIXED) Hided archived projects also fom the widget list
+- (UPDATED) German translation thanks to @Alex
+- (UPDATED) Revolution Slider to version 5.4.6.3.1
+- (UPDATED) Visual Composer to version 5.4.4
+- (UPDATED) EventON to version 2.6.2
+October 20th, 2017 - Version 2.5.6.1
+- (FIXED) Error when BuddyPress Xporfile is not enabled on some pages
+October 19th, 2017 - Version 2.5.6
+- (NEW) Alka Pro is in the air! Beta is over, thanks to our testers. New features, new services, for free.
+- (NEW) Options to force strong password for new users
+- (NEW) Options to display specific profile fields on the registration form
+- (IMPROVED) Social registrations are now working with email domain check option
+- (IMPROVED) Single event template compatibility with EventON 2.6
+- (FIXED) Form select input text hidden
+- (FIXED) Reset password show the custom login page, also if the custom login page is disabled
+- (FIXED) Some notice error messages
+- (FIXED) Impossible to use the capability woffice_read_wikies in certain cases
+- (FIXED) Kept the post type scope for consecutive searches
+- (FIXED) Admin pagination affected by frontend options, thanks to @g3systems for the fix
+- (UPDATED) DpProEvent Calendar to version 2.9.8
+- (UPDATED) Visual Composer to version 5.4.2
+- (UPDATED) Revolution Slider to version 5.4.6.2
+September 20th, 2017 - Version 2.5.5
+- (NEW) Datepicker options can be overwritten by child themes
+- (NEW) Auto-suggest member suggestion for Woffice Project Tasks
+- (NEW) Complete error reporting for Map Geocoding API connection
+- (IMPROVED) Members Map Geocoding requests sent
+- (IMPROVED) Responsive version
+- (IMPROVED) Frontend strings localization
+- (IMPROVED) Added support for content for Woffice Directory extension
+- (IMPROVED) Permissions for tasks checking
+- (IMPROVED) Some icons orientation in RTL view
+- (FIXED) Advanced Member Search Form fixed
+- (FIXED) Advanced fields in the Theme options for some multi site setup
+- (FIXED) Progress bar of projects is never displayed if dates aren't set
+- (FIXED) Impossible to scroll after resizing of the window
+- (UPDATED) EventON to version 2.6
+- (UPDATED) Revolution Slider to version 5.4.5.2
+- (UPDATED) Visual Composer to version 5.3
+- (UPDATED) French translation from rodman38
+August 24th, 2017 - Version 2.5.4
+- (NEW) Added WPBakery Visual Composer to the package
+- (NEW) Filter 'woffice_admin_bar_capability' to choose which role see the WP admin bar
+- (IMPROVED) Added compatibility with more pages meta options for BuddyPress pages
+- (IMPROVED) The structure of some strings in order to make them translatable in every language
+- (FIXED) The logout issue if the bbPress is active
+- (FIXED) Birthday field doubled up when using an escaped value
+- (UPDATED) Google Oauth SDK to 1.8.0
+- (UPDATED) .pot language file
+August 8th, 2017 - Version 2.5.3
+- (NEW) Now it's possible to sort tasks by completion date
+- (NEW) Now it's possible to sort the projects by completion date (it will display only projects saved after the update)
+- (IMPROVED) Activity messages for project editing and creation
+- (IMPROVED) Hided scrollbar from BuddyPress tables if they aren't needed
+- (FIXED) The support for the social login redirects, lost after last update
+- (FIXED) Wrong link to the Alkaweb site in the Slack extension settings
+- (FIXED) Redirection to standard WordPress login page instead of the custom one
+- (FIXED) The reset button of the advanced members search form
+- (UPDATED) .pot language file
+July 28th, 2017 - Version 2.5.2
+- (NEW) Integrated Facebook login, no plugin required
+- (NEW) Arabic translation from Ayman
+- (IMPROVED) Added the Reset button to the advanced members search
+- (IMPROVED) Changed the behavior of checkbox "complete projects", now they are "archive projects"
+- (IMPROVED) Google Signing
+- (IMPROVED) The Social Extension is depreciated and the options can be found in the Theme Settings > Register / Login tab
+- (FIXED) BuddyPress live notification closing issue in the menu
+- (FIXED) Polls answers/results were not saved
+- (FIXED) Third level menu space issue (It needs to re-save the Theme Settings)
+- (FIXED) Infinite loop on Custom Login Page
+- (FIXED) Double scrollbar in the registration page
+- (UPDATED) DpProEvent Calendar to version 2.9.7
+- (UPDATED) EventON to version 2.5.5
+July 15th, 2017 - Version 2.5.1
+- (NEW) Option to add Google Analytics scripts (or other similar scripts) directly in the options panel
+- (NEW) Added email verification option to the Login/Register settings
+- (IMPROVED) Redirect to the previous page after login now works also with Google+ login
+- (IMPROVED) Project filters: ability to sort the projects by creation date
+- (IMPROVED) Horizontal menu on mobile with mega menus
+- (FIXED) Simple LDAP plugin conflict
+- (FIXED) Wrong format for some dates of the projects
+- (FIXED) Some minor menu and header alignments
+- (FIXED) Overlap issue between Woffice Main Alert and horizontal main menu
+- (FIXED) Redirect behavior after sign up if the auto-login is disabled
+- (FIXED) Expand/Collapse button missing for the LearnDash details of some shortcodes
+- (FIXED) Compatibility issue with Eonet Manual User Approve
+- (FIXED) Simple LDAP plugin conflict
+- (UPDATED) Revolution Slider to version 5.4.5.1
+- (UPDATED) EventON to 2.5.5
+June 25th, 2017 - Version 2.5.0.2
+- (FIXED) Right sidebar alignment improvement
+- (FIXED) Notification top menu closing
+- (FIXED) WooCommerce 3.0 notices
+June 24th, 2017 - Version 2.5.0.1
+- (FIXED) Wrong default image used in the page headers
+- (FIXED) Fatal errors when BuddyPress is not activated
+- (FIXED) Frontend Alerts
+- (FIXED) The horizontal menu displayed twice in mobile view
+June 23th, 2017 - Version 2.5.0
+- (NEW) Woffice 2.5.x design, cleaner interface and better UI
+- (NEW) Spinner.js support and API
+- (NEW) Add auto-completion for the Location field in BuddyPress profile settings
+- (NEW) Global alerts, replacing BuddyPress one for now as a starter
+- (NEW) Order by due date in the project todos
+- (IMPROVED) Javascript organization and performance (new Woffice object)
+- (IMPROVED) DP Pro Event Calendar design integration with Woffice
+- (IMPROVED) Now is possible to use Revolution slider also on Directory page, single posts and BuddyPress pages
+- (IMPROVED) Better support of featured image for BuddyPress and other pages
+- (IMPROVED) Layout of the single directory item when the map is missing
+- (IMPROVED) Time tracking widget
+- (IMPROVED) Responsive menu layout
+- (IMPROVED) To-do Manager saving process, display avatars on real time
+- (FIXED) Some edge case issues of the extrafooter
+- (FIXED) Category selection doesn't work in Wiki widget
+- (FIXED) Wiki not sorted properly by like
+- (FIXED) [woffice_allfiles] shortcode
+- (FIXED) Dp Pro Event calendar monthly view shortcode
+- (FIXED) Revolution slider layout on page refresh when the sidebar is hidden
+June 6th, 2017 - Version 2.4.5
+- (IMPROVED) Task manager when a new task is added or edited with assigned members
+- (IMPROVED) Edge calculation or vertical menu
+- (IMPROVED) Code comments and file readability, new Woffice_WooCommerce class
+- (FIXED) Tags and categories display all the posts
+- (FIXED) Now is possible to display older activity comments
+- (FIXED) EventON submit event modal overflow with horizontal menu
+- (FIXED) Duplicate fields on some multi sites setup
+- (UPDATED) EventON to version 2.5.4
+- (UPDATED) German Formal language file
+May 22th, 2017 - Version 2.4.4
+- (NEW) Footer layout option
+- (NEW) Project sync with DP Pro Event Calendar (public events)
+- (IMPROVED) BuddyPress date input are now between 1900 and the current year
+- (IMPROVED) Style of the social icons in the members page (using cards layout)
+- (IMPROVED) During the frontend editing, now is possible to understand the hierarchy of taxonomies
+- (FIXED) Members suggestion auto complete working only for administrators
+- (FIXED) Extrafooter avatars not displayed for logged out users
+- (FIXED) Fatal error for some old PHP versions
+- (FIXED) Impossible to change menu text color from the theme options
+- (FIXED) Content and layout of archives page with if masonry is active
+- (FIXED) Map not visible in directory category pages
+- (FIXED) Option "NUMBER OF POSTS DISPLAYED PER PAGE" didn't work properly
+- (UPDATED) Updated .pot file (5 strings added)
+May 15th, 2017 - Version 2.4.3
+- (FIXED) Masonry class in the blog category
+- (FIXED) Edge calculation for megamenu items in vertical menu
+- (FIXED) To-do manager delete issue
+- (FIXED) WordPress email field not displayed in the members card layout
+- (FIXED) Error 404 on page restricted to logged in users
+- (IMPROVED) Testimonial slider overflow on layout change
+- (IMPROVED) Style of sub-menu elements using vertical menu and tablet devices
+- (IMPROVED) The widget "(Woffice) Events" now supports also DP PRO Event Calendar
+- (UPDATED) EventON to version 2.5.3
+- (UPDATED) DpProEvent Calendar to version 2.9.5
+April 28th, 2017 - Version 2.4.2
+- (IMPROVED) Compatibility with WooCommerce 3.0.4
+- (IMPROVED) Added slider effect to the WooCommerce products gallery
+- (IMPROVED) Added zoom effect to the WooCommerce products gallery
+- (IMPROVED) BuddyPress custom registration for date box inputs
+- (IMPROVED) The avatars inside the extra footer are now loaded asynchronously
+- (FIXED) Project creation form background
+- (FIXED) Sidebar displaying sometime doesn't respect the settings in the panel
+- (FIXED) Dashboard duplicated widget
+- (UPDATED) German Formal language file
+- (UPDATED) Revolution slider to version 5.4.3.1
+- (UPDATED) EventON to version 2.5.2
+- (UPDATED) EventON Full Call to version 1.1.3
+April 5th, 2017 - Version 2.4.1
+- (NEW) Threshold option to trigger the mobile menu
+- (IMPROVED) Role names correctly translated in frontend
+- (FIXED) Task multiple assigned members
+- (FIXED) Blog Shortcode number parameter
+March 28th, 2017 - Version 2.4.0
+- Woffice 2.4.0 comes with a brand new Time Tracking extension to let your staff clock in and out. Also many improvements for the projects, a complete re-design of to-do manager for better performances as well as a new Masonry layout for the listing.
+- (NEW) Time Tracking Woffice Extension
+- (NEW) Project to-do urgent option
+- (NEW) New option added to the widget "(Woffice) Projects". Now it's possible display only the projects of the current user
+- (NEW) Added options to mark the projects as completed and choose if hide them from the listing
+- (NEW) Masonry layout for the projects directory
+- (NEW) Name auto-completion for project members assignation
+- (IMPROVED) Project to-do manager from scratch using Vue.js
+- (IMPROVED) Project Extension code comments and organizations
+- (IMPROVED) Style of projects listing
+- (IMPROVED) RTL support
+- (FIXED) Permissions of BuddyPress pages
+- (FIXED) Fun facts widget on the dashboard performance issue
+- (UPDATED) Revolution slider to version 5.4
+- (UPDATED) EventON to version 2.5.1
+March 10th, 2017 - Version 2.3.6
+- (NEW) Progress tracking frontend option for the projects
+- (IMPROVED) Wise Chat design with support for Emojicons, files, pictures
+- (IMPROVED) WooCommerce pages privacy
+- (IMPROVED) Moved the query calculation of members page in a separate function, in order to help customization
+- (IMPROVED) Now is possible set for each single project if it's public or private for members of the site
+- (FIXED) Reset password for user names containing a space
+- (FIXED) Members fields doesn't care about groups order
+February 23th, 2017 - Version 2.3.5
+- (IMPORTANT) Changed the behavior of the option "Projects are public?" in Theme Settings > Permissions > Projects. See the new option description.
+- (IMPORTANT) Strongly improved the projects permissions checks, about projects editing and tasks status changed
+- (NEW) Reset Password with Woffice style
+- (NEW) Link to the member profile within the map
+- (NEW) Filter `woffice_register_roles`
+- (NEW) Filter `woffice_redirected_excluded_paths`
+- (IMPROVED) Allowed to save only one date for the projects
+- (IMPROVED) Slack notification rendering on HTML content
+- (IMPROVED) Login template, everything have been cleaned and re-written
+- (IMPROVED) Added the field "Categories" to the shortcode Blog Posts
+- (IMPROVED) Single Group header layout
+- (FIXED Members Map when the excluded role option was empty
+- (FIXED) Compatibility issue about BadgeOS plugin and frontend editing of some posts type
+- (FIXED) Removed the comments link on single item, in items directory, if its comments are disabled
+- (FIXED) Font size of title box doesn't get the value of the theme option on certain pages
+- (FIXED) Button alignment in messages page
+- (FIXED) Added vertical edge check also to third level of vertical menu
+- (FIXED) Frontend Creation on Taxonomy pages
+February 7th, 2017 - Version 2.3.4
+- (NEW) Added post pagination support
+- (NEW) Plugin integration of Wp Support Plus Responsive Ticket System
+- (NEW) Filter `woffice_hard_flush_on_not_found`
+- (IMPROVED) Moved the string "Happy birthday" from the title of the widget to a label assigned to the single birthday
+- (IMPROVED) Removed by default the restricted blog posts for the current user from widget "Recent Posts" and from every other listing
+- (IMPROVED) Order of the posts displayed using the Visual Page element "Blog Posts"
+- (IMPROVED) Members fields in the members loop can be sorted. Now they get the order set in Users > Profile Fields
+- (IMPROVED) The redirect to the "custom url" after the login now works also using the social login
+- (FIXED) Detection of link value in members fields
+- (FIXED) Fixed Group Header height
+- (FIXED) Revolution Slider size on layout changes
+- (FIXED) The Wiki title issue (you need to save again the page)
+- (FIXED) Impossible to disable the mobile layout on touch screens using WOFFICE_DISABLE_FORCE_RESPONSIVE
+- (FIXED) Advanced members search: now is possible use email as single advanced field
+- (FIXED) Required fields in advanced members search
+January 21th, 2017 - Version 2.3.3
+- (NEW) Styling for BuddyPress Site wide Activity Widget plugin
+- (NEW) Filter `woffice_wiki_display_comments`
+- (NEW) Filter `woffice_project_display_comments`
+- (IMPROVED) Now is possible to include WordPress email to the advanced members search
+- (FIXED) Some fields checked but not added to the advanced members search
+- (FIXED) Post creation on frontend update
+- (FIXED) EventON single template
+- (FIXED) Parent pages highlighted in the menu
+- (FIXED) Restriction content for standard pages and directory page
+- (FIXED) Hidden Groups and Projects sync
+- (FIXED) Sub-menu elements out of the screen with the vertical menu
+- (UPDATED) Revolution slider to version 5.3.1.5
+- (UPDATED) Pro Event Calendar to version 2.9.4
+- (UPDATED) EventON to version 2.5
+January 6th, 2017 - Version 2.3.2
+- (NEW) Blog Demo content .xml file is now available
+- (NEW) Added Eonet Live Notifications to the TGM class
+- (NEW) Added security checks for Rest API requests
+- (NEW) Beta Tester option to get updates first
+- (FIXED) Google Recaptcha option
+- (FIXED) Translation of the date in the widget (Woffice) Events
+- (FIXED) Alignment of the members name in certain list of members
+- (FIXED) Displayed only birthdays of the current year
+- (FIXED) Project Members Sync with BuddyPress groups
+- (FIXED) Flicker on avatar hover in birthdays widget
+- (FIXED) LearnDash icon disappeared
+- (FIXED) Members assigned to a task are not displayed until the project page is refreshed
+- (FIXED) Timezone issue in the Woffice Events widget
+December 17th, 2016 - Version 2.3.1
+- (NEW) Print stylesheet (first version)
+- (IMPROVED) Disabled Woocommerce to prevent access from the dashboard
+- (IMPROVED) Frontend edit / creation
+- (IMPROVED) Redesigned totally the wiki methods (saved 100-200 query calls on every wiki page load)
+- (IMPROVED) Layout of wiki taxonomy pages
+- (IMPROVED) Redirection on frontend creation is post is not published by default
+- (IMPROVED) Behavior of the scroll button in the right sidebar
+- (FIXED) Number of wiki posts in the heading of the wiki categories
+- (FIXED) Error on project edit if BP activity were deactivated
+- (FIXED) Fatal error if activity component is disabled
+- (FIXED) Option to deactivate the custom login page
+- (FIXED) Fatal error in the activity loop page if the extensions Projects or Wikis are disabled
+December 2nd, 2016 - Version 2.3.0
+- (NEW) Advanced filter for members
+- (NEW) Shortcode [woffice_advanced_search_fields]
+- (NEW) BuddyPress Groups cover support
+- (NEW) Option to sort the members in the members directory
+- (IMPROVED) General style for select fields
+- (IMPROVED) Removed EventON from theme install, files still included
+- (IMPROVED) Added filters to hide last activity or member roles from members directory
+- (IMPROVED) Added filters to hide last revisions button and comments button from single wiki
+November 22th, 2016 - Version 2.2.0
+- (NEW) SLACK extension to push notifications on tasks, registrations, activities, new posts...
+- (NEW) Action "woffice_project_task_added"
+- (IMPROVED) Disabled the drag behavior from the whole widget in the dashboard
+- (IMPROVED) Added a cache system for extrafooter avatars, now, by default, they will be refreshed every 24h
+- (IMPROVED) FileAway shortcode in project page (thanks to @Terry)
+- (IMPROVED) Optimized loading time of the images [BETA]
+- (FIXED) Notice on custom calendar shortcode
+- (FIXED) Notice on page builder when drProEvent calendar is not installed
+- (FIXED) MUA Eonet Compatibility
+- (FIXED) Blog category template
+- (FIXED) Default roles settings error on first load
+- (FIXED) drProEventCalendar conflict with Unyson map option type
+November 9th, 2016 - Version 2.1.4
+- (NEW) Pro Event Calendar element in the drag & drop page builder
+- (IMPROVED) Translation by adding few strings missing the woffice domain
+- (FIXED) Notice about undefined $css variable
+- (FIXED) Demo Import tab
+- (UPDATED) EventON to 2.4.9
+- (UPDATED) ProEventCalendar to 2.9.1
+- (UPDATED) Revolution Slider to 5.3.0.2
+November 5th, 2016 - Version 2.1.3.1
+- (FIXED) Warning in the footer
+November 4th, 2016 - Version 2.1.3
+- (IMPORTANT) Switching to an Object Oriented architecture for better performances, see https://alkaweb.ticksy.com/article/8996/ for all details
+- (NEW) woffice/inc/classes directory containing all core features from WordPress (all commented and documented)
+- (NEW) Added an option to send an email to admin when a new user sings up
+- (NEW) Member IDs saving engine for the blog posts likes
+- (NEW) Actions : before_woffice_loaded, after_woffice_loaded
+- (NEW) Option to use unminified custom JS scripts file
+- (IMPROVED) WPML compatibility
+- (IMPROVED) BuddyPress group creation style
+- (FIXED) Private content issue on every page for certain logged users
+- (FIXED) Breadcrumbs forced on WooCommerce pages
+- (FIXED) Spelling in French languages files
+- (FIXED) Plural in project assigned tasks widget
+- (FIXED) Name displayed in the author box under each post
+- (FIXED) Roles selected during the registration process are ignored after user activation
+October 18th, 2016 - Version 2.1.2
+- (NEW) Added a Pro Event Calendar 2.9 as a bundled plugin
+- (IMPROVED) Activity feeds published respect privacy setting
+- (IMPROVED) Linked the username of authors of posts to author archive page
+- (IMPROVED) Allowed to easily disable the force-responsive function
+- (IMPROVED) Removed the empty roles from the dropdown filter on members page
+- (IMPROVED) Header alignments about search bar (mostly in tablet devices)
+- (IMPROVED) Removed BuddyPress username field from registration
+- (FIXED) Search bar and sidebar overlapping
+- (FIXED) Profile Notes about the media uploader
+- (FIXED) Publish activity and send notification on comments, if approved directly on publish
+- (FIXED) Wiki reading permission when the site is public and an user is not logged in
+- (FIXED) Project reading permission when the site is public and an user is not logged in
+- (FIXED) Wiki sub categories' counter when there are more than 1 subcategory under the parent
+- (UPDATED) EventON to 2.4.8
+- (UPDATED) EventON Full Call to 1.1.2
+October 5th, 2016 - Version 2.1.1
+- (NEW) Added confirmation email feature (active by default)
+- (NEW) Added breadcrumbs for WooCommerce elements
+- (IMPROVED) Security in some sections of the theme
+- (IMPROVED) Many alignments in the header in the mobile view
+- (IMPROVED) Google login by removing white spaces from the input
+- (IMPROVED) Removed "Calendar sync" and "Files manager" fields if the plugins are not activated
+- (FIXED) Megamenu alignment in horizontal menu
+- (FIXED) Blog pagination if the blog is set as frontpage
+- (FIXED) Option: Display sidebar on mobile
+- (FIXED) Fatal error on comment posting on project if the approvation is requested
+- (FIXED) Comment notification now it's sent ater comment approvation
+- (FIXED) Removed restricted content from the search results
+- (FIXED) Menu not showed on mobile devices
+- (UPDATED) .pot language file
+- (UPDATED) German formal language file
+September 22th, 2016 - Version 2.1.0.1
+- (NEW) Frontend notice is Woffice is run without its framework
+- (FIXED) PHP Notices when Unyson is not enabled
+September 20th, 2016 - Version 2.1.0
+- (NEW) Added notifications for post like
+- (NEW) Added notifications for comments on wiki, projects blog posts
+- (NEW) Added notifications for project task and members assignation
+- (NEW) Added activity steams for post and wiki likes
+- (NEW) Added activity steams for project creation
+- (NEW) Added activity steams for comments on wiki, projects blog posts
+- (NEW) Option to create autolinks to search members fields through the directory
+- (NEW) Option to show/hide the social fields
+- (IMPROVED) Name option displayed, accepts now the last name as well
+- (IMPROVED) Wiki privacy on all articles according to the role
+- (IMPROVED) Gallery style
+- (IMPROVED) Added confirmation password field on registration page
+- (FIXED) Fatal error on wiki page when Notifications are off
+- (FIXED) Right sidebar auto-closing on mobiles
+- (FIXED) Field options displaied for each option of a multiple field
+- (FIXED) Time since of notifications
+- (FIXED) Font on drop down user menu with custom icon set
+- (FIXED) Auto login after Google Signup (@thanks Alec)
+- (UPDATED) EventON to 2.4.6
+September 5th, 2016 - Version 2.0.4
+- (NEW) Added formal German language files
+- (NEW) Notification when a wiki post receive a like
+- (NEW) Integrated plugin "Social Articles"
+- (NEW) Enabled buddypress mentions on every comment area
+- (NEW) Added style for WP Media Gallery
+- (IMPROVED) Added many actions and filters that make the customization easier
+- (IMPROVED) Added error message "Username already in use" in the registration
+- (FIXED) Error about wiki likes if are saved by members ids
+- (FIXED) Project added to calendar only on edit
+- (FIXED) Display special characters in autocomplete on search bar
+- (FIXED) Link editor cutted in frontend
+- (FIXED) Text domain for some login error strings
+- (FIXED) Megamenu columns and rows alignment
+- (FIXED) Issue about projects pagination and permissions for current user
+August 13th, 2016 - Version 2.0.3
+- (NEW) Frontend Post Creation shortcode to display the form anywhere (blog, wiki, project)
+- (NEW) Google map API key option
+- (NEW) Wiki likes number by members and not IPs option
+- (NEW) Dutch translation thanks to @Rob
+- (IMPROVED) Position of Google ReCaptcha in registration form
+- (IMPROVED) Same displayed name for Woffice sections and BuddyPress sections
+- (IMPROVED) Removed links in "(Woffice) Events" widget if "EventON Single Event" is not enabled
+- (FIXED) Dashboard Drag & Drop when all widgets are changed from backend
+- (FIXED) BuddyPress groups widget messed up on page load
+- (FIXED) Warning preg_match_all() in members directory if there are fields with multiple values/
+- (FIXED) Bugged version of EventON
+- (FIXED) Cursor on draggable icon of widgets in IE
+- (UPDATED) .pot language file
+August 3rd, 2016 - Version 2.0.2
+- (NEW) All In One Demo
+- (NEW) Icons in the login form
+- (NEW) Actions 'woffice_after_member_icons', 'woffice_before_member_icons'
+- (NEW) Actions 'woffice_before_titlebox', 'woffice_after_titlebox'
+- (IMPROVED) Roles exclusion from wiki articles
+- (IMPROVED) Wiki articles counting in the categories header
+- (IMPROVED) GeoDirectory plugin compatibility
+- (FIXED) Projects archive restriction issue
+- (FIXED) Revolution Slider redrawing when the sidebar is opened/closed
+- (FIXED) Text color of current (but not hover) submenu links in the menu
+- (FIXED) Font in the menu widget if icons are present
+- (FIXED) Header overlap the EventON popup creator
+- (FIXED) Masonry layout in the category view of blog posts
+- (FIXED) Single directory map issue if there is not a location set
+- (UPDATED) Persian translation thanks to @Vahid
+July 22th, 2016 - Version 2.0.1.1
+- (FIXED) Google map doesn't work in EventON widget if Woffice Members Map is disabled
+July 22th, 2016 - Version 2.0.1
+- (NEW) Added the Blank Page template
+- (NEW) Added fields "Include categories" and "Exclude categories" to Woffice Events widget
+- (IMPROVED) Filtered the search results coming from the directory page
+- (IMPROVED) Style of the list in the footer widgets
+- (IMPROVED) RTL version
+- (IMPROVED) Config Theme Setting tab with help boxes and better informations
+- (IMPROVED) Drag & Drop dashboard deactivated on devices under 992px
+- (FIXED) Google Map popup issue
+- (FIXED) Google Map conflict with EventON widget
+- (FIXED) Single wiki restricted for all roles if just one is selected
+- (FIXED) Removed the broken link "Capabilities" from user menu
+- (FIXED) Behavior of the option to turn off the feeds
+- (FIXED) Submenu & Menu hover color on 2.X style
+- (FIXED) Spelling of Administrator role in the dropdown menu in members page
+- (UPDATED) Updated rtMedia template
+July 12th, 2016 - Version 2.0.0
+- (NEW) Drag & Drop dashboard widgets
+- (NEW) Config tab in the Theme Settings
+- (NEW) Theme Settings design
+- (NEW) Welcome page on Woffice install
+- (NEW) Design changes across all the app (an option to get back is available)
+- (NEW) From CSS files to SCSS files
+- (NEW) Introducing Gulp.js workflow
+- (NEW) Custom CSS saved in the database
+- (NEW) Hebrew translation thanks to @Nechama
+- (IMPROVED) Added option to turn off the feeds
+- (IMPROVED) In mobile/tablet: removed arrow from submenu that have a blank href
+- (FIXED) Fatal error in the project creation if BuddyPress Groups are disabled
+- (UPDATED) Brazilian translation thanks to @Alex
+- (UPDATED) German translation thanks to @Alex
+- (UPDATED) EventON to 2.4.3
+- (UPDATED) Revolution Slider to 5.2.6
+- (UPDATED) TGM Activation class to 2.6.1
+July 4th, 2016 - Version 1.9.1
+- (NEW) Added new login layout
+- (IMPROVED) Added the meta capability woffice_read_wikies
+- (IMPROVED) Alignment of navbar when RTL is used
+- (IMPROVED) Redirect to previous page when user login
+- (FIXED) Redirect to the home page when an element is trashed by backend
+- (FIXED) Meta field in the members page empty if it contain a slash
+- (FIXED) Style of Fun Facts in the footer
+- (FIXED) Login icon doesn't display in navbar in mobile devices
+- (UPDATED) EventON to 2.4.2
+June 21th, 2016 - Version 1.9.0
+- (NEW) Revolution Slider option within the login page (left side)
+- (NEW) Added Meta Capabilities to wiki posts (now is possible change them by User Role Editor)
+- (NEW) Now is possible use User Role Editor to manage the frontend permissions of wikies and posts
+- (NEW) BuddyPress Members auto complete on message compose
+- (IMPROVED) Posts/wikies/projects deleted by frontend are now trashed rather than deleted
+- (IMPROVED) Splitted the permission option in "Who can create post" and "Who can edit post"
+- (IMPROVED) Checkbox "everyone can edit" in in blog and wiki posts now is true by default
+- (IMPROVED) Created the tab "Permissions" in the theme settings and sorted all tabs
+- (IMPROVED) Added masonry layout to posts category and posts archive pages
+- (IMPROVED) Style of some widgets in the footer
+- (IMPROVED) Added the standard WordPress email in the members meta info
+- (FIXED) Now is possible to attach iamges when a post is created by frontend
+- (FIXED) BuddyPress widget "Members" messed up on load
+- (FIXED) Option "Sidebar on Blog pages ?" now works also using the blog template
+- (FIXED) BBpress search's result in the header part
+- (FIXED) Project task multiple delete and emails
+- (FIXED) Hided project pagination during the project creation process
+- (UPDATED) EventON to 2.4.0
+June 10th, 2016 - Version 1.8.6
+- (NEW) Auto Login after successful registration
+- (FIXED) EventON auto install
+- (FIXED) BuddyPress members sync on project's creation
+- (IMPROVED) Registration messages UI
+- (UPDATED) Revolution Slider to 5.2.5.3
+June 1st, 2016 - Version 1.8.5
+- (IMPROVED) Project access regarding the project's author
+- (IMPROVED) RTL support for LearnDash sections
+- (IMPROVED) Navigation on tablets with retina display
+- (IMPROVED) Members page style (table version)
+- (FIXED) Option that change the color of the username in the navbar
+- (FIXED) Single Project page's tasks on mobile devices
+- (FIXED) Single Project page's task delete
+- (FIXED) Conflict between Unyson Extension Poll and BadgeOS plugin
+- (FIXED) Title of LearnDash items doesn't displayd in search results
+- (FIXED) Menu style issue with iPad rotation
+- (FIXED) Mobile menu style with RTL
+- (UPDATED) Portuguese translation (thanks to @Alexandre)
+- (UPDATED) Revolution Slider to 5.2.5.2
+- (UPDATED) EventON to 2.3.23
+May 18th, 2016 - Version 1.8.4.1
+- (FIXED) Username issue in single member pages
+- (FIXED) Issue with the wiki subcategories slug
+May 18th, 2016 - Version 1.8.4
+- (NEW) Blog shortcode in the Page builder
+- (NEW) Large full-width searchbox for the forum pages
+- (IMPROVED) Added field "Additional Attributes" to FileAway shortcode
+- (IMPROVED) Avoid error lines in members page when PHP version is < 5.4
+- (IMPROVED) Vertical and horizontal menu animation (Desktop and Mobile Version)
+- (IMPROVED) Navbar and Sidebar animation (Desktop and Mobile Version)
+- (IMPROVED) Scrolling of the menu in mobile devices
+- (IMPROVED) Added RTL support to child theme
+- (IMPROVED) Responsive style of activity page
+- (IMPROVED) Assigned tasks widget now are sorted by due date
+- (IMPROVED) Projects sync with BuddyPress groups
+- (FIXED) "Display the Sidebar on mobiles" now works again
+- (FIXED) Several issue about RTL style
+- (FIXED) Removed menu opened on page load for mobile devices
+- (FIXED) Check tasks on mobile devices
+- (UPDATED) EventON to 2.3.22
+- (UPDATED) Iranian translation (thanks to @Amir)
+April 26th, 2016 - Version 1.8.3
+- (NEW) Option to send an email to user after the registration
+- (NEW) Option for number of columns on masonry blog layout
+- (IMPROVED) Task's assigned member selection
+- (IMPROVED) Widget Fun Facts now slide automatically
+- (IMPROVED) Groups and projects sync when a new project is created
+- (FIXED) Submenu that stay opened
+- (FIXED) Woffice Events widget now show the recurring events
+- (FIXED) Removed BuddyPress pending users from Woffice Birthdays widget
+- (UPDATED) German translation (thanks to @Alex)
+- (UPDATED) EventON to 2.3.20
+- (UPDATED) EventON FullCall to 1.1.1
+- (UPDATED) Revolution Slider to 5.2.5
+April 12th, 2016 - Version 1.8.2
+- (NEW) Table members page layout
+- (NEW) It's possible add custom links to User Dropdown Menu
+- (IMPROVED) Administrators can upload or remove the cover image of other users
+- (IMPROVED) Wiki posts always deletable for administrators
+- (IMPROVED) Added .pot languages file that make easier work on translations
+- (FIXED) Autoheight of the featured image in the masonry blog layout
+- (FIXED) Minor css issues about third level menu
+- (FIXED) CSS Issues on the Frontend Learndash profile tabs
+March 31th, 2016 - Version 1.8.1
+- (NEW) Options from Backend are now in frontend for new project creation
+- (NEW) Project Members / Dates can be edited from the frontent
+- (NEW) Multiple Users assignment for the project tasks (backend/frontend)
+- (NEW) Assigned task shortcode in the page builder
+- (NEW) Featured wiki option
+- (NEW) Accordion (collapsing) wiki option
+- (NEW) Sort wiki by likes
+- (IMPROVED) Wiki: everyone can edit set to false by default
+- (FIXED) Rtmedia Uploader on Iphone
+- (UPDATED) Portuguese translation (thanks to @Alex)
+March 18th, 2016 - Version 1.8.0
+- (NEW) Revolution Slider is now Included for FREE !
+- (NEW) Multilevel of navigation submenues is now allowed
+- (NEW) Option to enable/disable wiki like
+- (NEW) Option "Only author can edit this" added to projects
+- (IMPROVED) Ajax Search form
+- (IMPROVED) Compatibility with New User Approve, all alerts are displayed
+- (IMPROVED) WOffice roles creation has been replaced by the User Role Editor plugin
+- (IMPROVED) Disabled zoom on mouse scroll wheel in members map
+- (IMPROVED) Frontend item creation restricted also for admins if option set is "No one"
+- (FIXED) Dashboard layout when an event is clicked
+- (FIXED) Login link displayed also for loggedin users instead of logout link
+- (FIXED) Minor CSS issues
+March 4th, 2016 - Version 1.7.5
+- (NEW) Option to close the left menu by default on all pages
+- (NEW) Added more option to handle uppercase elements
+- (IMPROVED) Fields creation on BuddyPress tables (new function)
+- (FIXED) Megamenu issue, responsive version
+- (FIXED) EventON widget date displayed
+- (FIXED) Compatibility issue with lost password link of Woocommerce
+- (UPDATED) Spanish translation (thanks to @David)
+February 22th, 2016 - Version 1.7.4
+- (NEW) Allowed to show multiple birthdays in the widget and set a maximum number
+- (NEW) Delete button for Blog post's authors on the frontend
+- (NEW) Option for headlines color
+- (FIXED) Link to subdirs broken on files list in single project
+- (FIXED) Members pagination not aligned in Mozilla Firefox
+- (FIXED) After posting a comment in projects, the content became empty
+- (FIXED) Megamenu issue, desktop version
+- (IMPROVED) Added excluded roles for register form
+- (IMPROVED) Made helpers functions of projects extension child ready
+- (UPDATED) EventON to 2.3.19
+- (UPDATED) Italian translation
+- (UPDATED) Documentation
+February 10th, 2016 - Version 1.7.3
+- (NEW) Option to remove ALL rounded corners from the Style options
+- (NEW) Option to translate the birthday field
+- (NEW) Option to translate the location field
+- (FIXED) Users can't edit own blog posts
+- (FIXED) Impossible create new blog post by front end
+- (FIXED) Projects Sync with BuddyPress Groups (admins & mods)
+- (FIXED) Checkbox options display on members cards (members page)
+- (FIXED) Php error on single eventon event page when the addon isn't installed
+- (FIXED) Php warning on members page when theme settings aren't saved
+- (IMPROVED) Addedd option in front end of blog post "Everyone can edit" if current user is admin
+- (UPDATED) EventON to 2.3.18
+February 2nd, 2016 - Version 1.7.2
+- (IMPORTANT) Single Event Addon has been Removed (no longer allowed by EventOn developers)
+- (IMPORTANT) Action User Addon has been Removed (no longer allowed by EventOn developers)
+- (NEW) Turkish translation (thanks to @Sirac)
+- (NEW) BuddyPress Notifications in user's menu
+- (NEW) Group's project tasks are sync with the activity feed
+- (NEW) Added options for author box
+- (NEW) Added options for Learndash meta below content
+- (NEW) Compatibility with CM Tooltip Glossary (custom style)
+- (IMPROVED) Sync style of Eventon calendar widget on dashboard
+- (FIXED) CSS break words issue
+- (FIXED) Prev/next buttons on lesson not responsive
+- (FIXED) Members card layout on < 320px displays
+- (FIXED) Title alignment issue on file's page
+- (UPDATED) EventON to 2.3.16
+January 25th, 2016 - Version 1.7.1
+- (NEW) Bundled plugins : update & notification (TGM class)
+- (IMPROVED) Maintenance extension is hidden for administrator
+- (IMPROVED) Author box only below blog posts
+- (FIXED) Birthday issue about date format containing strings and translation
+- (FIXED) Members map issue when demo import
+- (FIXED) Filter on members page return nothing
+- (FIXED) User's note BuddyPress field impossible to delete
+- (UPDATED) EventON Single Event to 1.1
+January 19th, 2016 - Version 1.7.0.1
+- (FIXED) Avoid redirect to home when delete a post from backend
+- (FIXED) Pagination using blog template
+January 15th, 2016 - Version 1.7.0
+- (NEW) iThemes Exchange: Simple WP Ecommerce plugin compatibility
+- (NEW) Projects can be sync with BuddyPress groups (option, new tab)
+- (NEW) Author Box for the blog articles (avatar, name, description)
+- (NEW) Blog like button
+- (IMPROVED) Compatibility with all the Rtmedia extensions & main plugin
+- (IMPROVED) Exclude multiple roles from Woffice BuddyPress options
+- (IMPROVED) Added option for Page Title font size
+- (FIXED) Cover image on Rtmedia pages
+- (FIXED) date format of todo tasks
+- (FIXED) Blog posts per page
+- (UPDATED) EventON ActionUser to 1.9.2
+January 7th, 2016 - Version 1.6.3
+- (NEW) Profile's avatar in the Notification menu
+- (NEW) Email domain excluding can now accepts several domains
+- (IMPROVED) EventON shortcodes in the page builder
+- (IMPROVED) Compatibility with Unyson 2.5.0 and Theme Settings tabs loading
+- (IMPROVED) Code quality by adding comments in many functions
+- (FIXED) Replaced role name to role id in members page
+- (FIXED) Custom EventON widget
+- (UPDATED) German translation (thanks to @Alex)
+December 24th, 2015 - Version 1.6.2
+- (NEW) Notes tab for every user (+ option in Theme Settings)
+- (NEW) Category frontend creation template (Ajax powered)
+- (NEW) Options to choose the redirect process after login (custom URL, home, last url)
+- (FIXED) Check for email in the BuddyPress fields displayed in the directory's cards
+- (FIXED) File away CSS issue with light box
+- (FIXED) Translation of date in single project
+- (FIXED) Mobile Menu on some devices
+- (FIXED) menu alignment bugged after window resize
+- (UPDATED) Spanish translation (thanks to @Alex)
+- (UPDATED) French translation (thanks to @Andrea)
+- (UPDATED) EventON ActionUser to 1.9.1
+- (UPDATED) EventON to 2.3.15
+December 19th, 2015 - Version 1.6.1
+- (NEW) Domain check option for the register form
+- (IMPROVED) Removed the old Unyson Backup extension
+- (IMPROVED) Birthday extension performances on every page load
+- (FIXED) Memory used by the Wiki extension on evert page load
+- (FIXED) Blog Page Template
+- (FIXED) Submenu hover issue
+- (UPDATED) German translation (thanks to @Alex)
+- (UPDATED) EventON ActionUser to 1.9
+- (UPDATED) EventON FullCall to 1.0
+- (UPDATED) EventON SingleEvent to 1.0
+December 11th, 2015 - Version 1.6.0
+- (NEW) One Click demo import (Business/Community/School)
+- (NEW) Backups extension available
+- (NEW) Added icon to course item in user menu
+- (NEW) Show/Hide featured image in single opened post
+- (NEW) Global Search BuddyPress plugin compatibility
+- (NEW) Pagination for directory pages
+- (NEW) Options in birthday extension for manage date format
+- (UPDATED) German translation (thanks to @Alex)
+- (UPDATED) Spanish translation (thanks to @David)
+- (IMPROVED) Dashboard layout construction
+- (IMPROVED) Social links in members directory
+- (IMPROVED) Social & Maintenance extension loading
+- (FIXED) Google Map API Notice about the sensor arg
+- (FIXED) Page Loading option
+- (FIXED) IE11 scrollbars overlapping
+- (FIXED) Auto-updater for Localhost websites
+- (FIXED) BuddyPress user personal calendar
+- (FIXED) Some template missing from BuddyPress 2.4.0 update
+- (UPDATED) EventON 2.1.13
+November 30th, 2015 - Version 1.5.2
+- (NEW) Added content/excerpt option for blog listing
+- (NEW) Bulgarian translation (thanks to @Bobby)
+- (NEW) Changelog is now available from Woffice's menu
+- (NEW) Template for the Lost Password form
+- (NEW) Woocommerce empty cart redirects to the Shop page from the header bar
+- (IMPROVED) Theme files size, some extensions are now outsourced (social & maintenance)
+- (IMPROVED) Theme loading time by minifying the custom CSS from the Theme settings
+- (IMPROVED) Extrafooter time load
+- (IMPROVED) Users Map when it's empty and the option for BuddyPress
+- (FIXED) Solved overlapping issues with horizontal menu
+- (FIXED) some issues about username/first name displaying
+- (FIXED) EventOn widget on single event extend on the dashboard
+November 21th, 2015 - Version 1.5.1
+- (NEW) Fullscreen Wordpress editor in the frontend
+- (NEW) Option "allow repetitive faces" for the extrafooter
+- (NEW) Compatibility with Front End Course Creation for LearnDash (extra plugin)
+- (NEW) Unyson sliders in the page's header (same for Revolution Slider)
+- (IMPROVED) Performance of the extrafooter function
+- (IMPROVED) Menu bar on tablets and mobiles
+- (FIXED) User's sidebar name on some pages (BuddyPress profiles)
+- (FIXED) Alignment issue in search BBpress forum widget
+- (FIXED) BuddyPress Members directory pagination
+November 13th, 2015 - Version 1.5.0
+- (NEW) Notification Icon in the topbar (Ajax powered)
+- (NEW) Blog template page
+- (NEW) Public Woocommerce product option
+- (IMPROVED) Overall design changes
+- (IMPROVED) Project Navigation
+- (IMPROVED) Compatibility with BuddyPress 2.4.0
+- (IMPROVED) Mobile version
+- (IMPROVED) Sidebars titles
+- (IMPROVED) Woocommerce cart in the top bar
+- (FIXED) Minor CSS/HTML changes (bad tags removed)
+- (FIXED) Firefox compatibility (some CSS issues)
+- (FIXED) Requests template missing for BuddyPress groups
+- (UPDATED) French translation (thanks to @Andrea!)
+- (UPDATED) All alka-web.com to woffice.io in the theme's files
+November 2nd, 2015 - Version 1.4.8
+- (NEW) Italian translation (thanks to @Antonio!)
+- (NEW) Option to hide profiles without avatar in the extrafooter
+- (NEW) Option to turn off the random profiles in the extrafooter
+- (NEW) Options to manage Activity page access (Public/Private/Role)
+- (NEW) Option to use Paid Membership Pro register pages from the Theme's page
+- (NEW) Project / Wiki creation and comment action are in BuddyPress activity feed
+- (NEW) Tasks manager is synchronised with BuddyPress activity
+- (IMPROVED) Child Theme compatibility
+- (IMPROVED) Avatar change design (alerts / progress bar)
+- (IMPROVED) Frontend creation (you can select several categories)
+- (FIXED) Minor PHP notice on project widget when it's empty
+- (FIXED) Duplicated fields on MU main site with BuddyPress profiles
+- (FIXED) Private posts on Archive pages (Blog only)
+- (UPDATED) Portuguese translation
+- (UPDATED) EventON to 2.3.12
+October 26th, 2015 - Version 1.4.7
+- (NEW) Recaptcha 2 for the register form (options in the theme settings)
+- (NEW) Shortcode Map and Visual Composer compatbility
+- (NEW) Pagination number for the blog
+- (NEW) Poll Export button
+- (NEW) Poll Refresh button
+- (NEW) Poll Widget for results
+- (FIXED) Page box border option
+- (FIXED) Minor CSS fixes
+- (FIXED) Required fields from BuddyPress on the custom register page
+- (FIXED) Megamenu conflict
+- (FIXED) Breadcrumb displaying in some responsive breaks
+- (IMPROVED) BuddyPress profiles field layout
+- (IMPROVED) Theme Settings tabs, Reorganized
+- (IMPROVED) Polls extension for unlogged users (new option)
+- (IMPROVED) Auto-Updater license check, add the site URL in the checking process
+October 17th, 2015 - Version 1.4.6
+- (NEW) Option to change all the notifications colors
+- (NEW) Option to show user's Name instead of user's Username in the directory
+- (NEW) Category option for frontend edit (post/wiki/project)
+- (NEW) Galician Translation (thanks to @xanocebreiro)
+- (IMPROVED) EventOn custom widget
+- (IMPROVED) Frontend project creation user experience
+- (IMPROVED) Horizontal menu (removed gap with sidebar, and better design, responsiveness)
+October 11th, 2015 - Version 1.4.5
+- (NEW) Option for Login Button for visitors on public pages
+- (NEW) Option to exclude some roles from the members directory
+- (NEW) Option to filter projects by category
+- (NEW) Category option for the projects widget
+- (NEW) Learndash courses in user's menu
+- (NEW) You can change the order of the tasks from the frontend (with Drag & Drop)
+- (UPDATED) All the .po files
+- (UPDATED) Action User EventON addon to 1.8.6
+- (FIXED) quote and single quote issue of custom css field in option settings
+- (FIXED) Added clear button to timepicker when you create a project from frontend
+- (FIXED) Now also empty categories are displayed in dropdown when you create a new project or new wiki
+- (FIXED) Progress bar on tasks frontend use
+- (IMPROVED) User's menu has BuddyPress notifications now
+- (IMPROVED) Project delete proccess from frontend
+- (IMPROVED) Redirection process & BuddyPress components privacy
+- (IMPROVED) Demo Content files (to avoid duplicate posts)
+October 3rd, 2015 - Version 1.4.4
+- (NEW) File Away file manager in the project manager
+- (IMPORTANT) Multiverso is now replaced in the installation by File Away (but still supported !)
+- (NEW) Portuguese (Br) translation (thanks to @Denis)
+- (NEW) Option to add a default cover image for the covers
+- (IMPROVED) Custom page templates security
+- (FIXED) PHP Notices when BuddyPress isn't installed
+- (FIXED) PHP Notices when Unyson isn't installed
+- (FIXED) Bootstrap Datepicker on project creation (frontend)
+- (IMPROVED) Minor changes (WP Customizer removed, Custom Woffice menu fixed)
+September 28th, 2015 - Version 1.4.3
+- (NEW) Woffice quick links in the topbar (Settings, Doc, Support, Extensions)
+- (NEW) User's tasks widget from the user's projects
+- (NEW) Sync between EventON calendar and the projects
+- (NEW) Projects progress tracked by time OR tasks
+- (NEW) Mobile & Table menu with better support and submenu click
+- (NEW) Video Tutorial
+- (IMPORTANT) NEW File Away File Manager compatibility, it'll replace Multiverso in the next update. We've made here the CSS changes and created a new shortcode for this awesome plugin
+- (FIXED) Project navigation when the view is loaded
+- (FIXED) Custom blog name option on single posts
+- (IMPROVED) Responsive Version on mobiles (<450px)
+- (IMPROVED) Redirect process for the page load
+- (UPDATED) Documentation
+September 24th, 2015 - Version 1.4.2
+- (NEW) Ajax Uploader for the Cover image (no more extra plugin, much easier to edit)
+- (NEW) Option to allow edit from frontend only for author & admin
+- (NEW) Japanese Translation (thanks to @Mike)
+- (NEW) Russian Translation (thanks to @Vrezerve)
+- (IMPROVED) Birthday extension functions
+- (FIXED) Revolution slider for the blog page
+- (FIXED) Members map when name of the page changed
+- (FIXED) Minor changes (tag changed)
+- (UPDATED) EventON
+September 18th, 2015 - Version 1.4.1
+- (NEW) Option to hide the user filter in the members directory
+- (NEW) Right-To-Left Support (by @vahid from Iran)
+- (NEW) Option for the calendar shortcode
+- (NEW) Option to choose the featured image height in the blog post
+- (NEW) Calendar tab in BuddyPress profile to show user's event (+ Option)
+- (NEW) Option to make the menu horizontal (beta)
+- (NEW) Persian Translation (thanks to @vahid)
+- (NEW) Spanish Translation (thanks to @David)
+- (IMPROVED) Performances for large databases (1 000 + users)
+- (IMPROVED) Blog public view for single events
+- (IMPROVED) Logging out alert is now friendly (green)
+- (FIXED) BuddyPress hidden groups - Bootstrap conflict
+- (FIXED) Category for the frontend creation (Wiki and Projects)
+- (FIXED) Conflict between Members map widget and the directory one
+September 10th, 2015 - Version 1.4.0
+- (NEW) German Translation
+- (NEW) LMS Learndash SUPPORT (Widget, Shortcode, Design..)
+- (NEW) Assigned user support for the Project extension (with email notification)
+- (NEW) Add any Xprofile field data to the members directory
+- (NEW) Design in the custom post type pages
+- (NEW) Design for the profile's tabs
+- (NEW) Website to get all the versions of Woffice -> http://alka-web.com/woffice-updater/
+- (NEW) We display question on poll results
+- (IMPROVED) Auto-Updater, better security (for us!)
+- (IMPROVED) BuddyPress Menu in the sidebar
+- (NEW) Woffice version if we're in Wordpress
+- (FIXED) Blog category in frontend creation
+- (FIXED) Blog page featured image
+- (FIXED) Blog date format (now from the settings)
+- (FIXED) Thumbnail image of project page
+- (UPDATED) Font Awesome to 4.4
+- (UPDATED) Full Call Add-ON
+September 1st, 2015 - Version 1.3.0
+- (NEW) Directory 1.5.0 (fixes and options for default fields)
+- (NEW) Option to exclude categories from the Wiki page
+- (NEW) Option to exclude roles from blog posts
+- (NEW) BadgeOS Compatibility
+- (FIXED) Search bar on scroll
+- (UPDATED) EventON plugin to 2.3.9 & Addons
+- (IMPROVED) CSS Optimized (minified) -> Page load also improved
+- (FIXED) Minor fixes
+August 20th, 2015 - Version 1.2.9
+- (NEW) EXTENSION to auto-update the theme (fast & easy!)
+- (NEW) Hierarchy in the Wiki Categories
+- (NEW) Revolution Slider support in the title box (new option too)
+- (NEW) Sidebar Extension compatibility - Unlimited sidebars (you can change for every page)
+- (NEW) OPTION, user can select their role when they're sining up in the register form
+- (FIXED) Widget Notices on Wordpress 4.3
+- (FIXED) Next page layout on Blog page without the masonry option enabled
+August 15th, 2015 - Version 1.2.8
+- (NEW) Extension ! For jobs, offers, partners any content.
+- (NEW) Masonry layout for the blog
+- (NEW) Addon for eventON - Single Page & Social sharing
+August 9th, 2015 - Version 1.2.7
+- (NEW) Wiki Like button
+- (NEW) OPTION to add a captcha in the registration form
+- (NEW) OPTION to choose the login page (for the redirection)
+- (NEW) OPTION to exclude roles from Wiki article
+- (NEW) 4 OPTIONS TO THE SIDEBAR (default state ? on blog ? on BuddyPress pages ? non-logged users ?)
+- (UPDATED) EventON plugin
+August 5th, 2015 - Version 1.2.6
+- (FIXED) User's sidebar when there is no thumbnail image
+- (FIXED) Frontend Creation for unlogged users
+- (NEW) OPTION to add BuddyPress fields in the register form (unlimited fields)
+- (NEW) OPTION to exclude roles from a page
+- (NEW) OPTION to hide projects from unlogged users
+- (NEW) OPTION to hide the "Woffice doc" link in the admin bar
+August 1st, 2015 - Version 1.2.5
+- (FIXED) Members map issue (on first install)
+- (FIXED) Once again the birthdays extension (Last time, ALL issues are fixed)
+July 31th, 2015 - Version 1.2.4
+- (NEW) Option for Custom JQuery/Javascript
+- (NEW) Option for the Map extension (API status)
+- (NEW) Widget to display the users map on the dashboard (or any sidebar)
+- (NEW) Coming Soon & Maintenance Extension (https://alkaweb.ticksy.com/article/4510/)
+- (NEW) Multisite partial compatibility (without Multiverso)
+- (FIXED) Minor changes in many extensions
+- (FIXED) Birthdays extensions for different Date formats
+- (IMPROVED) Translation (Thanks @Jacek)
+July 26th, 2015 - Version 1.2.3
+- (NEW) Facebook Login for Woffice (Social Extension improved)
+- (NEW) Option for the Blog Page Title
+- (FIXED) Header CSS issue on navigation fixed when the height was changed
+- (FIXED) Child theme CSS edit on style.css
+- (FIXED) Birthdays widget on Wordpress 4.3
+- (UPDATED) all the plugins (eventON, addons, multiverso)
+- (IMPROVED) Frontend creation for Posts, Projects & Wiki articles all is wrapped in commented functions within Woffice
+July 22th, 2015 - Version 1.2.2
+- (NEW) Options to manage who can create Posts, Wiki & Projects from the frontend
+- (NEW) Frontend Creation/Edit for blog posts
+- (NEW) (started) Portfolio Unyson Extension compatibility
+- (FIXED) Default Login page is back on Logout action
+- (FIXED) Dashboard CSS issue with the border
+- (FIXED) CSS Issue in the page title when there is the search form
+- (UPDATED) Documentation
+July 17th, 2015 - Version 1.2.1
+- (NEW) WOOCOMMERCE COMPATIBILITY (Design, Cart, Shortcode...)
+- (FIXED) featured images on Wiki articles
+- (FIXED) PHP notice on the login page in some conditions
+July 13th, 2015 - Version 1.2.0
+- (NEW) Project extension v.2.0 (New AJAX task manager, options and frontend creation improved)
+- (FIXED) PHP warnings in the bithdays extension
+- (IMPROVED) the UI of the page builder and the shortcodes
+- (NEW) Rtmedia Plugin Compatibility (albums & files sharing for BuddyPress)
+- (UPDATED) EventON plugin
+July 8th, 2015 - Version 1.1.6
+- (NEW) Extension for Google login
+- (IMPROVED) Project Improvements (new Options, code optimized)
+- (NEW) Option to make any page available only for logged-in users
+- (IMPROVED) Non-logged view
+- (IMPROVED) Members directory page
+July 4th, 2015 - Version 1.1.5
+- (NEW) Birthdays extension (widget)
+- (NEW) Option to hide the website from search engines
+- (UPDATED) Map Extension V.2.0 (new options : map zoom level, center... and no more API issues all is saved in the database)
+- (NEW) Menu for non-logged users
+June 30th, 2015 - Version 1.1.4
+- (NEW) Compatibility with Gravity Form
+- (NEW) Shortcodes V2 : More button options (size and color), Progress bar shortcode,  Members shortcode, Animated number shortcode, Label, badge shortcode
+- (NEW) Option to exclude pages from redirection (public + private website now)
+- (NEW) Trello Integration with WP TRELLO plugin
+- (FIXED) Defaut BuddyPress registration page layout
+- (NEW) French translation
+June 29th, 2015 - Version 1.1.3
+- (NEW) Option for the Users map extension -> User can add his API key
+- (IMPROVED) layout for the right sidebar
+- (FIXED) Forum view on mobiles
+- (FIXED) Excluded members on pages
+- (UPDATED) Demo Content
+June 25th, 2015 - Version 1.1.2
+- (NEW) Compatibility with BigBlueButton (widget, shortcode and tutorial)
+- (NEW) Compatibility with BuddyPress Activity Plus (oembed activity)
+- (NEW) Option to show reset password link on the login page
+- (NEW) Option to hide the main logo
+- (FIXED) Login page when all fields are empty
+- (FIXED) Layout issue on some pages
+- (NEW) Tooltip on project user hover
+- (IMPROVED) Custom registration
+- (IMPROVED) Documentation
+June 23th, 2015 - Version 1.1.1
+- (NEW) User can sign up (can be turned off)
+- (FIXED) CSS issue with Bootstrap overriding thanks to @BB)
+- (FIXED) File manager "All files" shortcode
+- (IMPROVED) Responsive version
+- (IMPROVED) CSS style over the website
+- (IMPROVED) BBpress compatibility with BuddyPress
+June 22th, 2015 - Version 1.1
+- (NEW) BBpress compatibility
+- (NEW) Action User EventON ADDON included (30$ saved) -> Users can create/manage events
+- (FIXED) Minor issues fixed (thanks to @Jacek)
+- (IMPROVED) Firefox compatibility
+June 20th, 2015 - Version 1.0.3
+- (IMPORTANT) MOVED Projects to an extension that you can deactivate
+- (IMPORTANT) MOVED Wiki to an extension that you can deactivate
+- (NEW) Color option
+- (NEW) option for extended latin support
+- (FIXED) Poll extension PHP warning on PHP 5.2
+- (FIXED) option for the uppercase footer text
+- (IMPROVED) BuddyPress messaging
+- (IMPROVED) Project user management
+June 19th, 2015 - Version 1.0.2
+- (FIXED) Megamenu
+- (FIXED) Chat background color
+- (FIXED) Group single page on mobiles
+- (NEW) COMPATIBILITY with Gantt : https://wordpress.org/plugins/wpit-gantt/
+- (NEW) Frontend creation of project (still working on, it's a first release)
+- (NEW) Option for the login page
+June 18th, 2015 - Version 1.0.1
+- (NEW) option for the dashboard columns
+- (NEW) option for the single project edit link
+- (NEW) option to hide default comments on every page
+- (IMPROVED) project dates
+June 17th, 2015 - Version 1.0
+- (IMPORTANT) Initial Release

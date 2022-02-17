@@ -1,0 +1,25 @@
+[data-element_type="row_separator"] .wpb_vc_param_value.location:after {
+	content: ': ';
+	margin-left: -3px;
+}
+[data-element_type="row_separator"] .wpb_vc_param_value.location {
+	font-weight: bold;
+}
+[data-element_type="row_separator"] .wpb_vc_param_value.location,
+[data-element_type="row_separator"] .wpb_vc_param_value.separator {
+	text-transform: capitalize;
+
+	&.dropdown * {
+		display: inline-block;
+		margin: 0;
+	}
+}
+[data-element_type="row_separator"] .wpb_vc_param_value.separator:after {
+	content: ' design';
+}
+
+// Custom Separator textarea
+[data-vc-shortcode="row_separator"] [name="content"] {
+	font-family: Consolas,Monaco,monospace;
+	height: 200px;
+}

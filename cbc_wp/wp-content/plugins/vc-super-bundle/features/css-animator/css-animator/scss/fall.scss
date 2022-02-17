@@ -1,0 +1,25 @@
+@import "_animations_base";
+
+@include generate-animation( 'fall-3d-to-top' );
+@keyframes fall-3d-to-top {
+	0% {
+		opacity: 0;
+		transform: perspective(1300px) rotateX(-90deg) translate3d(0px, 300px, 400px);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(1300px) rotateX(0deg) translate3d(0px, 0px, 0px);
+	}
+}
+
+@include generate-animation( 'fall-3d-to-bottom' );
+@keyframes fall-3d-to-bottom {
+	0% {
+		opacity: 0;
+		transform: perspective(1300px) rotateX(90deg) translate3d(0px, 0px, 1000px);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(1300px) rotateX(0deg) translate3d(0px, 0px, 0px);
+	}
+}

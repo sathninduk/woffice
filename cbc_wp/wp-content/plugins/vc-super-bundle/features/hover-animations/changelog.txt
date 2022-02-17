@@ -1,0 +1,25 @@
+Version 1.1.1 - August 3, 2018
+==============================
+
+* Fixed: Removed all Hover tabs in vc_pie, vc_round_chart, vc_line_chart and vc_raw_js to prevent any incompatibilities.
+
+Version 1.1 - March 21, 2018
+============================
+
+* New: Translation files
+* Fixed: Compatibility with VC + WC + Another VC Addon
+* Fixed: Modified VCs that override the vc_shortcodes_css_class hook wp-config won't display a warning, but still won't work.
+* Change: Removed all Hover tabs in all Grid addons
+
+Version 1.0.1 - May 5, 2017
+===========================
+
+* Fixed: Added index.php in all directories
+* Fixed: Now works with video backgrounds
+* Fixed: Rows with hover animations now work in iOS devices
+* Change: Added note that row animations do not work with the full-height option
+
+Version 1.0
+===========
+
+* First release

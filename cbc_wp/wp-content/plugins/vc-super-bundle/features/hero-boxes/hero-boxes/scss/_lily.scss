@@ -1,0 +1,35 @@
+.hero-box.hero-box-effect-lily {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  h3.hero-box-title {
+    margin-bottom: 5px;
+  }
+  img, .hero-box-img {
+    opacity: 0.7;
+    width: calc(100% + 50px);
+    transform: translateX(-40px);
+  }
+  &:hover img, &:hover .hero-box-img, {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  p.hero-box-caption {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  .hero-box-text {
+    padding: 40px;
+    bottom: 20px;
+    transform: translateY(0px);
+  }
+  &:hover {
+    .hero-box-text {
+      transform: translateY(-40px);
+    }
+    p.hero-box-caption {
+      opacity: 0.9;
+      transform: translateY(0px);
+    }
+  }
+}

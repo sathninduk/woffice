@@ -1,0 +1,36 @@
+Version 1.4 - June 25, 2017
+===========================
+
+* Fixed: Hover loupe will stay in position as long as you're hovering on it.
+
+Version 1.3 - March 3, 2017
+===========================
+
+* Added settings indications in Visual Composer backend.
+* Updated logics in the loupe to work better and more reliably.
+* Fixed an additional issue in square loupes where the shine element was too small and appear cropped.
+* More coding standards fixes.
+
+Version 1.2 - June 27, 2016
+===========================
+
+* Fixed CSS issues in shine highlight for square loupes
+* New option for moving the magnifying glass by just hovering your mouse over the image
+* New scaling parameter for changing the size of the magnified image
+* Now capable of plugin autoupdates.
+* Adds workaround for sites using Jetpack wherein dimensions for images can be corrupted.
+* Now handles loupes that get hidden in some point better
+* Now handles loupes placed in tabs and accordions better
+* Fixed bug where image heights were not being detected correctly
+* Now ensures that other CSS cannot make our loupe unproportional
+* Rewrote plugin to newer standards, including new compiler.
+
+Version 1.1
+===========
+
+* Can now be used in shortcode form using [loupe_image], see the docs and demo site for instructions
+
+Version 1.0
+===========
+
+* First release

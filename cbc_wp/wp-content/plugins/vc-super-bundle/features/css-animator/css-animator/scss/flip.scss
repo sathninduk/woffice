@@ -1,0 +1,87 @@
+@import "_animations_base";
+
+@include generate-animation( 'flip-3d-to-top', .7s, 1, 0, 50%, 100% );
+@keyframes flip-3d-to-top {
+	0% {
+		opacity: 0;
+		transform: perspective(1300px) rotateX(90deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(1300px) rotateX(0deg);
+	}
+}
+
+@include generate-animation( 'flip-3d-to-bottom', .7s, 1, 0, 50%, 0% );
+@keyframes flip-3d-to-bottom {
+	0% {
+		opacity: 0;
+		transform: perspective(1300px) rotateX(-90deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(1300px) rotateX(0deg);
+	}
+}
+
+@include generate-animation( 'flip-3d-to-left', .7s, 1, 0, 100%, 50% );
+@keyframes flip-3d-to-left {
+	0% {
+		opacity: 0;
+		transform: perspective(1300px) rotateY(90deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(1300px) rotateY(0deg);
+	}
+}
+
+@include generate-animation( 'flip-3d-to-right', .7s, 1, 0, 0%, 50% );
+@keyframes flip-3d-to-right {
+	0% {
+		opacity: 0;
+		transform: perspective(1300px) rotateY(-90deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(1300px) rotateY(0deg);
+	}
+}
+
+@include generate-animation( 'flip-3d-horizontal', .7s, 1, 0, '', '', ease-in-out );
+@keyframes flip-3d-horizontal {
+	0% {
+		opacity: 0;
+		transform: perspective(1300px) rotateY(-90deg);
+	}
+	50% {
+		opacity: 1;
+		transform: perspective(1300px) rotateY(20deg);
+	}
+	85% {
+		transform: perspective(1300px) rotateY(-10deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(1300px) rotateY(0deg);
+	}
+}
+
+@include generate-animation( 'flip-3d-vertical', .7s, 1, 0, '', '', ease-in-out );
+@keyframes flip-3d-vertical {
+	0% {
+		opacity: 0;
+		transform: perspective(1300px) rotateX(-90deg);
+	}
+	50% {
+		opacity: 1;
+		transform: perspective(1300px) rotateX(20deg);
+	}
+	85% {
+		transform: perspective(1300px) rotateX(-10deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(1300px) rotateX(0deg);
+	}
+}

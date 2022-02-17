@@ -1,0 +1,157 @@
+/*
+ * Front end styles if any
+ */
+
+.gambit_baa {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  &.slide_on_hover, &.slide_on_click {
+    cursor: move;
+  }
+  &, * {
+    -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+  }
+  .image_after, .image_before, .image_after_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .image_after, .image_after_container, .image_after_content {
+    z-index: 2;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-font-smoothing: subpixel-antialiased;
+    font-smoothing: subpixel-antialiased;
+    -webkit-perspective: 0;
+    -moz-perspective: 0;
+    -ms-perspective: 0;
+    -o-perspective: 0;
+    perspective: 0;
+   -webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
+   -ms-backface-visibility: hidden;
+   -o-backface-visibility: hidden;
+   backface-visibility: hidden;
+   -webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+   -ms-transform-style: preserve-3d;
+   -o-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    outline: 1px solid transparent;
+  }
+  .image_after_content, .image_before_content {
+  	position: absolute;
+    -webkit-transform: translate3d(0,0,0) !important;
+    -moz-transform: translate3d(0,0,0) !important;
+    -ms-transform: translate3d(0,0,0) !important;
+    -o-transform: translate3d(0,0,0) !important;
+    transform: translate3d(0,0,0) !important;
+  }
+  .baa_content_wrapper {
+	  position: relative;
+	  width: 100%;
+	  height: 100%;
+  }
+  .gambit_baa_slider, .gambit_baa_slider_button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10px;
+    background: rgba(255,255,255,.3);
+    z-index: 3;
+    cursor: pointer;
+  }
+  .gambit_baa_slider_button {
+    width: 30px;
+    background: #fff;
+    z-index: 4;
+    cursor: move;
+  }
+  &[data-slider-location='top'] {
+    .gambit_baa_slider, .gambit_baa_slider_button {
+      bottom: auto;
+      top: 0;
+    }
+  }
+  &[data-slider-location='left'], &[data-slider-location='right'] {
+    .gambit_baa_slider, .gambit_baa_slider_button {
+      height: auto;
+      left: auto;
+      bottom: 0;
+      top: 0;
+      right: 0;
+      width: 10px;
+    }
+    .gambit_baa_slider_button {
+      height: 30px;
+    }
+  }
+  &[data-slider-location='left'] {
+    .gambit_baa_slider, .gambit_baa_slider_button {
+      right: auto;
+      left: 0;
+    }
+  }
+  .gambit_baa_vertical_arrows,
+  .gambit_baa_horizontal_arrows {
+    //height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 4;
+  }
+  .gambit_baa_arrow_left,
+  .gambit_baa_arrow_right {
+    //margin-left: 0;
+    //left: 0;
+    transform: translateY(-50%);
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important;
+	float: left;
+  }
+  .gambit_baa_arrow_left {
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 7px solid #fff;
+  }
+  .gambit_baa_arrow_right {
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #fff;
+  }
+//  .gambit_baa_horizontal_arrows {
+//    margin-top: 0;
+//    top: 0;
+//    transform: translateX(-50%);
+//    border-left-color: transparent !important;
+//    border-right-color: transparent !important;
+//  }
+  .gambit_baa_arrow_up {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+  }
+  .gambit_baa_arrow_down {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #fff;
+  }
+}

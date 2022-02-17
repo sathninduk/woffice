@@ -1,0 +1,58 @@
+.hero-box.hero-box-effect-zoe {
+  img, .hero-box-img {
+    opacity: 0.9;
+  }
+  .hero-box-text {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+  }
+  p.hero-box-caption {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 30px;
+    opacity: 0;
+  }
+  h3.hero-box-title {
+    color: #2C3E50;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    opacity: 0;
+    transform: translateY(calc(100% + 30px));
+    &:before {
+      content: '';
+      display: block;
+      z-index: -1;
+      background: #fff;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      transition: all .5s;
+      transform: translateY(calc(100% + 40px));
+    }
+  }
+  &:hover {
+    p.hero-box-caption {
+      opacity: 1;
+      transform: translateY(calc(-50% - 40px));
+    }
+    h3.hero-box-title {
+      opacity: 1;
+      transform: translateY(0);
+      &:before {
+        transform: translateY(0);
+      }
+    }
+  }
+}

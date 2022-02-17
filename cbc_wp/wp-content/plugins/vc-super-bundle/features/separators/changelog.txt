@@ -1,0 +1,60 @@
+Version 1.4.2 - August 3, 2018
+==============================
+
+* Fixed: Custom colors get applied across all separators in the page.
+
+Version 1.4.1 - April 16, 2018
+==============================
+
+* Fixed: Custom SVGs not being applied
+
+Version 1.4 - March 21, 2018
+============================
+
+* Fixed: Smaller file size
+* Fixed: Faster backend loading
+* Fixed: Bottom Separators wont flip
+* Fixed: Add an extra color picker box for fill color in case background color from Design Options doesn't work.
+
+Version 1.3 - June 22, 2017
+===========================
+
+* All inline CSS now prints at the header, which prevents CSS code from being seen in excerpts.
+* Fixed separator behavior in Internet Explorer 11 where edges bleeded excessively and in some cases did not scale correctly.
+* Enhanced: Internet Explorer detection updated.
+* Enhanced: Captions amendments for better understanding of features.
+* Enhanced: Bottom separator behavior, on account of scaling.
+* Fixed: Certain Webkit browsers may introduce horizontal scrollbars.
+* Fixed: Vertical scaling doesn't work at all for separators and introduces unwanted gaps. Separators should now scale accordingly and correctly generate the appropriate amount of gaps.
+* Fixed: Possible issue where separators may not be full width when it should be.
+* Fixed: Tiny gap between the row and the separator in retina screens.
+* CSS rules updated in light of new responsive class detection as specified below.
+* If your column where the Row Separator is, has been set to hide at specific sizes, Row Separators will copy those breakpoint classes and will hide accordingly with the column.
+* Identifiable IDs and classes are now rendered with the source code for easy customization and troubleshooting.
+* Revised SVG files due to reports of inner SVG elements bleeding through edges, causing unwanted thin lines. This happens in Safari, IE, Edge and Chrome, but NOT in Firefox.
+* Updated licensing module and fixed plugin autoupdate issues.
+* More standards compliance fix and some internal changes.
+
+Version 1.2 - April 13, 2016
+============================
+
+* Now compiled differently for speed and reliability.
+* Removed dependency for jQuery for faster script loading.
+* Fixed bug in IE11 that prevented separators from showing up.
+
+Version 1.1.1 - August 24, 2015
+===============================
+
+* Fixed an issue where custom SVGs would be ignored outright by recent copies of Visual Composer. Fixed by storing the custom SVG differently.
+
+Version 1.1 - August 6, 2015
+============================
+
+* Due to popular demand, now you can add your own SVG separators :)
+* Fixed error that shows up when adding a top separator to the top-most row or a bottom separator to the bottom-most row
+* Now makes sure that separators can overflow out of VC rows
+
+Version 1.0
+===========
+
+* First release

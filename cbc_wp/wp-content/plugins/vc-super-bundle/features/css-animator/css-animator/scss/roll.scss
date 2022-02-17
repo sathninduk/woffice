@@ -1,0 +1,37 @@
+@import "_animations_base";
+
+@include generate-animation( 'roll-3d-to-top' );
+@keyframes roll-3d-to-top {
+	0% {
+		opacity: 0;
+		transform: perspective(200px) rotateX(-50deg) translate3d(0px, 600px, -20px);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(200px) rotateX(0deg) translate3d(0px, 0px, 0px);
+	}
+}
+
+@include generate-animation( 'roll-3d-to-left' );
+@keyframes roll-3d-to-left {
+	0% {
+		opacity: 0;
+		transform: perspective(200px) rotateY(80deg) translate3d(600px, 0px, -20px);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(200px) rotateY(0deg) translate3d(0px, 0px, 0px);
+	}
+}
+
+@include generate-animation( 'roll-3d-to-right' );
+@keyframes roll-3d-to-right {
+	0% {
+		opacity: 0;
+		transform: perspective(200px) rotateY(-50deg) translate3d(-600px, 0px, -20px);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(200px) rotateY(0deg) translate3d(0px, 0px, 0px);
+	}
+}

@@ -1,0 +1,208 @@
+.gambit-carousel-anything.owl-ca-theme.has-arrows,
+.gambit-carousel-anything.has-arrows,
+.gambit-carousel-posts.owl-ca-theme.has-arrows,
+.gambit-carousel-posts.has-arrows {
+	.owl-stage-outer {
+		z-index: 2;
+	}
+	.owl-nav div {
+		background: transparent;
+		padding: 0;
+		margin: 0;
+		height: 20px;
+		width: 20px;
+		position: absolute;
+		left: -40px;
+		top: 0;
+		z-index: 12;
+		&.owl-next {
+			left: auto;
+			right: -40px;
+		}
+		&:before {
+			font-family: dashicons;
+			content: "\f341";
+			top: 0;
+			left: 0;
+			position: absolute;
+			right: 0;
+			color: #333;
+			font-size: 20px;
+			text-align: center;
+			line-height: 20px;
+		}
+		&.owl-next:before {
+			content: "\f345";
+		}
+	}
+}
+
+.gcp-post-image {
+	display: block;
+}
+
+.gcp-post {
+	margin-left: 15px;
+	margin-right: 15px;
+	//width: 100%;
+	//position: relative;
+}
+
+.gcp-post-title, .gcp-post-author .gcp-post-content {
+	//margin: 0;
+	width: 100%;
+}
+.gcp-post-title {
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+}
+
+.gcp-post-title, .gcp-post-author, .gcp-post-content {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.gambit-carousel-posts.owl-ca-theme .owl-ca-controls {
+	margin-top: 0;
+}
+.gambit-carousel-anything.owl-ca-theme .owl-ca-controls {
+	margin-top: 0;
+	text-align: center;
+	z-index: 12;
+	// Ensures drawing priority over other elements consistently across Anything and Posts.
+//	position: absolute;
+//	left: 50%;
+//	transform: translateX(-50%);
+}
+
+.gcp-post-content > .moretag {
+	display: none;
+}
+
+
+/**
+
+.gcp-title-author {
+	width: 100%;
+	//top: 50%;
+	//position: absolute;
+}
+
+.gcp-design-bg {
+	.gcp-title-excerpt, .gcp-author-excerpt .gcp-title-author-excerpt {
+		bottom: 0;
+		//position: absolute;
+		padding: 20px;
+		width: 100%;
+	}
+}
+
+.gcp-title-and-excerpt > .gcp-post-title, .gcp-author-and-excerpt > .gcp-post-title, .gcp-author-and-excerpt > .gcp-post-title, .gcp-author-and-excerpt > .gcp-post-title, .gcp-title-and-excerpt > .gcp-post-author, .gcp-author-and-excerpt > .gcp-post-author, .gcp-author-and-excerpt > .gcp-post-author, .gcp-author-and-excerpt > .gcp-post-author {
+	padding-bottom: 20px;
+}
+
+.gcp-title-and-excerpt > .gcp-post-content, .gcp-author-and-excerpt > .gcp-post-content, .gcp-author-and-excerpt > .gcp-post-content, .gcp-author-and-excerpt > .gcp-post-content {
+	margin: 0;
+}
+*/
+
+.gcp-design-image {
+	.gcp-post-author + .gcp-post-content,
+	.gcp-post-title + .gcp-post-content {
+	    margin-top: 20px;
+	}
+}
+
+.gcp-design-bg {
+	position: relative;
+	display: flex;
+	align-items: center;
+	.gcp-caption-wrapper {
+		//position: absolute;
+		//top: 50%;
+		//left: 0;
+		//right: 0;
+		//transform: translateY(-50%);
+		width: 100%;
+		top: 50%;
+		z-index: 1;
+	}
+	.gcp-caption-wrapper .gcp-has-excerpt {
+		//top: auto;
+		top: 50%;
+		bottom: 0;
+		transform: none;
+	}
+	> .gcp-posts-link-overlay {
+		position: absolute;
+		top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    z-index: 2;
+		border: 0 !important;
+		box-shadow: none !important;
+	}
+}
+
+.gcp-design-bg-has-bg:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.gcp-design-bg .gcp-caption-wrapper > *:first-child {
+	margin-top: 0 !important;
+}
+.gcp-design-bg .gcp-caption-wrapper > *:last-child {
+	margin-bottom: 0 !important;
+}
+
+.gcp-caption-wrapper {
+	h4, p {
+		margin: 0 0 15px !important;
+	}
+	padding: 30px !important;
+	//height: 100%;
+}
+
+.gcp-posts-link-overlay > div.gcp-caption-wrapper {
+	//top: 50%;
+	// transform: translateY(50%);
+  //   width: 100%;
+  //   height: 100%;
+}
+
+.carousel-anything-container .owl-item .wpb_row .x-column {
+    max-width: 100%;
+}
+
+// Asserts equal height for all.
+.ca-equal-height {
+	.owl-stage {
+	    display: flex !important;
+	}
+	.owl-item > .vc_row,
+	.owl-item > .wpb_row,
+	.owl-item > .gcp-post {
+		margin: 0;
+	    height: 100%;
+	}
+}
+
+.owl-ca-carousel .owl-stage:after {
+	display: none !important;
+}
+
+.owl-ca-carousel[data-thumbnails="none"] .owl-nav {
+	display: none;
+}
+
+.owl-ca-carousel .owl-dots span {
+	width: 12px;
+	height: 12px;
+}

@@ -1,0 +1,36 @@
+.hero-box.hero-box-effect-julia {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: 1;
+    transition: all .8s;
+    transform: scale(1);
+  }
+  figcaption {
+    top: 60px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+  }
+  h3.hero-box-title {
+    margin-bottom: 15px;
+  }
+  p.hero-box-caption {
+    width: 60%;
+    color: #2C3E50;
+    background: #fff;
+    display: block;
+    padding: .3em .6em;
+    transform: translateX(calc(-100% - 31px));
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: .8;
+      transform: scale(1.1);
+    }
+    p.hero-box-caption {
+      transform: translateX(0);
+    }
+  }
+}

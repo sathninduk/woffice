@@ -1,0 +1,28 @@
+.hero-box.hero-box-effect-honey {
+  background-color: #fff !important;
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  p.hero-box-caption {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  .hero-box-text {
+    width: 100%;
+    bottom: 0;
+    padding: 30px;
+    transform: translateY(-30px);
+  }
+  &:hover {
+    img, .hero-box-img {
+      transform: translateY(-10px);
+    }
+    .hero-box-text {
+      transform: translateY(0);
+    }
+    p.hero-box-caption {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

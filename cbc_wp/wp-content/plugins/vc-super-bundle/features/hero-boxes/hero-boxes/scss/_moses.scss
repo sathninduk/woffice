@@ -1,0 +1,49 @@
+.hero-box.hero-box-effect-moses {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: .9;
+  }
+  .hero-box-text {
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    bottom: 30px;
+  }
+  h3.hero-box-title {
+    position: absolute;
+    right: 50%;
+    left: 0;
+    top: 0;
+    bottom: 50%;
+    padding: 20px;
+    margin: 0;
+    border: 2px solid rgba(255,255,255,.8);
+    transform: translate(10px, 10px);
+  }
+  p.hero-box-caption {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    top: 50%;
+    padding: 20px;
+    border: 2px solid rgba(255,255,255,.8);
+    text-align: right;
+    opacity: 0;
+    transform: translate(-60%, -60%);
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: .6;
+    }
+    h3.hero-box-title, p.hero-box-caption {
+      transform: translate(0, 0);
+    }
+    p.hero-box-caption {
+      opacity: 1;
+    }
+  }
+}

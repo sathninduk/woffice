@@ -1,0 +1,17 @@
+Version 1.2 - May 24, 2018
+==========================
+
+* New: If the changing/middle text doesn't have a background color, no side paddings are applied.
+* New: Added "Bottom To Top" animation.
+* Fixed: Multiple typing effects displayed the wrong number of letters.
+* Changed: Removed addition of side spaces, use side paddings instead.
+
+Version 1.1 – July 4, 2017
+==========================
+
+* Fixed: Better SEO handling
+
+Version 1.0
+===========
+
+* Initial release

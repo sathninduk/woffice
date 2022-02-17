@@ -1,0 +1,32 @@
+@import "_animations_base";
+
+/*
+ * Grow
+ */
+@include generate-animation( 'size-grow-2d' );
+@keyframes size-grow-2d {
+	0% {
+		opacity: 0;
+		transform: perspective(200px) rotateX(5deg) scale(0) translate(0px, 20px);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(200px) rotateX(0deg) scale(1) translate(0px, 0px);
+	}
+}
+
+
+/*
+ * Shrink
+ */
+@include generate-animation( 'size-shrink-2d' );
+@keyframes size-shrink-2d {
+	0% {
+		opacity: 0;
+		transform: perspective(200px) rotateX(5deg) scale(2) translate(0px, 20px);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(200px) rotateX(0deg) scale(1) translate(0px, 0px);
+	}
+}

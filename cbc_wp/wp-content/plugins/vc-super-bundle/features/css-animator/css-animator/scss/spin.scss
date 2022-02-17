@@ -1,0 +1,59 @@
+@import "_animations_base";
+
+/*
+ * Spin 2D
+ */
+
+@include generate-animation( 'spin-2d' );
+@keyframes spin-2d {
+	0% {
+		opacity: 0;
+		transform: perspective(1300px) rotate(120deg) scale(.5);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(1300px) rotate(0deg) scale(1);
+	}
+}
+
+@include generate-animation( 'spin-2d-reverse' );
+@keyframes spin-2d-reverse {
+	0% {
+		opacity: 0;
+		transform: perspective(1300px) rotate(-120deg) scale(.5);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(1300px) rotate(0deg) scale(1);
+	}
+}
+
+
+/*
+ * Spin 3D
+ */
+
+@include generate-animation( 'spin-3d' );
+@keyframes spin-3d {
+	0% {
+		opacity: 0;
+		transform: perspective(1300px) rotateY(-220deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(1300px) rotateY(0deg);
+	}
+}
+
+@include generate-animation( 'spin-3d-reverse' );
+@keyframes spin-3d-reverse {
+	0% {
+		opacity: 0;
+		transform: perspective(1300px) rotateY(220deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(1300px) rotateY(0deg);
+	}
+}
+

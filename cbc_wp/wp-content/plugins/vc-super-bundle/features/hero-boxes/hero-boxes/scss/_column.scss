@@ -1,0 +1,65 @@
+/**
+ * 1 Column
+ */
+
+.hero-box-columns-1 {
+  > div {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+}
+
+/**
+ * 2 columns
+ */
+.hero-box-columns-2 {
+  > div {
+    width: calc(50% - 10px);
+    float: left;
+    margin: 0 0 20px;
+    &:nth-child(2n) {
+      margin-left: 20px;
+    }
+  }
+}
+
+/**
+ * 3 Columns. compress to 2, then 1 when small
+ */
+.hero-box-columns-3 {
+  > div {
+    width: calc(33.3333% - 40px / 3);
+    float: left;
+    margin: 0 0 20px 20px;
+    &:nth-child(3n - 2) {
+      margin-left: 0;
+    }
+  }
+}
+
+
+// 2 columns when in a small screen
+@media screen and (max-width: 800px) {
+  .hero-box-columns-3 {
+    > div {
+      width: calc(50% - 10px);
+      float: left;
+      margin: 0 0 20px;
+      &:nth-child(2n) {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+// 1 column when in a very small screen
+@media screen and (max-width: 480px) {
+  .hero-box-columns-2, .hero-box-columns-3 {
+    > div {
+      width: 100%;
+      float: none;
+      margin: 0 0 20px;
+      margin-left: 0 !important;
+    }
+  }
+}

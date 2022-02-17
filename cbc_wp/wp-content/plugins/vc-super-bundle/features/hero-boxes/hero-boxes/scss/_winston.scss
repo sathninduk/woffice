@@ -1,0 +1,66 @@
+.hero-box.hero-box-effect-winston {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: 1;
+  }
+  .hero-box-text {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+  }
+  figcaption {
+    z-index: 3;
+    &:before {
+      position: absolute;
+      content: '';
+      top: 100%;
+      bottom: -100%;
+      left: 0;
+      right: 0;
+      background: #fff;
+      opacity: .8;
+      z-index: 3;
+      transition: all .35s;
+      transform-origin: left;
+      transform: skewY(0deg);
+    }
+  }
+  h3.hero-box-title {
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    position: absolute;
+    transform: translateY(20px);
+  }
+  p.hero-box-caption {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    left: 45%;
+    color: #2C3E50;
+    z-index: 5;
+    transition-delay: 0s;
+    transform: translateY(calc(100% + 32px));
+  }
+  &:hover {
+    img, .hero-box-img {
+      opacity: .85;
+    }
+    h3.hero-box-title {
+      transform: translateY(0);
+    }
+    figcaption {
+      &:before {
+        transform: skewY(-25deg);
+      }
+    }
+    p.hero-box-caption {
+      transition-delay: .15s;
+      transform: translateY(0);
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.hero-box.hero-box-effect-oscar {
+  h3.hero-box-title, p.hero-box-caption {
+    color: #fff;
+  }
+  img, .hero-box-img {
+    opacity: .9;
+    transform: scale(1.2);
+  }
+  figcaption {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      right: 30px;
+      bottom: 30px;
+      padding: 30px;
+      &:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          border: 1px solid rgba(255,255,255,.7);
+          transition: all .35s;
+          transform: scale(.1);
+          opacity: 0;
+          z-index: 3;
+      };
+  }
+  .hero-box-text {
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+      left: 30px;
+      right: 30px;
+    }
+    h3.hero-box-title {
+      transform: translateY(90%);
+    }
+    p.hero-box-caption {
+      opacity: 0;
+      transform: translateY(-50%);
+    }
+    &:hover {
+      figcaption:before {
+        transform: scale(1);
+        opacity: .5;
+      }
+      h3.hero-box-title {
+         transform: translateY(0);
+      }
+      p.hero-box-caption {
+        transform: scale(1);
+        opacity: 1;
+      }
+      img, .hero-box-img {
+          opacity: .7;
+      }
+    }
+}

@@ -1,0 +1,122 @@
+/*
+ * Front end styles if any
+ */
+
+@import "lily";
+@import "sadie";
+@import "honey";
+@import "layla";
+@import "zoe";
+@import "oscar";
+@import "marley";
+@import "ruby";
+@import "roxy";
+@import "bubba";
+@import "romeo";
+@import "dexter";
+@import "sarah";
+@import "chico";
+@import "milo";
+@import "julia";
+@import "goliath";
+@import "hera";
+@import "winston";
+@import "selena";
+@import "terry";
+@import "apollo";
+@import "kira";
+@import "steve";
+@import "moses";
+@import "jazz";
+@import "ming";
+@import "lexi";
+@import "duke";
+@import "column";
+
+
+.hero-box {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  //min-width: 300px;
+  &:before{
+    content: "";
+    display: block;
+    padding-top: 75%; 	/* initial ratio of 4:3*/
+  }
+  .hero-box-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+	z-index: 9;
+  }
+  .hero-box-img, figcaption * {
+    transition: all 0.35s;
+    margin: 0;
+    padding: 0;
+  }
+  .hero-box-text {
+    position: absolute;
+  }
+  figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+  }
+  figcaption * {
+    z-index: 2;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+  }
+  .hero-box-img {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
+    min-height: 100%;
+    max-width: none;
+    width: 100%;
+    opacity: 1;
+  }
+  .hero-box-img {
+  	background-position: center;
+	background-size: cover;
+  }
+  a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+  }
+  h3.hero-box-title, p.hero-box-caption {
+    line-height: 1.1em;
+  }
+  h3.hero-box-title {
+    margin-bottom: 5px;
+    * {
+      position: relative;
+      display: inline-block;
+    }
+  }
+}
+
+.vc_col-sm-6, .vc_col-sm-5, .vc_col-sm-4, .vc_col-sm-3, .vc_col-sm-2, .vc_col-sm-1, .hero-box-columns-2, .hero-box-columns-3  {
+	.hero-box .hero-box-title {
+		font-size: 1.2em;
+	}
+}

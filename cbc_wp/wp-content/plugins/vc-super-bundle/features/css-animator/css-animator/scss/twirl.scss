@@ -1,0 +1,57 @@
+@import "_animations_base";
+
+@include generate-animation( 'twirl-3d-bottom-right', .7s, 1, 0, 100%, 100% );
+@keyframes twirl-3d-bottom-right {
+	0% {
+		opacity: 0;
+		transform: perspective(700px) rotateX(210deg) rotateY(-210deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(700px) rotateX(0deg) rotateY(0deg);
+	}
+}
+@include generate-animation( 'twirl-3d-bottom-left', .7s, 1, 0, 0%, 100% );
+@keyframes twirl-3d-bottom-left {
+	0% {
+		opacity: 0;
+		transform: perspective(700px) rotateX(210deg) rotateY(210deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(700px) rotateX(0deg) rotateY(0deg);
+	}
+}
+@include generate-animation( 'twirl-3d-top-right', .7s, 1, 0, 100%, 0% );
+@keyframes twirl-3d-top-right {
+	0% {
+		opacity: 0;
+		transform: perspective(700px) rotateX(210deg) rotateY(210deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(700px) rotateX(0deg) rotateY(0deg);
+	}
+}
+@include generate-animation( 'twirl-3d-top-left', .7s, 1, 0, 0%, 0% );
+@keyframes twirl-3d-top-left {
+	0% {
+		opacity: 0;
+		transform: perspective(700px) rotateX(-210deg) rotateY(210deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(700px) rotateX(0deg) rotateY(0deg);
+	}
+}
+@include generate-animation( 'twirl-3d', .7s );
+@keyframes twirl-3d {
+	0% {
+		opacity: 0;
+		transform: perspective(700px) rotateX(-210deg) rotateY(210deg);
+	}
+	100% {
+		opacity: 1;
+		transform: perspective(700px) rotateX(0deg) rotateY(0deg);
+	}
+}
